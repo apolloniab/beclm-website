@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang=''>
+<head>
+    <!--[if lt IE 9]><script language="javascript" type="text/javascript" src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="tablette.css">
+<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
+   <script src="script.js"></script>
+   <title>Be clm</title>
+</head>
+<body id="monDiv">
+<header>
+    <img id="logoMobile" src="img/logo.svg" alt="" title="">
+    <div id='cssmenu'>
+    <ul id="menu">
+        <li class='active'><a href='index.html'>Accueil</a></li>
+        <li id="qsn"><a href='qsn.html'>Qui sommes nous ?</a></li>
+        <li><a href="index.html"><img id="logo" src="img/logo.svg" alt="" title=""></a></li>
+        <li id="nosoff" class='has-sub'><a href='offres.html'>Nos Offres</a>
+          <ul>
+             <li ><a href='concept.html'>concept</a></li>
+             <li><a href='offres.html'>offres</a></li>
+              <li><a href='avantages.html'>avantages</a></li>
+          </ul>
+       </li>
+       <li><a href='contact.html'>Contact</a></li>
+    </ul>
+        <div class="social">
+				<ul>
+					<li><a href="#"><span class="twt"> </span></a></li>
+					<li><a href="#"><span class="g"> </span></a></li>
+				</ul>
+			</div>
+    </div>
+    
+</header>
+    <div id="bandeau4">
+    <div id="contact">       
+        <form action="contact.php" method="post" name="contact_form">
+                <h3> NOUS CONTACTER </h3>
+            <hr class="citation">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam neque tellus, ullamcorper at risus eu, hendrerit ultrices lectus. Cras egestas quis ante in accumsan.</p>
+<div class="infos_contact">
+        <ul>
+          <li>
+            <label for="societe">NOM SOCIETE / PERSONNE</label>
+            <input type="text" name="societe" id="societe" required class="required" placeholder="obligatoire" >
+          </li>
+          <br>
+          <li>
+            <label for="fonction">FONCTION</label>
+            <input type="text" name="fonction" id="fonction" required class="required" placeholder="obligatoire" >
+          </li>
+          <br>
+          <li>
+            <label for="email">EMAIL</label>
+            <input type="email" name="email" id="email" required class="required" placeholder="obligatoire">
+          </li>
+          <br>
+          <li>
+            <label for="phone">TELEPHONE</label>
+            <input type="text" name="phone" id="phone" required class="required" >
+          </li>
+          </div>
+    <div class="message_contact">
+        <li>
+            <label for="phone">OBJET</label>
+            <select type="text" name="object" id="object" required class="required" >
+    	<option size="1" value="Infos">Demande d'information</option>
+    	<option size="1" value="Infos">Rendez vous</option>
+    	<option size="1" value="Infos">Partenariat</option>
+   		<option size="1" selected="selected" value="Infos">Devis</option>
+    	<option size="1" value="Infos">Autre</option>
+   	</select>
+          </li>
+        <li>
+            <label for="message">MESSAGE</label>
+            <textarea name="message" id="message" cols="100" rows="6" required  class="required" placeholder="obligatoire"></textarea>
+          </li>
+          <li>
+            <button type="submit" id="submit" name="submit" class="button fright">ENVOYER</button>
+          </li>
+        </div>
+        </ul>
+      </form>
+    </div>
+    </div>
+    <footer>
+        <ul>
+        <li>Mentions Légales</li> |
+        <li>Télécharger la Plaquette</li> |
+        <li>Nous contacter</li>
+            </ul>
+        <span>© 2015 | Designed by 4SH</span>
+    </footer>
+<script>
+    function adpaterALaTailleDeLaFenetre(){
+  var largeur = document.documentElement.clientWidth,
+  hauteur = document.documentElement.clientHeight;
+   
+  var source = document.getElementById('monDiv'); // récupère l'id source
+  source.style.height = hauteur/1.152+'px'; // applique la hauteur de la page
+}
+ 
+// Une fonction de compatibilité pour gérer les évènements
+function addEvent(element, type, listener){
+  if(element.addEventListener){
+    element.addEventListener(type, listener, false);
+  }else if(element.attachEvent){
+    element.attachEvent("on"+type, listener);
+  }
+}
+ 
+// On exécute la fonction une première fois au chargement de la page
+addEvent(window, "load", adpaterALaTailleDeLaFenetre);
+// Puis à chaque fois que la fenêtre est redimensionnée
+addEvent(window, "resize", adpaterALaTailleDeLaFenetre);
+    </script>
+</body>
+<html>

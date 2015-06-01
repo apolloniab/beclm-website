@@ -1,0 +1,48 @@
+@media screen and (max-width: 1100px) and (min-width:720px) {
+
+    /*/ HEADER /*/
+        /*header { background-position: 0% 100%;
+        -moz-background-size: 100% 50%;
+        -o-background-size: 100% 50%;
+        -webkit-background-size: 100% 50%;
+        background-size: 100% 50%;
+        height:15%}*/
+        #cssmenu > ul > li {
+        float: left;
+        margin: 0 2% 0 2%;
+        font-size: 2em;
+        width: 16%;
+        letter-spacing: 1.8px;
+        color: #1C3D59;}
+        #cssmenu {margin-top:20px}
+        #cssmenu > ul > li {margin:0; width:20%; letter-spacing: 0.5px}
+        #cssmenu > ul > li.has-sub > a::after {right:20%}
+        #cssmenu ul ul {right:-40px}
+        #logo {width:80px}
+    ul#menu {
+  margin: -1% auto;
+  width: 85%;
+}
+    /*/ HEADER /*/
+
+    #bandeau{padding-top: 9%;}
+    #bandeau3 {width:90%;  margin: -6% auto 4% auto;}
+    .offre_beclm {width:250px}
+    footer span {font-size:0.7em}
+.constat {display:block;text-align:center}
+    .img_constat {margin: 5% auto 5% auto;width:10%}
+    .vertical_align {text-align:center;width:100%}
+    .constat p,.constat h2,.constat h3{ padding-left: 2%;padding-right:0; width:95%;text-align:justify;font-size:1.2em;}   
+    .constat img {padding:0}
+    #offre_tablet {overflow:hidden;margin-top:5%}
+    #tablet {width:115%; margin: 0 2% 5% -7%}
+    .avantage>img {margin-top: 1.5%;}
+    .container {margin-top:5%}
+    .photo {  width: 122%;
+  left: -14%}
+    .item:nth-child(1) span{font-size:2.2em}
+    .scroll3 {top:88%}
+    .item p{font-size: 1em}
+    .item:nth-child(2) p{font-size:1em;margin:1%}
+    form {padding:10px}
+}

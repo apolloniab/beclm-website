@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang=''>
+<head>
+    <!--[if lt IE 9]><script language="javascript" type="text/javascript" src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="tablette.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <title>Be clm</title>
+</head>
+<body id="monDiv">
+<header>
+    <img id="logoMobile" src="img/logo.svg" alt="" title="">
+    <div id='cssmenu'>
+    <ul id="menu">
+        <li class='active'><a href='index.html'>Accueil</a></li>
+        <li id="qsn"><a href='qsn.html'>Qui sommes nous ?</a></li>
+        <li><a href="index.html"><img id="logo" src="img/logo.svg" alt="" title=""></a></li>
+        <li id="nosoff" class='has-sub'><a href='offres.html'>Nos Offres</a>
+          <ul>
+             <li ><a href='concept.html'>concept</a></li>
+             <li><a href='offres.html'>offres</a></li>
+              <li><a href='avantages.html'>avantages</a></li>
+          </ul>
+       </li>
+       <li><a href='contact.html'>Contact</a></li>
+    </ul>
+        <div class="social">
+				<ul>
+					<li><a href="#"><span class="twt"> </span></a></li>
+					<li><a href="#"><span class="g"> </span></a></li>
+				</ul>
+			</div>
+    </div>
+    
+</header>
+    <div style="background-image: url(img/qsn.jpg);background-attachment: fixed;background-size: cover;" id="bandeau">
+        <div style="width: 40%;
+  margin: 10% auto;
+  background-color: rgba(0, 0, 0, 0.63);color:white;
+  padding: 1%;" id="form">
+    <h1 style="margin-top:2%">C-Rules</h1>
+    <p style="  font-size: 0.9em;
+  letter-spacing: 1px;">Page en cours d'écriture...</p>
+        <a href="contact.html"><button style="width:190px" >Demande d'information</button></a>
+        </div>
+    
+        </div>
+    <footer>
+        <ul>
+        <li>Mentions Légales</li> |
+        <li>Télécharger la Plaquette</li> |
+        <li>Nous contacter</li>
+            </ul>
+        <span>© 2015 | Designed by 4SH</span>
+    </footer>
+<!-- SCRIPT HEIGHT AUTO --> 
+<script>
+function adpaterALaTailleDeLaFenetre(){
+var largeur = document.documentElement.clientWidth,
+hauteur = document.documentElement.clientHeight;
+var source = document.getElementById('monDiv'); // récupère l'id source
+source.style.height = hauteur/1.152+'px'; // applique la hauteur de la page
+}
+// Une fonction de compatibilité pour gérer les évènements
+function addEvent(element, type, listener){
+if(element.addEventListener){
+element.addEventListener(type, listener, false);
+}else if(element.attachEvent){
+element.attachEvent("on"+type, listener);
+}
+}
+// On exécute la fonction une première fois au chargement de la page
+addEvent(window, "load", adpaterALaTailleDeLaFenetre);
+// Puis à chaque fois que la fenêtre est redimensionnée
+addEvent(window, "resize", adpaterALaTailleDeLaFenetre);
+</script>
+<!-- SCRIPT HEIGHT AUTO --> 
+
+<!-- SCRIPT SCROLL --> 
+<script>
+$(document).ready(function() {
+$('.scrollTo').click( function() { // Au clic sur un élément
+var page = $(this).attr('href'); // Page cible
+var speed = 750; // Durée de l'animation (en ms)
+$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+return false;
+});
+});
+</script>
+<!-- FIN SCRIPT SCROLL --> 
+</body>
+<html>

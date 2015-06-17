@@ -1,166 +1,223 @@
 <!doctype html>
-<html lang=''>
+<html lang='fr'>
 <head>
-<!--[if lt IE 9]><script language="javascript" type="text/javascript" src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!--[if lt IE11]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
 <meta charset='utf-8'>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Application pour courtier en assurance" />
+<meta name="keywords" content="application, conformité, courtier, assurance, productivité" />
+<meta name="author" content="Be CLM" />
 <link rel="stylesheet" href="styles.css">
-<!-- RESPONSIVE CSS --> 
 <link rel="stylesheet" href="mobile.css">
 <link rel="stylesheet" href="tablette.css">
-<!-- RESPONSIVE CSS --> 
+<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
+<script src="jquery.min.js"></script>
 <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 <script src="script.js"></script>
-<script src="http://code.jquery.com/jquery-latest.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
-   <title>Be clm</title>
+<title>CLM Mobile, solution tablette pour courtier en assurance</title>
 </head>
 <body id="monDiv">
 <header>
-    <img id="logoMobile" src="img/logo.svg" alt="" title="">
+    <img id="logoMobile" src="img/logo.svg" alt="Logo BeCLM" title="Logo BeCLM">
     <div id='cssmenu'>
-    <ul id="menu">
-        <li class='active'><a href='index.html'>Accueil</a></li>
-        <li id="qsn"><a href='qsn.html'>Qui sommes nous ?</a></li>
-        <li><a href="index.html"><img id="logo" src="img/logo.svg" alt="" title=""></a></li>
-        <li id="nosoff" class='has-sub'><a href='offres.html'>Nos Offres</a>
-          <ul>
-             <li ><a href='concept.html'>concept</a></li>
-             <li><a href='offres.html'>offres</a></li>
-              <li><a href='avantages.html'>avantages</a></li>
-          </ul>
-       </li>
-       <li><a href='contact.html'>Contact</a></li>
-    </ul>
-        <div class="social">
-				<ul>
-					<li><a href="#"><span class="twt"> </span></a></li>
-					<li><a href="#"><span class="g"> </span></a></li>
-				</ul>
-			</div>
+        <ul id="menu">
+            <li class='active'><a href='index.html'>Accueil</a></li>
+            <li id="qsn"><a href='qsn.html'>Qui sommes nous ?</a></li>
+            <li><a href="index.html"><img id="logo" src="img/logo.svg" alt="Logo BeCLM" title="Logo BeCLM"></a></li>
+            <li id="nosoff" class='has-sub'><a href='offres.html'>Nos Offres</a>
+        <ul>
+            <li ><a href='concept.html'>concept</a></li>
+            <li><a href='offres.html'>offres</a></li>
+            <li><a href='avantages.html'>avantages</a></li>
+        </ul>
+            </li>
+            <li><a href='contact.html'>Contact</a></li>
+        </ul>
+    <div class="social">
+        <ul>
+            <li><a href="#"><span class="twt"> </span></a></li>
+            <li><a href="#"><span class="g"> </span></a></li>
+        </ul>
     </div>
-    
-    
+    </div>
 </header>
-    <div class="demonstration">
-    <span>Regarder la vidéo de démonstration</span><img src="img/play.png"></div>
-	<div class="container">
-  <img class='photo'  src="img/slide/1.png" alt="" />
-  <img class='photo'  src="img/slide/2.png" alt="" />
-  <img class='photo'  src="img/slide/3.png" alt="" />
-          <img class='photo'  src="img/slide/4.png" alt="" />
-
-                <a class="scrollTo" href="#onglets" ><img src="img/scroll.png" class="scroll3"></a>
+<div style="height:90%" class="container">
+  <img class='photo'  src="img/slide/1.png" alt="Application tablette" title="Application tablette"/>
+  <img class='photo'  src="img/slide/2.png" alt="conformité et productivité" title="conformité et productivité"/>
+  <img class='photo'  src="img/slide/3.png" alt="dématérialisation et automatisation" title="dématérialisation et automatisation"/>
+  <img class='photo'  src="img/slide/4.png" alt="Solution pour courtier" title="Solution pour courtier"/>
+  <a class="scrollTo" href="#onglets" ><img src="img/scroll.png" class="scroll3" alt="scroll" title="scroll"></a>
 </div>
-    	<div class="container2">
-
-    	<ul id="onglets">
-		<li class="actif">CLM Mobile</li>
-		<li>Etapes</li>
-		<li>Présentation</li>
+<div class="container2">
+    <ul id="onglets" class="first_onglets" >
+        <li class="actif">CLM Mobile</li>
+        <li>Etapes</li>
+        <li>Présentation</li>
         <li>Conseils</li>
-		<li>Contractualisation</li>
+        <li>Contractualisation</li>
         <li>Rapport</li>
         <li>Finalisation</li>
-
-
-	</ul>
-	<div id="contenu">
-		<div class="item" class="item1">
-			<h2>CLM MOBILE</h2>
-            <img src="img/22.png">
-			<p> Afin de répondre aux mieux aux attentes des courtiers en assurance et aussi de ses propres clients Be CLM a dévelloppé une solution logiciel innovante déployée sur tablette numérique. Nous avons complètement repensé l'approche CRM classique pour se tourner vers <br><span>un cycle CLM qui met la conformité au coeur du processus.</span><br> Equipé d’une tablette qui remplace tous les documents papier indispensables : brochures produits et argumentaires commerciaux, questionnaires de risques, bons de souscription ou d’adhésion,  etc...<br><br><a href="">Découvrez les étapes d'une souscription >>></a>
-</p>
-		</div>
-        		<div class="item">
-            			<h2>4 étapes clés d'une souscription type</h2>
-
-                    <p><span id="presentation"></span><br><span>1- Présentation</span><br>Présentation produits<br>Présentations courtiers<br>Identifiant clients
-</p>
-                        <p><span id="conseils"></span><br><span>2- Conseils</span><br>Recueil besoins<br>Profil client<br>Comparatif des produits
-</p>
-                        <p><span id="contrat"></span><br><span>3- Contractualisation</span><br>FIC: conformité et signature<br>Contrat : pièces jointes, saisie…<br>Signature certifiée
-</p>
-                        <p><span id="finalisation"></span><br><span>4- Finalisation</span><br>Accusé réception<br>Transfert Backoffice<br>Envoi SMS
-</p>
-                    <img id="etapes_tablette" src="img/tablet/etape_design2.png">
-		</div>
+        <li>Tester l'application</li>
+        <li>Souscription</li>
+    </ul>
+            <div class="paginate">
+    <ul id="onglets2" class="second_onglets">
+        <li class="actif">•</li>
+        <li>•</li>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>▼</li>
+        <li>▼</li>
+    </ul>
+</div>
+    
+<div id="contenu">
+    <div class="item" class="item1">
+        <h2>CLM MOBILE</h2>
+        <img src="img/22.png" alt="Application Be CLM" title="Application Be CLM">
+        <p> Afin de répondre aux mieux aux attentes des courtiers en assurance et aussi de ses propres clients Be CLM a dévelloppé une solution logiciel innovante déployée sur tablette numérique. Nous avons complètement repensé l'approche CRM classique pour se tourner vers <br><span>un cycle CLM qui met la conformité au coeur du processus.</span><br> Equipé d’une tablette qui remplace tous les documents papier indispensables : brochures produits et argumentaires commerciaux, questionnaires de risques, bons de souscription ou d’adhésion,  etc...<br><br><a href="">Découvrez les étapes d'une souscription >>></a></p>
+</div>
+    <div class="item">
+        <h2>4 étapes clés d'une souscription type</h2>
+        <p><span id="presentation"></span><br><span>1- Présentation</span><br>Présentation produits<br>Présentations courtiers<br>Identifiant clients</p>
+        <p><span id="conseils"></span><br><span>2- Conseils</span><br>Recueil besoins<br>Profil client<br>Comparatif des produits</p>
+        <p><span id="contrat"></span><br><span>3- Contractualisation</span><br>FIC: conformité et signature<br>Contrat : pièces jointes, saisie…<br>Signature certifiée</p>
+        <p><span id="finalisation"></span><br><span>4- Finalisation</span><br>Accusé réception<br>Transfert Backoffice<br>Envoi SMS</p>
+        <img id="etapes_tablette" src="img/tablet/etape_design2.png" alt="Application tablette" title="Application tablette">
+</div>
         
-		<div class="item" class="item2">
-			<h2>1- Présentation des produits fournisseurs</h2>
-			<img src="img/tablet/presentation.png">
-			<p>Interface principale où apparaissent toutes les offres fournisseurs avec un <br><span>système de filtre par domaine</span><br>Santé, Vie, AUtomobile et Habitation.<br><br>
-                <img class="check" src="img/check.png" alt="" title=""> Le courtier ne pourra charger que les offres des fournisseurs qui lui ont accordé un référencement.<br><br>
-
-<img class="check" src="img/check.png" alt="" title=""> Possibilité d’intégrer tous les supports de présentation existants (pdf et vidéos) y compris les argumentaires propres au courtier.<hr class="citation">
-</p>
-		</div>
-        <div class="item">
-			<h2>2- Recueil des besoins spécifiques</h2>
-            			<img src="img/tablet/conseils.png">
-
-            	<p>
-                <img class="check" src="img/check.png" alt="" title=""> Informations client et du bien assurable,questionnaire de risque et de connaissance financière.<br>
-                   <span>Ces informations sont le «tronc commun» aux produits des différents fournisseurs.</span> <br>
-
-<img class="check" src="img/check.png" alt="" title="">La solution récupère les données du clients s’il est déjà « connu » et le courtier peut simplement procéder à l’actualisation des données si nécessaire.<br>
-                    <img class="check" src="img/check.png" alt="" title="">Document d’entrée en relation / lettre de mission.
-<hr class="citation">
-</p>
-		</div>
-        <div class="item">
-			<h2>3- Processus de contractualisation</h2>
-                        			<img src="img/tablet/contractualisation.png">
-
-                        	<p>
-                <img class="check" src="img/check.png" alt="" title=""><strong>CONSEILS</strong><br>
-Nous « concevons » une fiche conseil spécifique pour chaque produit (notamment basée sur les CG …). Le Courtier n’est pas assisté dans le choix du produit. Si le produit ne correspond pas au profil ou besoins du client, le conseiller est alerté ou bloqué dans ses choix (paramétrage)<br>
-
-<img class="check" src="img/check.png" alt="" title=""><strong>CONTRACTUALISATION</strong><br>
-Tous les livrables demandés par la compagnie (conf sa procédure de commercialisation) et scan des pièces du client.<br>
-                    <img class="check" src="img/check.png" alt="" title=""><strong>SIGNATURES</strong><br> Signature électronique avec boucle sms.
-<hr class="citation">
-</p>
-		</div>
-                <div class="item">
-			<h2>étape intermédiaire: Rapport de conformité</h2>
-                        			<img src="img/tablet/rapport.png">
-
-                        	<p>
-                <img class="check" src="img/check.png" alt="" title=""><strong>Résultat de l'exécution des règles</strong>issues de la réglementation ( y compris LCB-FT), des CG du produit, des conventions de distribution et des procédures Courtier et Compagnie.<br>
-
-<img class="check" src="img/check.png" alt="" title=""><strong>Possible jeu de règles</strong>différent entre Courtier et Compagnie.<br>
-                    <img class="check" src="img/check.png" alt="" title=""><strong>Evite au backoffice</strong>de refaire les contrôles paramétrés.<br>
-                                   <img class="check" src="img/check.png" alt="" title=""><strong>Choix de la mesure</strong>associée à chaque règle : avertissement, ajout d’une pièce justificative, blocage.<br>
-                                            <img class="check" src="img/check.png" alt="" title=""><strong>Assure la traçabilité</strong>via contrôle permanent pour le service conformité.<br>
-
-<hr class="citation">
-</p>
-		</div>
-                <div class="item">
-			<h2>Finalisation du dossier</h2>
-                        			<img src="img/tablet/finalisation.png">
-
-                        	<p>
-                <img class="check" src="img/check.png" alt="" title=""><strong>GÉNÉRATION </strong>de l’ensemble du dossier vers le Client, le Courtier et la Compagnie. <br>
-
-<img class="check" src="img/check.png" alt="" title=""><strong>Formats</strong>pdf, fichiers de données pour interface avec systèmes d’informations ad-hoc.<br>
-                   
-<hr class="citation">
-</p>
-		</div>
-	</div>
-    </div>
-    <footer>
+<div class="item" class="item2">
+    <h2>1- Présentation des produits fournisseurs</h2>
+    <img src="img/tablet/presentation.png" alt="presentation Be CLM" title="presentation Be CLM">
+    <p>Interface principale où apparaissent toutes les offres fournisseurs avec un <br><span>système de filtre par domaine</span>       <br>Santé, Vie, AUtomobile et Habitation.<br><br>
+    <img class="check" src="img/check.png" alt="check" title="check"> Le courtier ne pourra charger que les offres des fournisseurs qui lui ont accordé un référencement.<br><br>
+    <img class="check" src="img/check.png" alt="check" title="check"> Possibilité d’intégrer tous les supports de présentation existants (pdf et vidéos) y compris les argumentaires propres au courtier.<hr class="citation">
+    </p>
+</div>
+<div class="item">
+    <h2>2- Recueil des besoins spécifiques</h2>
+    <img src="img/tablet/conseils.png" alt="conseils" title="conseils">
+    <p><img class="check" src="img/check.png" alt="check" title="check"> Informations client et du bien assurable,questionnaire de risque et de connaissance financière.<br><span>Ces informations sont le «tronc commun» aux produits des différents fournisseurs.</span> <br>
+    <img class="check" src="img/check.png" alt="check" title="check">La solution récupère les données du clients s’il est déjà « connu » et le courtier peut simplement procéder à l’actualisation des données si nécessaire.<br>
+    <img class="check" src="img/check.png" alt="check" title="check">Document d’entrée en relation / lettre de mission.
+    <hr class="citation"></p>
+</div>
+<div class="item">
+    <h2>3- Processus de contractualisation</h2>
+    <img src="img/tablet/contractualisation.png" alt="contractualisation CLM Mobile" title="contractualisation CLM Mobile">
+    <p><img class="check" src="img/check.png" alt="check" title="check"><strong>CONSEILS</strong><br>
+    Nous « concevons » une fiche conseil spécifique pour chaque produit (notamment basée sur les CG …). Le Courtier n’est pas assisté dans le choix du produit. Si le produit ne correspond pas au profil ou besoins du client, le conseiller est alerté ou bloqué dans ses choix (paramétrage)<br>
+    <img class="check" src="img/check.png" alt="check" title="check"><strong>CONTRACTUALISATION</strong><br>
+    Tous les livrables demandés par la compagnie (conf sa procédure de commercialisation) et scan des pièces du client.<br>
+    <img class="check" src="img/check.png" alt="check" title="check"><strong>SIGNATURES</strong><br> Signature électronique avec boucle sms.
+    <hr class="citation">
+    </p>
+</div>
+<div class="item">
+    <h2>4- Etape intermédiaire: Rapport de conformité</h2>
+    <img src="img/tablet/rapport.png" alt="rapport de conformité" title="rapport de conformité">
+    <p>
+    <img class="check" src="img/check.png" alt="check" title="check"><strong>Résultat de l'exécution des règles</strong>issues de la réglementation ( y compris LCB-FT), des CG du produit, des conventions de distribution et des procédures Courtier et Compagnie.<br>
+    <img class="check" src="img/check.png" alt="check" title="check"><strong>Possible jeu de règles</strong>différent entre Courtier et Compagnie.<br>
+    <img class="check" src="img/check.png" alt="check" title="check"><strong>Evite au backoffice</strong>de refaire les contrôles paramétrés.<br>
+    <img class="check" src="img/check.png" alt="check" title="check"><strong>Choix de la mesure</strong>associée à chaque règle : avertissement, ajout d’une pièce justificative, blocage.<br>
+    <img class="check" src="img/check.png" alt="check" title="check"><strong>Assure la traçabilité</strong>via contrôle permanent pour le service conformité.<br>
+    <hr class="citation">
+    </p>
+</div>
+<div class="item">
+    <h2>5- Finalisation du dossier</h2>
+    <img src="img/tablet/finalisation.png" alt="Finalisation CLM Mobile" title="Finalisation CLM Mobile">
+    <p>
+    <img class="check" src="img/check.png" alt="check" title="check"><strong>GÉNÉRATION </strong>de l’ensemble du dossier vers le Client, le Courtier et la Compagnie. <br>
+    <img class="check" src="img/check.png" alt="check" title="check"><strong>Formats</strong>pdf, fichiers de données pour interface avec systèmes d’informations ad-hoc.<br>
+    <hr class="citation">
+    </p>
+</div>
+<div class="item item8">
+    <h2>Testez l'application Be CLM dès à présent !</h2>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p><br>
+    <img id="souscription" src="img/souscription.png" alt="Souscription CLM Mobile" title="Souscription CLM Mobile">
+    <img id="souscription2" src="img/souscription2.png" alt="Souscription CLM Mobile" title="Souscription CLM Mobile">
+    <form action="contact.php" method="post" name="contact_form">
+        <h3> RENSEIGNEZ VOS INFORMATIONS </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam neque tellus, ullamcorper at risus eu, hendrerit ultrices lectus. Cras egestas quis ante in accumsan.</p>
+        <hr class="citation">
+        <div class="infos_contact">
         <ul>
+        <li>
+        <label for="societe">NOM SOCIETE / PERSONNE</label>
+        <input type="text" name="societe" id="societe" required class="required" placeholder="obligatoire" >
+        </li>
+        <br>
+        <li>
+        <label for="fonction">FONCTION</label>
+        <input type="text" name="fonction" id="fonction" required class="required" placeholder="obligatoire" >
+        </li>
+        <br>
+        <li>
+        <label for="email">EMAIL</label>
+        <input type="email" name="email" id="email" required class="required" placeholder="obligatoire">
+        </li>
+        <br>
+        <li>
+        <label for="phone">TELEPHONE</label>
+        <input type="text" name="phone" id="phone" required class="required" >
+        </li>
+        </div>
+        <div class="message_contact">
+
+        <li>
+        <button type="submit" id="submit" name="submit" class="button fright">ENVOYER DEMANDE</button>
+        </li>
+        </div>
+        </ul>
+    </form>
+    </div>
+<div class="item">
+    <h2>Souscrivez à l'abonnement qui vous convient</h2>
+<div class="abonnement">
+    <h3>Classique</h3>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+    <div><span>15$</span>/mois</div>
+    <p><img class="check" src="img/check.png" alt="check" title="check">Aenean commodo ligula eget dolor.<br><img class="check" src="img/check.png" alt="check" title="check">Aenean commodo ligula eget dolor.<br><img class="check" src="img/check.png" alt="check" title="check">Aenean commodo ligula eget dolor.
+    </p>
+            <button>souscrire</button>
+</div>
+<div class="abonnement">
+    <h3>Avancée</h3>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+    <div><span>25$</span>/mois</div>
+    <p><img class="check" src="img/check.png" alt="check" title="check">Aenean commodo ligula eget dolor.<br><img class="check" src="img/check.png" alt="check" title="check">Aenean commodo ligula eget dolor.<br><img class="check" src="img/check.png" alt="check" title="check">Aenean commodo ligula eget dolor.
+    </p>
+        <button>souscrire</button>
+</div>
+    <div class="abonnement">
+    <h3>Premuim</h3>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+    <div><span>50$</span>/mois</div>
+    <p><img class="check" src="img/check.png" alt="check" title="check">Aenean commodo ligula eget dolor.<br><img class="check" src="img/check.png" alt="check" title="check">Aenean commodo ligula eget dolor.<br><img class="check" src="img/check.png" alt="check" title="check">Aenean commodo ligula eget dolor.
+    </p>
+        <button>souscrire</button>
+</div>
+</div>    
+</div>
+</div>
+<footer>
+    <ul>
         <li>Mentions Légales</li> |
         <li>Télécharger la Plaquette</li> |
         <li>Nous contacter</li>
-            </ul>
-        <span>© 2015 | Designed by 4SH</span>
-    </footer>
+    </ul>
+    <span>© 2015 | Designed by 4SH</span>
+</footer>
 <!-- SCRIPT HEIGHT AUTO --> 
 <script>
 function adpaterALaTailleDeLaFenetre(){
@@ -183,7 +240,6 @@ addEvent(window, "load", adpaterALaTailleDeLaFenetre);
 addEvent(window, "resize", adpaterALaTailleDeLaFenetre);
 </script>
 <!-- SCRIPT HEIGHT AUTO --> 
-
 <!-- SCRIPT SCROLL --> 
 <script>
 $(document).ready(function() {
@@ -196,32 +252,52 @@ return false;
 });
 </script>
 <!-- FIN SCRIPT SCROLL --> 
-    <!-- ONGLETS --> 
+<!-- ONGLETS --> 
+<script>
+$(function() {
+$('#onglets').css('display', 'block');
+$('#onglets').click(function(event) {
+var actuel = event.target;
+if (!/li/i.test(actuel.nodeName) || actuel.className.indexOf('actif') > -1) {
+(actuel.nodeName)
+return;
+}
+$(actuel).addClass('actif').siblings().removeClass('actif');
+setDisplay();
+});
+function setDisplay() {
+var modeAffichage;
+$('#onglets li').each(function(rang) {
+modeAffichage = $(this).hasClass('actif') ? '' : 'none';
+$('.item').eq(rang).fadeIn(400).css('display', modeAffichage);
+});
+}
+setDisplay();
+});
 
-    <script>
-		$(function() {
-			$('#onglets').css('display', 'block');
-			$('#onglets').click(function(event) {
-				var actuel = event.target;
-				if (!/li/i.test(actuel.nodeName) || actuel.className.indexOf('actif') > -1) {
-					(actuel.nodeName)
-					return;
-				}
-				$(actuel).addClass('actif').siblings().removeClass('actif');
-				setDisplay();
-			});
-			function setDisplay() {
-				var modeAffichage;
-				$('#onglets li').each(function(rang) {
-					modeAffichage = $(this).hasClass('actif') ? '' : 'none';
-					$('.item').eq(rang).fadeIn(400).css('display', modeAffichage);
-				});
-			}
-			setDisplay();
-		});
-
-	</script>
-        <!-- ONGLETS --> 
-   
+</script>
+<script>
+$(function() {
+$('#onglets2').css('display', 'block');
+$('#onglets2').click(function(event) {
+var actuel = event.target;
+if (!/li/i.test(actuel.nodeName) || actuel.className.indexOf('actif') > -1) {
+(actuel.nodeName)
+return;
+}
+$(actuel).addClass('actif').siblings().removeClass('actif');
+setDisplay();
+});
+function setDisplay() {
+var modeAffichage;
+$('#onglets2 li').each(function(rang) {
+modeAffichage = $(this).hasClass('actif') ? '' : 'none';
+$('.item').eq(rang).fadeIn(400).css('display', modeAffichage);
+});
+}
+setDisplay();
+});
+</script>
+<!-- ONGLETS --> 
 </body>
 <html>

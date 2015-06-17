@@ -43,17 +43,19 @@
     .frise {height:34%;  -webkit-filter: brightness(100%);}
     #bandeau {height:93%;padding-top:20%}
     .society {width:80%}
-    body>.society {width:80%}
+    body>.society {width:80%;  margin: 7% auto -20% auto;}
     #guillemets {width:90%; top:59%;left:3%}
     .society p{  text-align: justify;padding: 0;}
     .scroll {display:none}
     .constat {display:block;text-align:center}
     .img_constat {margin: 25% auto 5% auto;width:25%}
-    .vertical_align {text-align:center;width:100%}
-    .vertical_align img{width:85%;padding-left:0}
-    .constat p,.constat h2,.constat h3{ width:88%;text-align:justify;font-size:0.9em;margin:0 auto}
-    #constat {margin-top:12%}
-    #constat .div p {font-size:1em; text-align: justify;margin:3% auto; width:90%}
+    .vertical_align {text-align:center;width:85%}
+    #second_constat .vertical_align {float:none; margin:0 auto;width:85%}
+    .vertical_align img{width:95%;padding-left:0}
+    .constat p,.constat h3{ width:88%;text-align:justify;font-size:0.9em;margin:0 auto}
+    .constat h2 {  width: 95%;font-size: 1.2em; text-align: center;margin: 5% auto;}
+    #constat {margin-top:35%}
+    #constat .div p {font-size: :1em; text-align: justify;margin:3% auto; width:90%}
     .constat img {float:none}
     #offre_tablet {margin-top:30%; overflow: hidden}
     #tablet {margin:2% 0 5% 0; width:160%}
@@ -61,7 +63,9 @@
     #bandeau3>p {  font-size: 1em;margin: 3% auto 10% auto;}
     #bandeau3 h2 {  font-size: 1.5em;}
     #bandeau2 h1 {font-size: 1.5em; top: 14%;}
-    
+    #first_constat img:first-child,#second_constat img:last-child,#third_constat img:first-child {display:none}
+    /*/ CONTENT /*/
+
     /*/ AVANTAGES /*/
     .texte_avantage {float:none;width:90%;text-align: center;}
     .texte_avantage p {text-align: justify;font-size:0.9em}
@@ -70,17 +74,19 @@
     #bloc_avantage h2 {font-size:1em;width:90%}
     .margin-top {margin-top:40% !important}
     .texte_avantage h3 {float:none;text-align: center}
+    #bloc_avantage div:first-child {margin-top:10%}
+    #bloc_avantage div:first-child p {width:98%}
     /*/ AVANTAGES /*/
     
         /*/ TABLETTE /*/
-    .container {margin-top:25%;height:90%}
+    .container {margin-top:20%;height:90%}
     .photo {width:160%;left:-30%}
     .scroll3 {display:none}
         .demonstration {top:80%; font-size:1em;color:black}
     .item:nth-child(1) h2 {letter-spacing: 5.5px;width:80%}
     .item:nth-child(1) img, .item:nth-child(3) img, .item:nth-child(4) img, .item:nth-child(5) img,.item:nth-child(6) img,.item:nth-child(7) img {width:80%;margin:5% auto;}
     .item p{width: 85%;text-align: justify;margin: 0 auto;font-size: 1em;float:none}
-    .item span {font-size:1.5em}
+    .item span {font-size:2.2em}
     .container2 {height:auto;}
     .item h2 {letter-spacing: 1.5px;width:85%;font-size:1.5em}
     .item:nth-child(2) p {width:80%;}
@@ -88,6 +94,15 @@
     .check {  width: 6.5% !important;  margin: 0 !important;}
     #cssmenu > ul > li:nth-child(3) {display:none}
     .infos_contact {float:none;width:100%}
+        #souscription2 {display:block;  width: 45%; margin: 1% auto;}
+    #souscription {display:none;}
+    .paginate {display:block !important}
+    .second_onglets {display:block !important;padding:0}
+    .first_onglets {display:none !important}
+    #onglets2 div {width:10px;height:10px; background-color: white;border-radius: 50%;margin:25% auto}
+    #contenu {top: 5px;}
+    #onglets2 li {width:20px;height:20px;display:inline-block;padding:1%;background-color:rgb(217, 237, 255)}
+    .abonnement div {width:120px;height:120px}
         /*/ TABLETTE /*/
     
             /*/ CONTACT /*/
@@ -132,13 +147,5 @@
     .social {width:auto !important;position:relative !important;background-color:white;left:0}
     .social li{width:auto !important;}
     .social ul {left:0 !important}
-    /*/ FOOTER /*/
-    #souscription2 {display:block;  width: 60%; margin: 1% auto;}
-    #souscription {display:none;}
-    .paginate {display:block !important}
-    .second_onglets {display:block !important;padding:0}
-    .first_onglets {display:none !important}
-    #onglets2 div {width:10px;height:10px; background-color: white;border-radius: 50%;margin:25% auto}
-    #contenu {top: 5px;}
-    #onglets2 li {width:20px;height:20px;display:inline-block;padding:1%;background-color:rgb(217, 237, 255)}
+    /*/ FOOTER /*
 }

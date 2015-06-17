@@ -7,24 +7,35 @@
     ul#menu {margin: -1% auto;width: 85%}
     /*/ HEADER /*/
     #bandeau{padding-top: 5%;}
-    #bandeau3 {width:90%;  margin: 2% auto 4% auto;}
+    #bandeau3 {width:90%;  margin: 16% auto 4% auto;}
     .offre_beclm {width:250px}
     footer span {font-size:0.7em}
-.constat {display:block;text-align:center}
-    .img_constat {margin: 5% auto 5% auto;width:10%}
-    .vertical_align {text-align:center;width:100%}
+    #bandeau2 h1 {margin: 20% auto;}
+        /*/ HEADER /*/
+    
+    /*/ CONECEPT /*/
+    .constat {display:block;text-align:center}
     .constat p,.constat h2,.constat h3{ padding-left: 2%;padding-right:0; width:95%;text-align:justify;font-size:1.2em;}   
     .constat img {padding:0}
+    #first_constat img:first-child,#third_constat img:first-child {padding-top:15%}
+    #second_constat img:last-child {}
+    .vertical_align{width:70%;}
+    .vertical_align img{width: 90%;}
+    #first_constat img:first-child,#third_constat img:first-child {width:15%;margin:10% 2% 25% 2%;}
+    #second_constat img:last-child {width:15%; margin:25% 2% 10% 2%}
+    #constat {margin-top: 20%;}
+    h1 {margin:0 auto}
+     /*/ CONECEPT /*/
+
     #offre_tablet {overflow:hidden;margin-top:5%}
     #tablet {width:115%; margin: 0 2% 5% -7%}
     .avantage>img {margin-top: 1.5%;}
-    .container {margin-top:5%}
-    .photo {  width: 122%;
-  left: -14%}
+    .photo {  width: 122%;left: -10%}
     .item:nth-child(1) span{font-size:2.2em}
     .scroll3 {top:88%}
     .item p{font-size: 1em}
     .item:nth-child(2) p{font-size:1em;margin:1%}
     form {padding:10px}
     #onglets li {padding:8px;margin-right:2px; margin-top:5px;font-size:0.8em}
+    #onglets { padding: 13% 0 2% 0;}
 }

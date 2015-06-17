@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700);
 
 h2{font-size: 1.6em;letter-spacing: 4px;text-transform: uppercase}
-h1 {margin-top: 15%;text-transform: uppercase;font-weight: 300;letter-spacing: 5px;}
+h1 {margin-top: 15%;text-transform: uppercase;font-weight: 300;letter-spacing: 5px;width:90%}
 button{display: block;margin: 15px auto;background-color: white;border: 1px solid #84B1D8;padding: 5px;color: #1F3D58;}
 header button {border:0px; color:white; background-color:#4f9ee5; position:absolute;  right: 2%;top: 45%;width:auto;}
 button:hover {background-color: #1F3D58;color: white;border:1px solid white;-webkit-transition: background-color .2s ease;
@@ -78,8 +78,8 @@ body>.society {text-align:center;margin: 7% auto 3% auto;  display: block;}
 #bloc_society img{width:40%;  padding: 15px;}
 .society p {padding: 5px 20px 0px 20px;text-align:justify}
 #guillemets {  width: 40%;position: absolute;top: 64%;left: 29%;}
-.citation {  width: 20%;background-color: grey;height: 1px;opacity: 100;margin-top: 50px;}
-.constat {  width: 100%;margin: 2% 0 5% 0;background-color: aliceblue;padding: 2% 0 2% 0;display:block;  overflow: auto;}
+.citation {  width: 20%;background-color: grey;height: 1px;opacity: 100;  margin: 25px auto 25px auto;}
+.constat {  width: 100%;margin: 2% 0 5% 0;background-color: aliceblue;padding: 2% 0 2% 0;display:block;  overflow: hidden;}
 .constat img {float:left;margin: 5%;}
 .constat_span {font-size: 1.2em; font-weight: bold; color: #1F3D58; padding-right: 30px;}
 .vertical_align{width:60%;text-align: justify; margin: 0 auto; font-size: 1.1em;background-color: rgba(255, 255, 255, 0.42);padding:2%;display:inline-block}
@@ -87,11 +87,11 @@ body>.society {text-align:center;margin: 7% auto 3% auto;  display: block;}
 #tablet {margin:0% 0 1% 0; width:90%}
 #offre_tablet p{font-family:"AngelFace";font-size:2.5em;margin:0}
 .offre_beclm {width:300px;height:250px; display:inline-block;margin:1px;padding:1%;background-color:#1F3D58;overflow: hidden}
-.offre_beclm span {  transform: translateY(100px);color: black;opacity: 0;transition: all 0.2s linear;display:block;letter-spacing: 3.5px;font-weight: normal;margin-top:35px}
-.offre_beclm:hover span{opacity:100;transform: translateY(0px)}
+.offre_beclm span {  transform: translateY(100px);transition: all 0.2s linear;-webkit-transform: translateY(100px);-webkit-transition: all 0.2s linear;-moz-transform: translateY(100px);-moz-transition: all 0.2s linear;-o-transform: translateY(100px);-o-transition: all 0.2s linear;-ms-transform: translateY(100px);-ms-transition: all 0.2s linear;color: black;opacity: 0;display:block;letter-spacing: 3.5px;font-weight: normal;margin-top:35px}
+.offre_beclm:hover span{opacity:100;transform: translateY(0px);-webkit-transform: translateY(0px);-moz-transform: translateY(0px);-ms-transform: translateY(0px);-o-transform: translateY(0px);}
 .offre_beclm span img{width:10%}
 .offre_beclm:hover p{display:none}
-.offre_beclm:hover .iconeCLM{width:165px;transition: all 0.5s ease-in-out;}
+.offre_beclm:hover .iconeCLM{width:165px;transition: all 0.5s ease-in-out;-webkit-transition: all 0.5s ease-in-out;-ms-transition: all 0.5s ease-in-out;-moz-transition: all 0.5s ease-in-out;-o-transition: all 0.5s ease-in-out;}
 .offre_beclm img {width:150px}
 .offre_beclm:hover {  background-color: white;box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.38);transition: all 0.4s ease-in-out;}
 #bandeau3 {width: 85%;margin: 0% auto 4% auto;overflow: hidden;}
@@ -141,12 +141,12 @@ body>.society {text-align:center;margin: 7% auto 3% auto;  display: block;}
 .item:nth-child(1) li {  float: right;margin: 3%;list-style: none;color: #1F3D58;}
 .item:nth-child(2) span {  font-weight: bold;text-transform: uppercase;  font-size: 1em;}
 .item h2 {  margin: 5% auto 3% auto;letter-spacing: 5.5px;font-weight: 400;width: 85%;color:#3D3D3D;}
-.abonnement {  width: 350px;background-color: aliceblue;display: inline-block; margin: 1%;}
+.abonnement {  width: 350px;background-color: aliceblue;display: inline-block; margin: 1%;  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.16);}
 .abonnement h3 {text-transform: uppercase;letter-spacing: 5px; font-size:1.5em;color:#4F9EE5}
 .abonnement p {font-size:1.2em;margin-top:5% !important}
-.abonnement span {font-size:3.5em; font-weight: normal;}
+.abonnement span {font-size:3.5em; font-weight: normal;width:100%;line-height: 300%;color:white}
 .item:last-child p {width:85%;text-align:center;float:none; margin:0 auto 2% auto}
-.abonnement div {  background-color: rgba(57, 114, 165, 0.45);margin: 8% auto;}
+.abonnement div {  background-color: rgba(57, 114, 165, 0.45);margin: 8% auto;width:180px;height:180px;border-radius: 50%}
 .abonnement button {margin:10% auto; padding:10px 10%; font-size:1.2em; letter-spacing: 2px}
 .abonnement .check {width:5% !important}
 .paginate {display:none;}
@@ -188,7 +188,7 @@ footer span {float: right;height: 50px;padding-right: 2%;line-height: 50px;font-
 /*/ CONTACT /*/
 #contact {margin:15% auto 2% auto; padding-top:0;}
 #contact ul {padding:0;margin:0}
-form {width:80%; margin:0% auto; background-color:rgba(238, 238, 238, 0.89);padding:30px;overflow: auto}
+form {width:85%; margin:0% auto; background-color:rgba(238, 238, 238, 0.89);padding:30px;overflow: auto}
 label,input {display: block;text-align: left;width: 90%;}
 label {letter-spacing: 1.5px;}
 #message {width:100%; border:none;text-align: center;height:200px}

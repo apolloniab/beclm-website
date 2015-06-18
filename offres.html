@@ -21,17 +21,8 @@
 <link rel="stylesheet" href="mobile.css">
 <link rel="stylesheet" href="tablette.css">
 <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" async></script>
-<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript" async></script>
-<script src="script.js" async></script>
-<noscript>Javascript non pris en charge</noscript>
 <title>Les offres Be clm</title>
 <link rel="icon" type="image/png" href="img/favicon.png" />
-    <IfModule mod_headers.c>
-  <FilesMatch "\.(js|css|xml|gz)$">
-    Header append Vary: Accept-Encoding
-  </FilesMatch>
-</IfModule>
 </head>
 <body id="monDiv">
 <header>
@@ -81,6 +72,10 @@ dossiers.</p><span>en savoir...<img src="img/ensavoirplus2.png"></span></a></div
             </ul>
         <span>© 2015 | Designed by 4SH</span>
     </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" async></script>
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript" async></script>
+<script src="script.js" async></script>
+<noscript>Javascript non pris en charge</noscript>
 <!-- SCRIPT HEIGHT AUTO --> 
 <script>
 function adpaterALaTailleDeLaFenetre(){
@@ -103,18 +98,5 @@ addEvent(window, "load", adpaterALaTailleDeLaFenetre);
 addEvent(window, "resize", adpaterALaTailleDeLaFenetre);
 </script>
 <!-- SCRIPT HEIGHT AUTO --> 
-
-<!-- SCRIPT SCROLL --> 
-<script>
-$(document).ready(function() {
-$('.scrollTo').click( function() { // Au clic sur un élément
-var page = $(this).attr('href'); // Page cible
-var speed = 750; // Durée de l'animation (en ms)
-$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
-return false;
-});
-});
-</script>
-<!-- FIN SCRIPT SCROLL --> 
 </body>
 </html>

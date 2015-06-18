@@ -28,6 +28,7 @@
      /*/ CONECEPT /*/
 
     #offre_tablet {overflow:hidden;margin-top:5%}
+    #bloc_avantage div:first-child {padding: 15% 0% 5% 0%;}
     #tablet {width:115%; margin: 0 2% 5% -7%}
     .avantage>img {margin-top: 1.5%;}
     .photo {  width: 122%;left: -10%}
@@ -35,7 +36,11 @@
     .scroll3 {top:88%}
     .item p{font-size: 1em}
     .item:nth-child(2) p{font-size:1em;margin:1%}
-    form {padding:10px}
+    form {padding:5px;width:90%}
+    input, select{  height: 30px;margin-top: 5px;}
+    #message {  height: 175px}
+    #contact {margin: 10% auto 0% auto;}
     #onglets li {padding:8px;margin-right:2px; margin-top:5px;font-size:0.8em}
     #onglets { padding: 13% 0 2% 0;}
+    
 }

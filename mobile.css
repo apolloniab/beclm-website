@@ -1,4 +1,4 @@
-@media all and (max-width: 720px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 720px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 720px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 720px), only screen and (min-device-pixel-ratio: 2) and (max-width: 720px), only screen and (min-resolution: 192dpi) and (max-width: 720px), only screen and (min-resolution: 2dppx) and (max-width: 720px0) {
+@media all and (max-width: 720px), only screen and (max-width: 720px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 720px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 720px), only screen and (min-device-pixel-ratio: 2) and (max-width: 720px), only screen and (min-resolution: 192dpi) and (max-width: 720px), only screen and (min-resolution: 2dppx) and (max-width: 720px0) {
     #cssmenu:after, #cssmenu > ul:after {display:inline-block}
     /*/ GENERAL /*/
     h1 {font-size:1.3em; margin-top:20%}
@@ -111,16 +111,16 @@
         /*/ TEMPORAIRE /*/
     
             /*/ CONTACT /*/
-    #contact {margin:30% auto;}
+    #contact {margin:10% auto;width:90%}
     h3 {font-size:1em}
     #contact hr{margin-top:2%;}
-        .form {width:90%; padding:5%;margin:35% auto;}
+    form {width:auto; padding:8%;margin:0 auto;}
     label,input {width:100%;padding:1%;}
-    #contact {width:90%}
     .message_contact li {width:100%}
     #contact p{text-align: justify;width:100%;font-size: 0.7em;}
     #contact h3 {font-size:1.4em}
     form ul{padding:0}
+    #bandeau4 {height:auto; overflow:auto}
     /*/ CONTACT /*/
 
     /*/ CONTENT /*/

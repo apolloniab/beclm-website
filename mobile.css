@@ -63,9 +63,10 @@
     #bandeau3>p {  font-size: 1em;margin: 3% auto 10% auto;letter-spacing: 0}
     #bandeau3 h2 {  font-size: 1.5em;}
     #bandeau2 h1 {font-size: 1.5em; top: 14%;}
-    #first_constat img:first-child,#second_constat img:last-child,#third_constat img:first-child {display:none}
     .offre_beclm {width:250px; height:250px}
-    #second_constat, #first_constat, #third_constat {background-position:30%}
+    .level h2 {font-size:1em !important}
+    #second_constat img {width:115%}
+    #second_constat h3 {font-size:1.2em; letter-spacing: 1px}
     /*/ CONTENT /*/
 
     /*/ AVANTAGES /*/

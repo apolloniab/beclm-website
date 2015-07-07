@@ -19,10 +19,8 @@
     .constat img {padding:0}
     #first_constat img:first-child,#third_constat img:first-child {padding-top:15%}
     #second_constat img:last-child {}
-    .vertical_align{width:70%;}
-    .vertical_align img{width: 90%;}
+    .vertical_align{width: 98%;padding:0;}
     #first_constat img:first-child,#third_constat img:first-child {width:15%;margin:10% 2% 25% 2%;}
-    #second_constat img:last-child {width:15%; margin:25% 2% 10% 2%}
     #constat {margin-top: 20%;}
     h1 {margin:0 auto}
      /*/ CONECEPT /*/

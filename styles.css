@@ -1,7 +1,9 @@
 /*/ GENERAL /*/
 h2{font-size: 1.6em;letter-spacing: 4px;text-transform: uppercase}
-h1 {margin: 20% auto 0 auto;text-transform: uppercase;font-weight: 300;letter-spacing: 5px;width:90%}
+h1 {margin: 15% auto 0 auto;text-transform: uppercase;font-weight: 300;letter-spacing: 5px;width:85%;font-size:1.7em;line-height: 160%}
+h4 {  font-size: 1.3em; font-weight: normal; font-style: italic;}
 button{display: block;margin: 15px auto;background-color: white;border: 1px solid #84B1D8;padding: 5px;color: #1F3D58;}
+p {  line-height: 160%; letter-spacing: 1.5px;}
 header button {border:0px; color:white; background-color:#4f9ee5; position:absolute;  right: 2%;top: 45%;width:auto;}
 button:hover {background-color: #1F3D58;color: white;border:1px solid white;-webkit-transition: background-color .2s ease;
 -moz-transition: background-color .2s ease;
@@ -70,19 +72,38 @@ background-position: 100% 100%;  width: 100%;
 #offres {background-image: url(img/02.jpg);  background-repeat: no-repeat; background-position: 0% 20% ;background-size: cover}
 #avantages {background-image: url(img/03.jpg);  background-repeat: no-repeat; background-position: 0% 10%;background-size: cover}
 #bandeau2 {background-image: url(img/qsn.jpg);background-repeat: no-repeat;background-size:100%;width:100%;height:65%;background-position:50% 70%;}
+#bandeau5 {background-image: url(img/entreprise.jpg);background-repeat: no-repeat;background-size:100%;width:100%;height:350px;  background-position: 0 45%;}
 #bandeau2 h1 {padding:2%;position:absolute; color:white; width:96%; background-color: rgba(0, 0, 0, 0.72);}
-.society {width:400px; height:40%;;display:inline-block;margin: 5% 2% 1% 2%}
+.society {width:500px; height:40%;;display:inline-block;margin: 5% 2% 1% 2%}
 #bloc_society {width:100%;text-align:center;  margin: 0 auto 8% auto;text-align:center;background-color:aliceblue;}
 body>.society {text-align:center;margin: 7% auto 3% auto;  display: block;}
 #bloc_society img{width:40%;  padding: 15px;}
+#bloc_society .society:nth-child(1) img {width:60%}
+#bloc_society .society:nth-child(2) img {width:55%}
 .society p {padding: 5px 20px 0px 20px;text-align:justify}
-#guillemets {  width: 40%;position: absolute;top: 64%;left: 29%;}
-.citation {  width: 20%;background-color: grey;height: 1px;opacity: 100;  margin: 25px auto 25px auto;}
-.constat {  width: 100%;margin: 2% 0 5% 0;background-color: aliceblue;padding: 2% 0 2% 0;display:block;  overflow: hidden;}
-.constat img {float:left;  margin: 5% 2% 0% 2%;}
+#guillemets {  width: 45%;position: absolute;top: 64%;left: 22%;}
+.citation {  width: 20%;background-color:#B8B8B8;height: 1px;opacity: 100;  margin: 25px auto 25px auto;}
+.citation2 {  width: 90%;background-color:#B8B8B8;height: 1px;opacity: 100;  margin: 25px auto 25px auto;}
+
+.constat {  width: 100%;overflow: hidden;  margin-top: 10%;margin-bottom: 10%;}
+.constat img {width:45%;}
 .constat_span {font-size: 1.2em; font-weight: bold; color: #1F3D58; padding-right: 30px;}
-.vertical_align{width:90%;text-align: justify; margin: 0 auto; font-size: 1.1em ;padding:2%;display:inline-block}
-iframe {display:block; margin:5% auto}
+.constat p {width: 60%; text-align: justify; margin: 0 auto 5% auto;}
+.constat div{width:300px;display:inline-block;  margin-bottom: 5%;}
+#constat {margin-top:-5%}
+#constat .div{margin-bottom: 10%;}
+#constat h2 {text-transform: none;color:#333;font-size:1.7em;}
+#constat h3 {color:#B3B3B3;font-weight: 300;letter-spacing: 1.5px}
+#constat h1>strong {text-transform: capitalize}
+#constat h2, #constat h3 {margin:0; padding:0; line-height:160%}
+#constat p {width:60%; margin: 1% auto 5% auto;text-align: justify}
+.constat_solution {width:35% !important;float:left;margin:10% 0 10% 10%;}
+.constat_solution p {width:100% !important}
+#constat .constat img:nth-child(3) {width:85%}
+
+
+.vertical_align{width:100%; margin: 0 auto; font-size: 1em ;padding:2%;display:inline-block}
+iframe {display:block; margin:0 auto}
 .vertical_align img{width:40%;}
 #tablet {margin:0% 0 1% 0; width:90%}
 #offre_tablet p{font-family:"AngelFace";font-size:2.5em;margin:0}
@@ -101,13 +122,9 @@ iframe {display:block; margin:5% auto}
 #bandeau3 hr{  margin: 2% auto 2% auto;}
 #bandeau3 p {  color: white;font-weight: 300;font-size: 90%;letter-spacing: 1px;  width: 90%;margin: 5% auto}
 #bloc_avantage>p,#bandeau3>p {color:black;font-size: 1.3em;margin: 3% auto;width:90%}
-#constat .div p,#bloc_avantage .div p {width:60%; margin: 1% auto}
-#second_constat img {width:45%;float:left;}
-#second_constat h3 {font-size: 2em;letter-spacing: 1px;font-weight: lighter;margin-top:20%}
 /*/ AVANTAGES /*/
 #bloc_avantage h2{font-weight: 300;font-size:1.3em;width:60%;text-align: center}
 #bloc_avantage hr{width:10%;margin-top:1%}
-#constat .div{margin-bottom: 70px;}
 #bloc_avantage div:first-child {background-image: url(img/map.png);  background-attachment: fixed;padding: 5% 0% 5% 0%;margin-bottom: 70px;}
 .avantage img{width:45%;padding:2%;}
 .avantage>img {padding: 5% 2% 2% 2%;}

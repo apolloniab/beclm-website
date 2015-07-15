@@ -2,6 +2,7 @@
     #cssmenu:after, #cssmenu > ul:after {display:inline-block}
     /*/ GENERAL /*/
     h1 {font-size:1.3em; margin-top:20%}
+    p {  letter-spacing: 0;}
     /*/ GENERAL /*/
 
      /*/ MENU /*/
@@ -52,17 +53,24 @@
     .vertical_align {text-align:center;width:85%}
     #second_constat .vertical_align {float:none; margin:0 auto;width:85%}
     .vertical_align img{width:95%;padding-left:0}
-    .constat p,.constat h3{ width:88%;text-align:justify;font-size:0.9em;margin:0 auto}
+    .constat p,.constat h3{ width:100%;font-size:0.9em;margin:0 auto}
     .constat h2 {  width: 95%;font-size: 1.2em; text-align: center;margin: 5% auto;}
-    #constat {margin-top:35%}
     #constat .div p {font-size: :1em; text-align: justify;margin:3% auto; width:90%}
-    .constat img {float:none}
+    #constat p {width:90%}
+    #constat h1{margin-top:0;letter-spacing: 4px;width:95%}
+    #constat h4 {display:none}
+    .constat div>img {width:25%}
+    .constat img {width:95%}
+    .constat span {font-size:1.5em}
+    .constat_solution {width:90% !important;float:none;margin: 10% auto}
+    iframe {display:none}
     #offre_tablet {margin-top:30%; overflow: hidden}
     #tablet {margin:2% 0 5% 0; width:160%}
-    #bandeau3 {overflow: visible;margin: 40% auto 4% auto;}
+    #bandeau3 {overflow: visible;margin: 40% auto 4% auto;width: 100%;}
     #bandeau3>p {  font-size: 1em;margin: 3% auto 10% auto;letter-spacing: 0}
     #bandeau3 h2 {  font-size: 1.5em;}
-    #bandeau2 h1 {font-size: 1.5em; top: 14%;}
+    #bandeau3 p {font-size:80%}
+    #bandeau2 h1 {font-size: 1.2em; top: 14%;}
     .offre_beclm {width:250px; height:250px}
     .level h2 {font-size:1em !important}
     #second_constat img {width:115%}
@@ -104,7 +112,7 @@
     .first_onglets {display:none !important}
     #onglets2 div {width:10px;height:10px; background-color: white;border-radius: 50%;margin:25% auto}
     #contenu {top: 5px;}
-    #onglets2 li {width:20px;height:20px;display:inline-block;padding:1%;background-color:rgb(217, 237, 255)}
+    #onglets2 li {width:25px;height:25px;display:inline-block;padding:1%;background-color:rgb(217, 237, 255)}
     .abonnement div {width:120px;height:120px}
         /*/ TABLETTE /*/
         /*/ TEMPORAIRE /*/

@@ -4,7 +4,7 @@
         #cssmenu > ul > li.has-sub > a::after {right:20%}
         #cssmenu ul ul {right:-40px}
         #logo {width:80px}
-    ul#menu {margin: -1% auto;width: 85%}
+    ul#menu {margin: 0% auto;width: 85%}
     /*/ HEADER /*/
     #bandeau{padding-top: 5%;}
     #bandeau3 {width:90%;  margin: 16% auto 4% auto;}
@@ -14,15 +14,13 @@
         /*/ HEADER /*/
     
     /*/ CONECEPT /*/
-    .constat {display:block;text-align:center}
-    .constat p,.constat h2,.constat h3{ padding-left: 2%;padding-right:0; width:95%;text-align:justify;font-size:1.2em;}   
-    .constat img {padding:0}
-    #first_constat img:first-child,#third_constat img:first-child {padding-top:15%}
-    #second_constat img:last-child {}
+    
+   
     .vertical_align{width: 98%;padding:0;}
-    #first_constat img:first-child,#third_constat img:first-child {width:15%;margin:10% 2% 25% 2%;}
-    #constat {margin-top: 20%;}
     h1 {margin:0 auto}
+    #constat h1 {margin:15% auto 0 auto}
+    #constat h4 {margin : 10% auto 5% auto}
+    .constat_solution {margin:0% 0 10% 10%}
      /*/ CONECEPT /*/
 
     #offre_tablet {overflow:hidden;margin-top:5%}

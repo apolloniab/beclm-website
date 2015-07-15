@@ -17,6 +17,7 @@ transition: background-color .2s ease;}
 .margin-top {margin-top:15% !important}
 li,a {text-decoration: none;list-style: none;}
 #presentation,#contrat,#finalisation,#conseils,ul#menu, #cssmenu>ul>li,#bandeau,#bandeau4,#bloc_avantage h2,footer li {margin:0 auto;}
+.center {text-align: center}
 /*/ GENERAL /*/
 
 /*/ MENU /*/
@@ -86,6 +87,7 @@ body>.society {text-align:center;margin: 7% auto 3% auto;  display: block;}
 .citation2 {  width: 90%;background-color:#B8B8B8;height: 1px;opacity: 100;  margin: 25px auto 25px auto;}
 
 .constat {  width: 100%;overflow: hidden;  margin-top: 10%;margin-bottom: 10%;}
+.constat span {display:block;margin:5%; font-size:2em;font-weight:300}
 .constat img {width:45%;}
 .constat_span {font-size: 1.2em; font-weight: bold; color: #1F3D58; padding-right: 30px;}
 .constat p {width: 60%; text-align: justify; margin: 0 auto 5% auto;}
@@ -100,8 +102,7 @@ body>.society {text-align:center;margin: 7% auto 3% auto;  display: block;}
 .constat_solution {width:35% !important;float:left;margin:10% 0 10% 10%;}
 .constat_solution p {width:100% !important}
 #constat .constat img:nth-child(3) {width:85%}
-
-
+.constat div>img:hover {opacity:0.5;transition:all 0.5s ease-in-out;-webkit-transition:all 0.5s ease-in-out;-ms-transition:all 0.5s ease-in-out;-moz-transition:all 0.5s ease-in-out;-o-transition: all 0.3s ease-in-out;transform:scale(1.1);}
 .vertical_align{width:100%; margin: 0 auto; font-size: 1em ;padding:2%;display:inline-block}
 iframe {display:block; margin:0 auto}
 .vertical_align img{width:40%;}
@@ -120,7 +121,7 @@ iframe {display:block; margin:0 auto}
 #bandeau3 {width: 85%;margin: 0% auto 4% auto;overflow: hidden;}
 #bandeau3 h2{font-weight:300;padding-top:12%}
 #bandeau3 hr{  margin: 2% auto 2% auto;}
-#bandeau3 p {  color: white;font-weight: 300;font-size: 90%;letter-spacing: 1px;  width: 90%;margin: 5% auto}
+#bandeau3 p {  color: white;font-weight: 300;font-size: 90%;letter-spacing: 1px;  width: 90%;margin: 5% auto;   line-height: 110%;}
 #bloc_avantage>p,#bandeau3>p {color:black;font-size: 1.3em;margin: 3% auto;width:90%}
 /*/ AVANTAGES /*/
 #bloc_avantage h2{font-weight: 300;font-size:1.3em;width:60%;text-align: center}

@@ -1,9 +1,17 @@
 /*/ GENERAL /*/
 h2{font-size: 1.6em;letter-spacing: 4px;text-transform: uppercase}
 h1 {margin: 10% auto 0 auto;position:relative;text-transform: uppercase;font-weight: 300;letter-spacing: 5px;width:85%;font-size:1.7em;line-height: 160%}
-#h1index {position:absolute; top:-50;left:25%; z-index:-10; width:100%;color:aliceblue}
-#bandeau2 h1{margin: 20% auto 0 auto}
+#h1index {position:absolute;left:25%; z-index:-10; width:50%;color:aliceblue}
 h4 {  font-size: 1em; font-weight: normal; font-style: italic;}
+body {font-family: 'Lato', sans-serif;margin:0;text-align:center  }
+#logo {width: 100px; position: relative; }
+#logoMobile {display:none;}
+header {   top:0;position: fixed;z-index: 99999;background-repeat: no-repeat; -moz-background-size: 100% 305%;-o-background-size: 100% 305%; -webkit-background-size: 100% 305%;-ms-background-size: 100% 305%;
+    background-size: 100% 305%;
+    -moz-border-image: url(img/header.png) 0;
+  height: 140px;
+background-position: 100% 100%;  width: 100%;
+  background-image: url(img/header.png);}
 button{display: block;margin: 15px auto;background-color: white;border: 1px solid #84B1D8;padding: 5px;color: #1F3D58;}
 p {  line-height: 160%; letter-spacing: 1.5px;}
 header button {border:0px; color:white; background-color:#4f9ee5; position:absolute;  right: 2%;top: 45%;width:auto;}
@@ -21,7 +29,6 @@ li,a {text-decoration: none;list-style: none;}
 #presentation,#contrat,#finalisation,#conseils,ul#menu, #cssmenu>ul>li,#bandeau,#bandeau4,#bloc_avantage h2,footer li {margin:0 auto;}
 .center {text-align: center}
 /*/ GENERAL /*/
-
 /*/ MENU /*/
 #cssmenu,#cssmenu ul,#cssmenu ul li,#cssmenu ul li a,#cssmenu #menu-button {margin-top: 0;padding: 0;border: 0;list-style: none;line-height: 1; display: block;position: relative;-webkit-box-sizing: border-box; -moz-box-sizing: border-box;box-sizing: border-box;}
 #cssmenu:after,
@@ -55,29 +62,13 @@ ul#menu {width: 80%;}
 #cssmenu.align-right ul ul li.has-sub > a::after {right: auto;left: 10px;border-bottom: 0;border-right: 0;border-top: 1px solid #dddddd;border-left: 1px solid #dddddd;}
 #cssmenu ul ul li.has-sub:hover > a::after { border-color: #ffffff;}
 /*/ MENU /*/
-
-body {font-family: 'Lato', sans-serif;margin:0;text-align:center  }
-#logo {width: 100px; position: relative; }
-#logoMobile {display:none;}
-header {   top:0;position: fixed;z-index: 99999;background-repeat: no-repeat; -moz-background-size: 100% 305%;-o-background-size: 100% 305%; -webkit-background-size: 100% 305%;-ms-background-size: 100% 305%;
-    background-size: 100% 305%;
-    -moz-border-image: url(img/header.png) 0;
-  height: 140px;
-background-position: 100% 100%;  width: 100%;
-  background-image: url(img/header.png);}
-
 /*/ CONTENT /*/
-#bandeau {width:100%;height:100%; overflow: hidden;padding-top:4.5%;}
-#bandeau4 {width:100%; overflow: hidden;padding-top:4.5%;background-image: url(img/contact.jpg);background-repeat: no-repeat;background-size: cover;background-attachment: fixed;padding-top: 95px;}
 .frise {width:98%;height:33.4%;filter: brightness(50%);-webkit-filter: brightness(50%); -moz-filter: brightness(50%); -o-filter: brightness(50%); -ms-filter: brightness(50%); -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; margin: 0 auto}
 .frise:hover {filter: brightness(100%);-webkit-filter: brightness(100%);-moz-filter: brightness(100%);-o-filter: brightness(100%);-ms-filter: brightness(100%);-webkit-transform: scale(1.005);-moz-transform: scale(1.005);-o-transform: scale(1.005);transform: scale(1.005);}
 #concept {background-image: url(img/01.jpg);  background-repeat: no-repeat; background-position: 0% 35%;background-size: cover}
 #offres {background-image: url(img/02.jpg);  background-repeat: no-repeat; background-position: 0% 20% ;background-size: cover}
 #avantages {background-image: url(img/03.jpg);  background-repeat: no-repeat; background-position: 0% 10%;background-size: cover}
-#bandeau2 {background-image: url(img/qsn.jpg);background-repeat: no-repeat;background-size:100%;width:100%;height:65%;background-position:50% 70%;}
-#bandeau5 {background-image: url(img/entreprise.jpg);background-repeat: no-repeat;background-size:100%;width:100%;height:350px;  background-position: 0 -65%;background-attachment: fixed}
-#bandeau2 h1 {padding:2%;position:absolute; color:white; width:96%; background-color: rgba(0, 0, 0, 0.72);}
-.society {width:500px; height:40%;;display:inline-block;margin: 5% 2% 1% 2%}
+.society {width:400px; height:40%;;display:inline-block;margin: 5% 2% 1% 2%}
 #bloc_society {width:100%;text-align:center;  margin: 0 auto 8% auto;text-align:center;background-color:aliceblue;}
 body>.society {text-align:center;margin: 7% auto 3% auto;  display: block;}
 #bloc_society img{width:40%;  padding: 15px;}
@@ -85,12 +76,13 @@ body>.society {text-align:center;margin: 7% auto 3% auto;  display: block;}
 #bloc_society .society:nth-child(2) img {width:55%}
 .society p {padding: 5px 20px 0px 20px;text-align:justify}
 #guillemets {  width: 45%;position: absolute;top: 64%;left: 22%;}
+/*/ CITATION /*/
 .citation {  width: 20%;background-color:#B8B8B8;height: 1px;opacity: 100;  margin: 25px auto 25px auto;}
 .citation2 {  width: 90%;background-color:#B8B8B8;height: 1px;opacity: 100;  margin: 25px auto 25px auto;}
-
+/*/ CITATION /*/
 .constat {  width: 100%;overflow: hidden;  margin-top: 10%;margin-bottom: 10%;}
 .constat span {display:block;margin:5%; font-size:2em;font-weight:300}
-.constat img {width:45%;margin-top: 10%;}
+.constat img {width:45%;vertical-align: middle;line-height:100%}
 .constat_span {font-size: 1.2em; font-weight: bold; color: #1F3D58; padding-right: 30px;}
 .constat p {width: 60%; text-align: justify; margin: 0 auto 5% auto;}
 .constat div{width:300px;display:inline-block;  margin-bottom: 5%; margin-top:5%}
@@ -100,7 +92,7 @@ body>.society {text-align:center;margin: 7% auto 3% auto;  display: block;}
 #constat h3 {color:#B3B3B3;font-weight: 300;letter-spacing: 1.5px}
 #constat h1>strong {text-transform: capitalize}
 #constat h2, #constat h3 {margin:0; padding:0; line-height:160%}
-#constat p {width:60%; margin: 1% auto 5% auto;text-align: justify}
+#constat p {width:60%; margin: 1% auto 3.5% auto;text-align: justify}
 .constat_solution {width:35% !important;float:left;margin:10% 0 10% 10%;}
 .constat_solution p {width:100% !important}
 #constat .constat img:nth-child(3) {width:85%}
@@ -120,10 +112,19 @@ iframe {display:block; margin:0 auto; width:960px; height :560px}
 .offre_beclm:hover .iconeCLM{width:165px;transition:all 0.5s ease-in-out;-webkit-transition:all 0.5s ease-in-out;-ms-transition:all 0.5s ease-in-out;-moz-transition:all 0.5s ease-in-out;-o-transition: all 0.5s ease-in-out;}
 .offre_beclm img {width:150px}
 .offre_beclm:hover {  background-color: white;box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.38);transition: all 0.4s ease-in-out;-webkit-transition: all 0.4s ease-in-out;-moz-transition: all 0.4s ease-in-out;-ms-transition: all 0.4s ease-in-out;-o-transition: all 0.4s ease-in-out;}
+#bandeau {width:100%;height:100%; overflow: hidden;padding-top:4.5%;}
+#bandeau4 {width:100%; overflow: hidden;padding-top:4.5%;background-image: url(img/contact.jpg);background-repeat: no-repeat;background-size: cover;background-attachment: fixed;padding-top: 95px;}
+#bandeau5 {background-image: url(img/entreprise.jpg);background-repeat: no-repeat;background-size:100%;width:100%;height:350px;  background-position: 0 5%;background-attachment: fixed}
 #bandeau3 {width: 85%;margin: 0% auto 4% auto;overflow: hidden;}
 #bandeau3 h2{font-weight:300;padding-top:12%}
 #bandeau3 hr{  margin: 2% auto 2% auto;}
 #bandeau3 p {  color: white;font-weight: 300;font-size: 90%;letter-spacing: 1px;  width: 90%;margin: 5% auto;   line-height: 110%;}
+#bandeau2 h1{margin: 20% auto 0 auto}
+#bandeau2 {background-image: url(img/qsn.jpg);background-repeat: no-repeat;background-size:100%;width:100%;height:65%;background-position:50% 70%;}
+#bandeau2 h1 {padding:2%;position:absolute; color:white; width:96%; background-color: rgba(0, 0, 0, 0.72);}
+#bandeau2 h1{margin: 20% auto 0 auto}
+#bandeau2 {background-image: url(img/qsn.jpg);background-repeat: no-repeat;background-size:100%;width:100%;height:65%;background-position:50% 70%;}
+#bandeau2 h1 {padding:2%;position:absolute; color:white; width:96%; background-color: rgba(0, 0, 0, 0.72);}
 #bloc_avantage>p,#bandeau3>p {color:black;font-size: 1.3em;margin: 3% auto;width:90%}
 /*/ AVANTAGES /*/
 #bloc_avantage h2{font-weight: 300;font-size:1.3em;width:60%;text-align: center}
@@ -144,8 +145,6 @@ iframe {display:block; margin:0 auto; width:960px; height :560px}
 .temporaire p{font-size: 0.9em; letter-spacing: 1px;}
 .div_temporaire {background-image: url(img/qsn.jpg);background-attachment: fixed;background-size: cover;}
 /*/ TEMPORAIRE /*/
-
-
 /*/ TABLETTE /*/
 .demonstration {  position: absolute;top: 85%;color: white; z-index: 999;font-weight: lighter;width: 100%;font-size: 1.5em;}
 .demonstration img {width:40px;}
@@ -189,16 +188,13 @@ iframe {display:block; margin:0 auto; width:960px; height :560px}
 #etapes_tablette{ width: 80%;-webkit-animation-name: tablet;/* Chrome, Safari, Opera */ -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */ -webkit-animation-direction: alternate-reverse;-webkit-animation-timing-function: ease-in;animation-name: tablet;animation-duration: 2s;animation-direction: alternate-reverse;animation-timing-function: ease-in; -moz-animation-name: tablet;-moz-animation-duration: 2s;-moz-animation-direction: alternate-reverse;-moz-animation-timing-function: ease-in; margin-top:4%}/* Chrome, Safari, Opera */
 @-webkit-keyframes tablet {
     from {margin-top: 4%;}
-    to {margin-top: 2%;}
-}
+    to {margin-top: 2%;}}
 @keyframes tablet {
     from {margin-top: 4%;}
-    to {margin-top: 2%;}
-}
+    to {margin-top: 2%;}}
 @-moz-keyframes tablet {
     from {margin-top: 4%;}
-    to {margin-top: 2%;}
-}
+    to {margin-top: 2%;}}
 .item:nth-child(3),.item:nth-child(4) {background-image: url(img/map.png);background-attachment: fixed;background-size: contain;overflow: hidden;width:100%}
     #cssmenu > ul > li:nth-child(3) {padding-top:0% !important}
 /*/ TABLETTE /*/
@@ -225,7 +221,6 @@ select {width:100%;margin-bottom: 20px;}
 #contact p{width: 60%;margin: 2% auto 5% auto;font-size: 0.9em;letter-spacing: 1px;}
 #contact h3{  font-size: 1.8em;letter-spacing: 4px;margin: 0;text-transform: uppercase;}
 /*/ CONTACT /*/
-
 /*/ SOCIAL /*/
 .social {width: 10%;position: absolute;top:16%;left: 87%;}
 .social ul {padding: 0;position: absolute;bottom: 17%;left: 33%;}
@@ -235,8 +230,7 @@ select {width:100%;margin-bottom: 20px;}
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
 	-o-transition: 0.5s all;
-	-ms-transition: 0.5s all;
-}
+	-ms-transition: 0.5s all;}
 .social ul li span.twt{background-position:-47px 0px;}
 .social ul li span.g{background-position:-71px 0px;}
 .social ul li span.twt:hover{background-position:-47px -25px;}
@@ -255,11 +249,9 @@ hr {width:0px;opacity: 0;transition: all 0.2s ease-in-out;background-color: whit
 #offres .infos {float: left;margin-left:5%}
 .frise p>img {width:7%}
 /*/ HOVER INFOS /*/
-
 .container{ width:100%; height:113%;position:relative; overflow: hidden; margin-top: 2%;}
 .container2{width:100%; position:relative; padding-top:2%;margin-top: -5%;}
 .photo{position:absolute; animation:round 16s infinite;-webkit-animation:round 16s infinite;;opacity:0;width:100%;left:0;margin-top: -5%;}
-
 @keyframes round{ 
     25%{opacity:1;}
     40%{opacity:0;}} 
@@ -267,8 +259,6 @@ img:nth-child(4){animation-delay:0s;}
 img:nth-child(3){animation-delay:4s;}
 img:nth-child(2){animation-delay:8s;}
 img:nth-child(1){animation-delay:12s;}
-
-
 @-webkit-keyframes round{ 
     25%{opacity:1;}
     40%{opacity:0;}} 
@@ -276,21 +266,3 @@ img:nth-child(4){-webkit-animation-delay:0s;}
 img:nth-child(3){-webkit-animation-delay:4s;}
 img:nth-child(2){-webkit-animation-delay:8s;}
 img:nth-child(1){-webkit-animation-delay:12s;}
-
-/* POP UP */
-.overlay {position: fixed;top: 0; bottom: 0;left: 0;right: 0; width:100%; height:100%;background: rgba(0, 0, 0, 0.7);transition: opacity 500ms;visibility: hidden;opacity: 0;  overflow: auto;}
-.overlay:target {visibility: visible;opacity: 1;}
-.popup {margin: 70px auto;padding: 20px;background: #fff;border-radius: 5px;width: 70%;position: relative;transition: all 5s ease-in-out; background-image: url(img/map.png);}
-.content .infos_contact {width:95%}
-.content label {text-align: center}
-.content button {position:relative}
-.content img {  width: 100%;
-  margin: 10% auto 10% auto;}
-.content p{width:90%;text-align: justify;float:none;margin:0;}
-.popup .close {position: absolute;top: 20px;right: 30px;transition: all 200ms;font-size: 30px;font-weight: bold;text-decoration: none;color: #333;}
-.popup .close:hover {color: aliceblue;}
-.popup .content {max-height: 30%;overflow: auto;}
-@media screen and (max-width: 700px){
-  .popup{ width: 70%;}
-}
-/* POP UP */

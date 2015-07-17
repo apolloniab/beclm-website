@@ -102,7 +102,7 @@
     .item h2 {letter-spacing: 1.5px;width:85%;font-size:1.5em}
     .item:nth-child(2) p {width:80%;}
     #etapes_tablette{display:none;}
-    .check {  width: 6.5% !important;  margin: 0 !important;}
+    .check {  width: 5.5% !important;  margin: 0 !important;}
     #cssmenu > ul > li:nth-child(3) {display:none}
     .infos_contact {float:none;width:100%}
         #souscription2 {display:block;  width: 45%; margin: 1% auto;}

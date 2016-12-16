@@ -1207,6 +1207,14 @@ footer li {
     font-size: 0.7em;
 }
 
+footer li a {
+    color: white;
+}
+
+footer li a:hover {
+    color: #4f9ee5;
+}
+
 footer ul {
     width: 70%;
     display: inline;

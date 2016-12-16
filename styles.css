@@ -1224,6 +1224,25 @@ iframe {
     background-position: 100%
 }
 
+.step-icon {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    background-size: 100%;
+    text-decoration: none;
+}
+
+.step-icon.step-integration {
+    background: url(img/step_integration.png) no-repeat;
+}
+.step-icon.step-update {
+    background: url(img/step_update.png) no-repeat;
+}
+.step-icon.step-finalisation {
+    background: url(img/step_finalisation.png) no-repeat;
+}
+
 .container2 a {
     text-decoration: none;
     color: #1F3D58;
@@ -1705,4 +1724,57 @@ img:nth-child(1) {
     color: white;
     background-color: #1F3D58;
     box-sizing: border-box;
+}
+
+.explain-row .explain-col {
+    display: inline-block;
+    width: 20%;
+    margin: 2%;
+    padding-left: 18px;
+    vertical-align: top;
+    text-align: left;
+    color: #555555;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.explain-row .explain-col li {
+    list-style-type: disc;
+}
+
+.arrow-row .arrow-col {
+    display: inline-block;
+    width: 20%;
+    margin: 0 2%;
+    vertical-align: top;
+}
+
+.arrow-row .arrow-col img {
+    width: auto;
+}
+
+.features-list {
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.features-list-feature {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    text-align: center;
+}
+
+.features-list-feature-title {
+    text-transform: uppercase;
+    color: #1F3D58;
+    margin: 10px 0;
+}
+
+.features-list-feature-desc {
+    max-width: 60%;
+    margin: auto;
+    color: #555555;
+    font-weight: 300;
 }

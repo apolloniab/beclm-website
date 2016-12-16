@@ -971,7 +971,7 @@ iframe {
     color: #3D3D3D;
 }
 
-.item:nth-child(2) p {
+.item.stepPart p {
     width: 20%;
     text-align: center;
     display: inline-block;
@@ -980,7 +980,8 @@ iframe {
     font-weight: 300;
     float: none;
     box-shadow: 0 0 15px 0 #eee;
-    padding: 5px
+    padding: 5px;
+    background-color : #fbfbfb;
 }
 
 .tablet1 {
@@ -1026,7 +1027,7 @@ iframe {
     color: #1F3D58;
 }
 
-.item:nth-child(2) span {
+.item.stepPart span {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 1em;
@@ -1199,7 +1200,7 @@ iframe {
     }
 }
 
-.item:nth-child(3), .item:nth-child(4) {
+.item.map-bg {
     background-image: url(img/map.png);
     background-attachment: fixed;
     background-size: contain;
@@ -1585,4 +1586,48 @@ img:nth-child(2) {
 
 img:nth-child(1) {
     -webkit-animation-delay: 12s;
+}
+
+
+/* LAW BLOCK */
+.law-container {
+    max-width: 750px;
+    margin: auto;
+}
+
+.law-block {
+    padding: 25px;
+    background: white;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.law-block-title {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.law-block.with-article-number {
+    position: relative;
+    margin-left: 45px;
+    padding-left: 40px;
+}
+
+.law-block-article-number {
+    position: absolute;
+        top: 50%;
+        left: -25px;
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    margin-top: -25px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    background-color: #1F3D58;
+    box-sizing: border-box;
 }

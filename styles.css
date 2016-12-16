@@ -691,6 +691,24 @@ iframe {
     height: 170px;
 }
 
+.offre_beclm.small {
+    display : inline-block;
+    vertical-align: top;
+    padding: 4px;
+    width: auto;
+    height: auto;
+    margin-left: 10px;
+}
+
+.offre_beclm.small + .offre_beclm.small {
+    margin-left: 3px;
+}
+
+.offre_beclm.small .offre-beclm-ico {
+    width: 75px;
+    height: 75px;
+}
+
 /* ALL OFFERS ICONES */
 
 /* --> mobile */
@@ -891,7 +909,7 @@ iframe {
     margin-top: 1%
 }
 
-#bloc_avantage div:first-child {
+#bloc_avantage .bloc-avantage-map {
     background-image: url(img/map.png);
     background-attachment: fixed;
     padding: 5% 0% 5% 0%;

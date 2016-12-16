@@ -674,6 +674,33 @@ iframe {
     -o-transition: all 0.4s ease-in-out;
 }
 
+.offre-beclm-ico {
+    width: 150px;
+    height: 150px;
+    background-size: 100%;
+    background-position: center center;
+    margin: auto;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+
+.offre_beclm:hover .offre-beclm-ico {
+    width: 170px;
+    height: 170px;
+}
+
+/* ALL OFFERS ICONES */
+.offre-beclm-ico.mobile {
+    background-image: url(img/CLM_mobile.svg);
+}
+
+.offre_beclm:hover .offre-beclm-ico.mobile {
+    background-image: url(img/CLM_mobile.svg);
+}
+
+
 #bandeau {
     width: 100%;
     height: 100%;

@@ -1497,6 +1497,19 @@ hr {
     margin-top: -5%;
 }
 
+.contact-us-btn {
+    padding: 15px 15px 15px;
+    margin-right: 5px;
+    cursor: pointer;
+    letter-spacing: 1.3px;
+    font-weight: 300;
+    display: inline-block;
+    color: #151515;
+    font-size: 1em;
+    background-color: #4F9EE5;
+    color: white;
+}
+
 @keyframes round {
     25% {
         opacity: 1;

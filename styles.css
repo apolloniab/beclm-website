@@ -799,6 +799,24 @@ iframe {
     background-image: url(img/offers_gel_hover.svg);
 }
 
+/* --> PPE */
+.offre-beclm-ico.ppe {
+    background-image: url(img/offers_ppe.svg);
+}
+
+.offre_beclm:hover .offre-beclm-ico.ppe {
+    background-image: url(img/offers_ppe_hover.svg);
+}
+
+/* --> PPE */
+.offre-beclm-ico.compliance-sheet {
+    background-image: url(img/offers_sheet.svg);
+}
+
+.offre_beclm:hover .offre-beclm-ico.compliance-sheet {
+    background-image: url(img/offers_sheet_hover.svg);
+}
+
 
 
 #bandeau {
@@ -1806,10 +1824,12 @@ img:nth-child(1) {
 
 .result-row {
     text-align: center;
+    margin-bottom: 25px;
 }
 
 .result-col {
     display: inline-block;
+    vertical-align: middle;
     width: calc(50% - 65px);
     padding: 0 30px;
 }

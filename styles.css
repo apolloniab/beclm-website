@@ -647,6 +647,10 @@ iframe {
     width: 10%
 }
 
+.offre_beclm p {
+    text-align: justify;
+}
+
 .offre_beclm:hover p {
     display: none
 }
@@ -1091,7 +1095,7 @@ iframe {
 
 .item.stepPart p {
     width: 20%;
-    text-align: center;
+    text-align: justify;
     display: inline-block;
     margin: 2%;
     font-size: 1.2em;
@@ -1125,7 +1129,7 @@ iframe {
 
 .item p {
     width: 35%;
-    text-align: left;
+    text-align: justify;
     float: right;
     margin-right: 10%;
     font-size: 1.3em;
@@ -1737,7 +1741,7 @@ img:nth-child(1) {
     background: white;
     font-weight: 300;
     margin-bottom: 20px;
-    text-align: left;
+    text-align: justify;
 }
 
 .law-block-title {
@@ -1775,7 +1779,7 @@ img:nth-child(1) {
     margin: 2%;
     padding-left: 18px;
     vertical-align: top;
-    text-align: left;
+    text-align: justify;
     color: #555555;
     font-weight: 300;
     -webkit-font-smoothing: antialiased;

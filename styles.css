@@ -1849,3 +1849,10 @@ img:nth-child(1) {
     font-weight: 300;
     text-align: justify;
 }
+
+.legals-content {
+    max-width: 50%;
+    margin: auto;
+    font-weight: 300;
+    text-align: justify;
+}

@@ -709,6 +709,13 @@ iframe {
     height: 75px;
 }
 
+.offre_beclm.blank,
+.offre_beclm.blank:hover {
+    background-color: transparent;
+    cursor: default !important;
+    box-shadow: none;
+}
+
 /* ALL OFFERS ICONES */
 
 /* --> mobile */

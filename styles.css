@@ -1796,3 +1796,25 @@ img:nth-child(1) {
     color: #555555;
     font-weight: 300;
 }
+
+.result-row {
+    text-align: center;
+}
+
+.result-col {
+    display: inline-block;
+    width: calc(50% - 65px);
+    padding: 0 30px;
+}
+
+.result-title {
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.result-content {
+    font-weight: 300;
+    text-align: justify;
+}

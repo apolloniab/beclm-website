@@ -1008,6 +1008,14 @@ iframe {
 .temporaire p {
     font-size: 0.9em;
     letter-spacing: 1px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.temporaire .in-write {
+    font-style: italic;
+    text-align: center;
+    margin: 40px 0;
 }
 
 .div_temporaire {

@@ -1137,9 +1137,8 @@ iframe {
 }
 
 .item span {
-    font-size: 2.2em;
     color: #323232;
-    font-weight: 300;
+    font-weight: bold;
 }
 
 .item:nth-child(1) li {

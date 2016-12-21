@@ -649,6 +649,10 @@ iframe {
 
 .offre_beclm p {
     text-align: justify;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
 }
 
 .offre_beclm:hover p {

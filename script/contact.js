@@ -3,7 +3,7 @@ var baseUrl = 'http://mailservice.4sh.fr';
 var config = {
     withCredentials: false,
     headers: {
-        'Authorization': 'Basic ' + btoa('beclm:207769c7aa31aa7568a3c5f16d890a7a'),
+        'Authorization': 'Basic ' + btoa('beclm:a76abeee46a157d278402d9f2b668b42'),
         'Content-Type' : 'application/x-www-form-urlencoded'
     },
     subject : '[BeCLM] Demande de renseignements'

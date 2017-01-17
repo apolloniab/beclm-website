@@ -1799,6 +1799,16 @@ img:nth-child(1) {
     box-sizing: border-box;
 }
 
+.law-check-item img,
+.law-check-item span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.law-check-item span {
+    padding-top: 5px;
+}
+
 .explain-row .explain-col {
     display: inline-block;
     width: 20%;

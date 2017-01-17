@@ -33,7 +33,6 @@ h4 {
 body {
     font-family: 'Lato', sans-serif;
     margin: 0;
-    text-align: center
 }
 
 #logo {
@@ -1050,7 +1049,6 @@ iframe {
 }
 
 #onglets, #onglets {
-    visibility: hidden;
     margin: 0;
     padding: 10% 0 2% 0;
 }
@@ -1069,7 +1067,6 @@ iframe {
     cursor: pointer;
     background-color: aliceblue;
     z-index: 1;
-    color: white;
     letter-spacing: 1.3px;
     font-weight: 300;
     display: inline-block;
@@ -1092,9 +1089,8 @@ iframe {
     background-color: rgba(247, 247, 247, 0.51);
     width: 100%;
     overflow: hidden;
-    text-align: center;
+    text-align: start;
     margin-bottom: 5%;
-    visibility: hidden
 }
 
 .item:nth-child(1) h2 {
@@ -1770,6 +1766,10 @@ img:nth-child(1) {
     text-align: justify;
 }
 
+.law-block ol li {
+    list-style-type: decimal;
+}
+
 .law-block-title {
     text-align: center;
     font-weight: 600;
@@ -1881,4 +1881,16 @@ img:nth-child(1) {
     margin: auto;
     font-weight: 300;
     text-align: justify;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.force-text-justify {
+    text-align: justify !important;
 }

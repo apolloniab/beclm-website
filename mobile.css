@@ -1,4 +1,4 @@
-@media all and (max-width: 720px), only screen and (max-width: 720px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 720px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 720px), only screen and (min-device-pixel-ratio: 2) and (max-width: 720px), only screen and (min-resolution: 192dpi) and (max-width: 720px), only screen and (min-resolution: 2dppx) and (max-width: 720 px0) {
+@media all and (max-width: 720px), only screen and (max-width: 720px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 720px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 720px), only screen and (min-device-pixel-ratio: 2) and (max-width: 720px), only screen and (min-resolution: 192dpi) and (max-width: 720px), only screen and (min-resolution: 2dppx) and (max-width: 720px) {
     #cssmenu:after, #cssmenu > ul:after {
         display: inline-block
     }
@@ -262,7 +262,7 @@
     }
 
     #constat .div p {
-        font-size:: 1em;
+        font-size: 1em;
         text-align: justify;
         margin: 3% auto;
         width: 90%
@@ -720,5 +720,16 @@
         left: 0 !important
     }
 
-/*/ FOOTER /*
+    .why-highlight-row {
+        max-width: 95%;
+        border-spacing: 0 0;
+    }
+
+    .why-highlight-col {
+        width: auto !important;
+        margin-top: 1px;
+        display: block;
+    }
+
+    /*/ FOOTER */
 }

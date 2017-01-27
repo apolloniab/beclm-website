@@ -843,7 +843,7 @@ iframe {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    padding-top: 16%;
+    padding-top: 95px;
 }
 
 #bandeau5 {
@@ -1097,7 +1097,7 @@ iframe {
 }
 
 .item:nth-child(1) h2 {
-    margin: 5% auto 3% auto;
+    margin: 5% auto 2% auto;
     letter-spacing: 15.5px;
     font-weight: 400;
     width: 50%;
@@ -1139,10 +1139,10 @@ iframe {
 }
 
 .item p {
-    width: 35% !important;
-    text-align: justify !important;
-    float: right !important;
-    margin-right: 10% !important;
+    width: 35%;
+    text-align: justify;
+    float: right;
+    margin-right: 10%;
     font-size: 1.3em;
     font-weight: 300;
 }
@@ -1166,7 +1166,7 @@ iframe {
 }
 
 .item h2 {
-    margin: 5% auto 5% auto;
+    margin: 5% auto 3% auto;
     letter-spacing: 5.5px;
     font-weight: 400;
     width: 85%;

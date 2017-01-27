@@ -1963,13 +1963,8 @@ img:nth-child(1) {
 }
 
 .why-highlight-text p {
-    width: 85%;
-    text-align: justify;
-    float: right;
-    margin-right: 10%;
-    font-size: 1.3em;
-    font-weight: 300;
-    margin-top: 35px !important;
+    width: auto;
+    margin-top: 35px;
 }
 
 

@@ -728,101 +728,102 @@ iframe {
 
 /* --> mobile */
 .offre-beclm-ico.mobile {
-    background-image: url(img/offers_mobile.svg);
+    background-image: url(img/0.offer-mobile.svg);
 }
 
 .offre_beclm:hover .offre-beclm-ico.mobile {
-    background-image: url(img/offers_mobile_hover.svg);
+    background-image: url(img/0.offer-mobile-hover.svg);
 }
 
 /* --> cloud */
 .offre-beclm-ico.cloud {
-    background-image: url(img/offers_cloud.svg);
+    background-image: url(img/0.offer-cloud.svg);
 }
 
 .offre_beclm:hover .offre-beclm-ico.cloud {
-    background-image: url(img/offers_cloud_hover.svg);
+    background-image: url(img/0.offer-cloud-hover.svg);
 }
 
 /* --> customer */
 .offre-beclm-ico.customer {
-    background-image: url(img/offers_customer.svg);
+    background-image: url(img/0.offer-customer.svg);
 }
 
 .offre_beclm:hover .offre-beclm-ico.customer {
-    background-image: url(img/offers_customer_hover.svg);
+    background-image: url(img/0.offer-customer-hover.svg);
+);
 }
 
 /* --> stores */
 .offre-beclm-ico.stores {
-    background-image: url(img/offers_stores.svg);
+    background-image: url(img/0.offer-stores.svg);
 }
 
 .offre_beclm:hover .offre-beclm-ico.stores {
-    background-image: url(img/offers_stores_hover.svg);
+    background-image: url(img/0.offer-stores-hover.svg);
 }
 
 /* --> database */
 .offre-beclm-ico.database{
-    background-image: url(img/offers_database.svg);
+    background-image: url(img/0.offer-database.svg);
 }
 
 .offre_beclm:hover .offre-beclm-ico.database {
-    background-image: url(img/offers_database_hover.svg);
+    background-image: url(img/0.offer-database-hover.svg);
 }
 
 /* --> rules */
 .offre-beclm-ico.rules {
-    background-image: url(img/offers_rules.svg);
+    background-image: url(img/0.offer-rules.svg);
 }
 
 .offre_beclm:hover .offre-beclm-ico.rules {
-    background-image: url(img/offers_rules_hover.svg);
+    background-image: url(img/0.offer-rules-hover.svg);
 }
 
 /* --> distribution */
 .offre-beclm-ico.distribution {
-    background-image: url(img/offers_distribution.svg);
+    background-image: url(img/0.offer-distribution.svg);
 }
 
 .offre_beclm:hover .offre-beclm-ico.distribution {
-    background-image: url(img/offers_distribution_hover.svg);
+    background-image: url(img/0.offer-distribution-hover.svg);
 }
 
 /* --> company */
 .offre-beclm-ico.company {
-    background-image: url(img/offers_company.svg);
+    background-image: url(img/0.offre-company.svg);
 }
 
 .offre_beclm:hover .offre-beclm-ico.company {
-    background-image: url(img/offers_company_hover.svg);
+    background-image: url(img/0.offer-company-hover.svg);
 }
 
 /* --> gel */
 .offre-beclm-ico.gel {
-    background-image: url(img/offers_gel.svg);
+    background-image: url(img/0.offer-list.svg);
 }
 
 .offre_beclm:hover .offre-beclm-ico.gel {
-    background-image: url(img/offers_gel_hover.svg);
+    background-image: url(img/0.offer-list-hover.svg);
 }
 
 /* --> PPE */
 .offre-beclm-ico.ppe {
-    background-image: url(img/offers_ppe.svg);
+    background-image: url(img/0.offer.ppe.svg);
 }
 
 .offre_beclm:hover .offre-beclm-ico.ppe {
-    background-image: url(img/offers_ppe_hover.svg);
+    background-image: url(img/0.offer-ppe-hover.svg);
 }
 
 /* --> PPE */
 .offre-beclm-ico.compliance-sheet {
-    background-image: url(img/offers_sheet.svg);
+    background-image: url(img/0.offer-sheet.svg);
 }
 
 .offre_beclm:hover .offre-beclm-ico.compliance-sheet {
-    background-image: url(img/offers_sheet_hover.svg);
+    background-image: url(img/0.offer-sheet-hover.svg);
 }
 
 
@@ -1138,10 +1139,10 @@ iframe {
 }
 
 .item p {
-    width: 35%;
-    text-align: justify;
-    float: right;
-    margin-right: 10%;
+    width: 35% !important;
+    text-align: justify !important;
+    float: right !important;
+    margin-right: 10% !important;
     font-size: 1.3em;
     font-weight: 300;
 }
@@ -1165,7 +1166,7 @@ iframe {
 }
 
 .item h2 {
-    margin: 5% auto 3% auto;
+    margin: 5% auto 5% auto;
     letter-spacing: 5.5px;
     font-weight: 400;
     width: 85%;
@@ -1972,4 +1973,24 @@ img:nth-child(1) {
 }
 
 
-/* CUSTOMER */
+/* DATABASE */
+
+.how-highlight-row {
+    display: table;
+    table-layout: fixed;
+    max-width: 60%;
+    margin: auto;
+    border-spacing: 2px 1px;
+}
+
+.how-highlight-col {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: table-cell;
+    width: 33.33%;
+    background-color: rgba(31, 61, 88, 0.7);
+    color: white;
+    text-align: justify;
+    padding: 60px 40px;
+}
+

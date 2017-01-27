@@ -18,6 +18,8 @@
 <title>Offre BeCLM DataBase</title>
 <link rel="icon" type="image/png" href="img/favicon.png" />
 </head>
+
+
 <body id="monDiv">
 <header>
     <img id="logoMobile" src="img/logo.svg" alt="Logo BeCLM" title="Logo BeCLM">
@@ -42,26 +44,111 @@
     </div>
     </div>
 </header>
-<div class="div_temporaire" id="bandeau">
-    <div class="temporaire" id="form">
-        <h1>- BeCLM DataBase -</h1>
-        <p>Une solution pour définir ses cas métiers et activer les régles de conformité.</p>
-        <p class="in-write">Page en cours d'écriture...</p>
-        <a href="contact.html" class="contact-us-btn">Contactez nous</a>
+
+<div class="container2">
+    <h1 class="text-center">- BeCLM - <br>
+        Des exemples de cas métiers élaborés avec les solutions BeCLM
+    </h1>
+    <ul id="onglets" class="first_onglets text-center">
+        <li class="actif">BeCLM Database</li>
+        <li>Comment ça marche ?</li>
+        <a href="contact.html">
+            <li class="highlight">Contactez nous</li>
+        </a>
+    </ul>
+    <div class="paginate">
+        <ul id="onglets2" class="second_onglets">
+            <li class="actif">1</li>
+            <li>2</li>
+            <li>3</li>
+            <a href="contact.html">
+                <li class="highlight">C</li>
+            </a>
+        </ul>
+    </div>
+</div>
+
+
+<div id="contenu">
+    <div class="item">
+        <h2 class="text-center">BeCLM DATABASE</h2>
+        <img src="img/beclm_sanctions_lists_1.png" style="width: 35%; margin-left: 100px" alt="Application BeCLM"
+             title="Application BeCLM">
+        <p class="force-text-justify">
+            Cas métier d'une nouvelle affaire à l'agence avec prospect non risqué.<br><br>
+            Cas métier d'une nouvelle affaire à l'agence avec prospect risqué.<br><br>
+            Cas métier d'une nouvelle affaire avec prospect non risqué et un conseiller nomade.<br><br>
+            Cas métier de la prise en charge d'une demande de prestation (sinistre).<br><br>
+            Cas métier d'une nouvelle opération avec un client existant.<br><br>
+        </p>
+    </div>
+
+
+    <div class="item map-bg">
+        <h2 class="text-center">QU'ELLE EST VOTRE SITUATION ?</h2>
+
+        <div class="how-highlight-row">
+            <div class="how-highlight-col">
+                NOUVELLE AFFAIRE A L’AGENCE AVEC UN PROSPECT NON RISQUÉ
+                <img src="img/right-arrow.svg">
+            </div>
+
+            <div class="how-highlight-col">
+                NOUVELLE AFFAIRE A L’AGENCE AVEC UN PROSPECT  RISQUÉ
+                <img src="img/right-arrow.svg">
+            </div>
+
+            <div class="how-highlight-col">
+                NOUVELLE AFFAIRE AVEC UN PROSPECT NON RISQUÉ  ET UN CONSEILLÉ NOMADE
+                <img src="img/right-arrow.svg">
+            </div>
+
+            <div class="how-highlight-col">
+                RISE EN  CHARGE D’UNE DEMANDE DE PRESTATION (SINISTRE)
+                <img src="img/right-arrow.svg">
+            </div>
+
+            <div class="how-highlight-col">
+                NOUVELLE OPÉRATION AVEC UN CLIENT EXISTANT
+                <img src="img/right-arrow.svg">
+            </div>
+
+        </div>
     </div>
 </div>
 <footer>
     <ul>
-        <li><a href="legals.html">Mentions Légales</a></li> |
-        <li><a href="contact.html">Nous contacter</a></li>
+        <li><a href="legals.html">Mentions Légales</a></li>|<li><a href="contact.html">Nous contacter</a></li>
     </ul>
     <span>Mis à jour : 17/01/2017  | Designed by 4SH</span>
 </footer>
+
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="jquery.min.js"></script>
+<script src="script.js"></script>
+<script src="resize.js"></script>
+<script src="onglets.js"></script>
+<noscript>Javascript non pris en charge</noscript>
+
+<!-- SCRIPT SCROLL -->
+<script>
+    $(document).ready(function () {
+        $('.scrollTo').click(function () { // Au clic sur un élément
+            var page = $(this).attr('href'); // Page cible
+            var speed = 750; // Durée de l'animation (en ms)
+            $('html, body').animate({scrollTop: $(page).offset().top}, speed); // Go
+            return false;
+        });
+    });
+</script>
+
+
+<!--
 <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript" ></script>
 <script src="script.js" ></script>
 <noscript>Javascript non pris en charge</noscript>
 <!-- SCRIPT HEIGHT AUTO -->
-<script>
+<!--<script>
 function adpaterALaTailleDeLaFenetre(){
 var largeur = document.documentElement.clientWidth,
 hauteur = document.documentElement.clientHeight;
@@ -80,7 +167,7 @@ element.attachEvent("on"+type, listener);
 addEvent(window, "load", adpaterALaTailleDeLaFenetre);
 // Puis à chaque fois que la fenêtre est redimensionnée
 addEvent(window, "resize", adpaterALaTailleDeLaFenetre);
-</script>
+</script> -->
 <!-- SCRIPT HEIGHT AUTO -->
 </body>
 </html>

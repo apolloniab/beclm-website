@@ -1931,20 +1931,6 @@ img:nth-child(1) {
     width: 100%;
 }
 
-/* TITLE */
-
-.h1-title {
-    text-transform: capitalize;
-}
-
-.h2-title {
-    text-transform: capitalize;
-    font-size: inherit;
-}
-
-.title-center{
-    text-align: center;
-}
 
 /* COMPLIANCE SHEETS */
 

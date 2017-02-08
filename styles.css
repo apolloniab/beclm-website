@@ -56,11 +56,11 @@ header {
     -webkit-background-size: 100% 305%;
     -ms-background-size: 100% 305%;
     background-size: 100% 305%;
-    -moz-border-image: url(img/header.png) 0;
+    -moz-border-image: url(img/header_effect.png) 0;
     height: 140px;
     background-position: 100% 100%;
     width: 100%;
-    background-image: url(img/header.png);
+    background-image: url(img/header_effect.png);
 }
 
 button {
@@ -437,12 +437,6 @@ body > .society {
     text-align: justify
 }
 
-#guillemets {
-    width: 45%;
-    position: absolute;
-    top: 64%;
-    left: 22%;
-}
 
 /*/ CITATION /*/
 .citation {
@@ -888,7 +882,7 @@ iframe {
 }
 
 #bandeau2 {
-    background-image: url(img/qsn.jpg);
+    background-image: url(img/header_qsn.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
@@ -909,7 +903,7 @@ iframe {
 }
 
 #bandeau2 {
-    background-image: url(img/qsn.jpg);
+    background-image: url(img/header_qsn.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
@@ -1027,7 +1021,7 @@ iframe {
 }
 
 .div_temporaire {
-    background-image: url(img/qsn.jpg);
+    background-image: url(img/header_qsn.jpg);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -1530,7 +1524,7 @@ select {
 }
 
 .social ul li a span {
-    background: url(img/ftr-sprit.png) no-repeat;
+    background: url(img/icon_rs.png) no-repeat;
     width: 25px;
     height: 25px;
     display: block;

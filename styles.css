@@ -849,7 +849,7 @@ iframe {
 }
 
 #bandeau5 {
-    background-image: url(img/entreprise.jpg);
+    background-image: url(img/concept_header.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
@@ -1259,7 +1259,7 @@ iframe {
 }
 
 #presentation, #contrat, #finalisation, #conseils {
-    background: url(img/etape.png) no-repeat;
+    background: url(img/mobile_steps.png) no-repeat;
     width: 100px;
     height: 100px;
     display: block;

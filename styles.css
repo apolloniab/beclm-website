@@ -1,5 +1,6 @@
 /*/ GENERAL /*/
 
+
 h2 {
     font-size: 1.6em;
     letter-spacing: 4px;
@@ -836,6 +837,7 @@ iframe {
 }
 
 #bandeau4 {
+    height: 100%;
     width: 100%;
     overflow: hidden;
     padding-top: 4.5%;
@@ -1922,7 +1924,20 @@ img:nth-child(1) {
     text-align: justify !important;
 }
 
+/* TITLE */
 
+.h1-title {
+    text-transform: capitalize;
+}
+
+.h2-title {
+    text-transform: capitalize;
+    font-size: inherit;
+}
+
+.title-center{
+    text-align: center;
+}
 
 /* COMPLIANCE SHEETS */
 

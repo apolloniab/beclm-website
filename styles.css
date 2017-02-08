@@ -378,21 +378,21 @@ ul#menu {
 }
 
 #concept {
-    background-image: url(img/01.jpg);
+    background-image: url(img/home_concept.jpg);
     background-repeat: no-repeat;
     background-position: 0% 35%;
     background-size: cover
 }
 
 #offres {
-    background-image: url(img/02.jpg);
+    background-image: url(img/home_offers.jpg);
     background-repeat: no-repeat;
     background-position: 0% 20%;
     background-size: cover
 }
 
 #avantages {
-    background-image: url(img/03.jpg);
+    background-image: url(img/home_advantages.jpg);
     background-repeat: no-repeat;
     background-position: 0% 10%;
     background-size: cover
@@ -1922,6 +1922,12 @@ img:nth-child(1) {
 
 .force-text-justify {
     text-align: justify !important;
+}
+
+/* HOME */
+
+.large-width {
+    width: 100%;
 }
 
 /* TITLE */

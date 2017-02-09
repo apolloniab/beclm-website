@@ -56,11 +56,11 @@ header {
     -webkit-background-size: 100% 305%;
     -ms-background-size: 100% 305%;
     background-size: 100% 305%;
-    -moz-border-image: url(img/header_effect.png) 0;
+    -moz-border-image: url(../img/header_effect.png) 0;
     height: 140px;
     background-position: 100% 100%;
     width: 100%;
-    background-image: url(img/header_effect.png);
+    background-image: url(../img/header_effect.png);
 }
 
 button {
@@ -378,21 +378,21 @@ ul#menu {
 }
 
 #concept {
-    background-image: url(img/home_concept.jpg);
+    background-image: url(../img/home_concept.jpg);
     background-repeat: no-repeat;
     background-position: 0% 35%;
     background-size: cover
 }
 
 #offres {
-    background-image: url(img/home_offers.jpg);
+    background-image: url(../img/home_offers.jpg);
     background-repeat: no-repeat;
     background-position: 0% 20%;
     background-size: cover
 }
 
 #avantages {
-    background-image: url(img/home_advantages.jpg);
+    background-image: url(../img/home_advantages.jpg);
     background-repeat: no-repeat;
     background-position: 0% 10%;
     background-size: cover
@@ -587,7 +587,7 @@ iframe {
 }
 
 .level {
-    background-image: url(img/map.png);
+    background-image: url(../img/map.png);
     background-attachment: fixed;
     margin-bottom: 70px;
     height: 80px
@@ -723,102 +723,102 @@ iframe {
 
 /* --> mobile */
 .offre-beclm-ico.mobile {
-    background-image: url(img/offers/offer_mobile.svg);
+    background-image: url(../img/offers/offer_mobile.svg);
 }
 
 .offre_beclm:hover .offre-beclm-ico.mobile {
-    background-image: url(img/offers/offer_mobile_hover.svg);
+    background-image: url(../img/offers/offer_mobile_hover.svg);
 }
 
 /* --> cloud */
 .offre-beclm-ico.cloud {
-    background-image: url(img/offers/offer_cloud.svg);
+    background-image: url(../img/offers/offer_cloud.svg);
 }
 
 .offre_beclm:hover .offre-beclm-ico.cloud {
-    background-image: url(img/offers/offer_cloud_hover.svg);
+    background-image: url(../img/offers/offer_cloud_hover.svg);
 }
 
 /* --> customer */
 .offre-beclm-ico.customer {
-    background-image: url(img/offers/offer_customer.svg);
+    background-image: url(../img/offers/offer_customer.svg);
 }
 
 .offre_beclm:hover .offre-beclm-ico.customer {
-    background-image: url(img/offers/offer_customer_hover.svg);
+    background-image: url(../img/offers/offer_customer_hover.svg);
 );
 }
 
 /* --> stores */
 .offre-beclm-ico.stores {
-    background-image: url(img/offers/offer_stores.svg);
+    background-image: url(../img/offers/offer_stores.svg);
 }
 
 .offre_beclm:hover .offre-beclm-ico.stores {
-    background-image: url(img/offers/offer_stores_hover.svg);
+    background-image: url(../img/offers/offer_stores_hover.svg);
 }
 
 /* --> database */
 .offre-beclm-ico.database{
-    background-image: url(img/offers/offer_database.svg);
+    background-image: url(../img/offers/offer_database.svg);
 }
 
 .offre_beclm:hover .offre-beclm-ico.database {
-    background-image: url(img/offers/offer_database_hover.svg);
+    background-image: url(../img/offers/offer_database_hover.svg);
 }
 
 /* --> rules */
 .offre-beclm-ico.rules {
-    background-image: url(img/offers/offer_rules.svg);
+    background-image: url(../img/offers/offer_rules.svg);
 }
 
 .offre_beclm:hover .offre-beclm-ico.rules {
-    background-image: url(img/offers/offer_rules_hover.svg);
+    background-image: url(../img/offers/offer_rules_hover.svg);
 }
 
 /* --> distribution */
 .offre-beclm-ico.distribution {
-    background-image: url(img/offers/offer_distribution.svg);
+    background-image: url(../img/offers/offer_distribution.svg);
 }
 
 .offre_beclm:hover .offre-beclm-ico.distribution {
-    background-image: url(img/offers/offer_distribution_hover.svg);
+    background-image: url(../img/offers/offer_distribution_hover.svg);
 }
 
 /* --> company */
 .offre-beclm-ico.company {
-    background-image: url(img/offers/offer_company.svg);
+    background-image: url(../img/offers/offer_company.svg);
 }
 
 .offre_beclm:hover .offre-beclm-ico.company {
-    background-image: url(img/offers/offer_company_hover.svg);
+    background-image: url(../img/offers/offer_company_hover.svg);
 }
 
 /* --> gel */
 .offre-beclm-ico.gel {
-    background-image: url(img/offers/offer_list.svg);
+    background-image: url(../img/offers/offer_list.svg);
 }
 
 .offre_beclm:hover .offre-beclm-ico.gel {
-    background-image: url(img/offers/offer_list_hover.svg);
+    background-image: url(../img/offers/offer_list_hover.svg);
 }
 
 /* --> PPE */
 .offre-beclm-ico.ppe {
-    background-image: url(img/offers/offer_ppe.svg);
+    background-image: url(../img/offers/offer_ppe.svg);
 }
 
 .offre_beclm:hover .offre-beclm-ico.ppe {
-    background-image: url(img/offers/offer_ppe_hover.svg);
+    background-image: url(../img/offers/offer_ppe_hover.svg);
 }
 
 /* --> PPE */
 .offre-beclm-ico.compliance-sheet {
-    background-image: url(img/offers/offer_sheet.svg);
+    background-image: url(../img/offers/offer_sheet.svg);
 }
 
 .offre_beclm:hover .offre-beclm-ico.compliance-sheet {
-    background-image: url(img/offers/offer_sheet_hover.svg);
+    background-image: url(../img/offers/offer_sheet_hover.svg);
 }
 
 
@@ -835,7 +835,7 @@ iframe {
     width: 100%;
     overflow: hidden;
     padding-top: 4.5%;
-    background-image: url(img/contact_background.jpg);
+    background-image: url(../img/contact_background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -843,7 +843,7 @@ iframe {
 }
 
 #bandeau5 {
-    background-image: url(img/concept_header.jpg);
+    background-image: url(../img/concept_header.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
@@ -882,7 +882,7 @@ iframe {
 }
 
 #bandeau2 {
-    background-image: url(img/header_qsn.jpg);
+    background-image: url(../img/header_qsn.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
@@ -903,7 +903,7 @@ iframe {
 }
 
 #bandeau2 {
-    background-image: url(img/header_qsn.jpg);
+    background-image: url(../img/header_qsn.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
@@ -940,7 +940,7 @@ iframe {
 }
 
 #bloc_avantage .bloc-avantage-map {
-    background-image: url(img/map.png);
+    background-image: url(../img/map.png);
     background-attachment: fixed;
     padding: 5% 0% 5% 0%;
     margin-bottom: 70px;
@@ -1021,7 +1021,7 @@ iframe {
 }
 
 .div_temporaire {
-    background-image: url(img/header_qsn.jpg);
+    background-image: url(../img/header_qsn.jpg);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -1253,7 +1253,7 @@ iframe {
 }
 
 #presentation, #contrat, #finalisation, #conseils {
-    background: url(img/mobile_steps.png) no-repeat;
+    background: url(../img/mobile_steps.png) no-repeat;
     width: 100px;
     height: 100px;
     display: block;
@@ -1287,13 +1287,13 @@ iframe {
 }
 
 .step-icon.step-integration {
-    background: url(img/step_integration.png) no-repeat;
+    background: url(../img/step_integration.png) no-repeat;
 }
 .step-icon.step-update {
-    background: url(img/step_update.png) no-repeat;
+    background: url(../img/step_update.png) no-repeat;
 }
 .step-icon.step-finalisation {
-    background: url(img/step_finalisation.png) no-repeat;
+    background: url(../img/step_finalisation.png) no-repeat;
 }
 
 .container2 a {
@@ -1348,7 +1348,7 @@ iframe {
 }
 
 .item.map-bg {
-    background-image: url(img/map.png);
+    background-image: url(../img/map.png);
     background-attachment: fixed;
     background-size: contain;
     overflow: hidden;
@@ -1524,7 +1524,7 @@ select {
 }
 
 .social ul li a span {
-    background: url(img/icon_rs.png) no-repeat;
+    background: url(../img/icon_rs.png) no-repeat;
     width: 25px;
     height: 25px;
     display: block;

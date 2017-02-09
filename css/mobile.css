@@ -1,0 +1,733 @@
+@media all and (max-width: 720px), only screen and (max-width: 720px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 720px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 720px), only screen and (min-device-pixel-ratio: 2) and (max-width: 720px), only screen and (min-resolution: 192dpi) and (max-width: 720px), only screen and (min-resolution: 2dppx) and (max-width: 720px) {
+    #cssmenu:after, #cssmenu > ul:after {
+        display: inline-block
+    }
+
+    /*/ GENERAL /*/
+    h1 {
+        font-size: 1.3em;
+        margin-top: 20%
+    }
+
+    p {
+        letter-spacing: 0;
+    }
+
+    /*/ GENERAL /*/
+    /*/ MENU /*/
+    ul#menu {
+        background: #ffffff;
+        margin-top: -15%;
+        padding-top: 15%;
+    }
+
+    ul.open {
+        background-color: aliceblue;
+    }
+
+    #cssmenu {
+        width: 100%;
+        z-index: 3;
+        margin-top: -3%;
+    }
+
+    #cssmenu ul {
+        width: 100%;
+        display: none;
+    }
+
+    #cssmenu.align-center > ul,
+    #cssmenu.align-right ul ul {
+        text-align: left;
+    }
+
+    #cssmenu ul li,
+    #cssmenu ul ul li,
+    #cssmenu ul li:hover > ul > li {
+        width: 100%;
+        height: auto;
+        border-top: 1px solid rgba(120, 120, 120, 0.15);
+    }
+
+    #cssmenu ul li a,
+    #cssmenu ul ul li a {
+        width: 100%;
+        padding: 20px;
+    }
+
+    li#nosoff {
+        margin-left: 0px;
+    }
+
+    #cssmenu > ul > li, #cssmenu.align-center > ul > li, #cssmenu.align-right > ul > li {
+        float: none;
+        display: block;
+        width: 90%
+    }
+
+    #cssmenu ul ul li a {
+        padding: 20px 20px 20px 30px;
+        font-size: 12px;
+        color: #000000;
+        background: none;
+    }
+
+    #cssmenu ul ul li:hover > a,
+    #cssmenu ul ul li a:hover {
+        color: #000000;
+    }
+
+    #cssmenu ul ul ul li a {
+        padding-left: 40px;
+    }
+
+    #cssmenu ul ul,
+    #cssmenu ul ul ul {
+        position: relative;
+        left: 0;
+        right: auto;
+        width: 100%;
+        margin: 0;
+        top: -2px;
+    }
+
+    #cssmenu > ul > li.has-sub > a::after,
+    #cssmenu ul ul li.has-sub > a::after {
+        display: none;
+    }
+
+    #menu-line {
+        display: none;
+    }
+
+    #cssmenu #menu-button {
+        display: block;
+        padding: 20px;
+        color: #000000;
+        cursor: pointer;
+        font-size: 12px;
+        text-transform: uppercase;
+        margin-left: -20%;
+        width: 24%;
+    }
+
+    #cssmenu #menu-button::after {
+        content: '';
+        position: absolute;
+        top: -138%;
+        right: -380%;
+        display: block;
+        width: 15px;
+        height: 2px;
+        background: #000000;
+    }
+
+    #cssmenu #menu-button::before {
+        content: '';
+        position: absolute;
+        top: -125%;
+        right: -380%;
+        display: block;
+        width: 15px;
+        height: 3px;
+        border-top: 2px solid #000000;
+        border-bottom: 2px solid #000000;
+    }
+
+    #cssmenu .submenu-button {
+        position: absolute;
+        z-index: 10;
+        right: 0;
+        top: 0;
+        display: block;
+        border-left: 1px solid rgba(120, 120, 120, 0.15);
+        height: 52px;
+        width: 52px;
+        cursor: pointer;
+    }
+
+    #cssmenu .submenu-button::after {
+        content: '';
+        position: absolute;
+        top: 21px;
+        left: 26px;
+        display: block;
+        width: 1px;
+        height: 11px;
+        background: #000000;
+        z-index: 99;
+    }
+
+    #cssmenu .submenu-button::before {
+        content: '';
+        position: absolute;
+        left: 21px;
+        top: 26px;
+        display: block;
+        width: 11px;
+        height: 1px;
+        background: #000000;
+        z-index: 99;
+    }
+
+    #cssmenu .submenu-button.submenu-opened:after {
+        display: none;
+    }
+
+    /*/ MENU /*/
+    /*/ CONTENT /*/
+    #concept {
+        background-position: 40% 69%;
+    }
+
+    #offres {
+        background-position: 45% 20%;
+    }
+
+    #avantages {
+        background-position: 53% 10%;
+    }
+
+    .frise {
+        height: 34%;
+        -webkit-filter: brightness(100%);
+    }
+
+    #bandeau {
+        height: 93%;
+        padding-top: 20%
+    }
+
+    .society {
+        width: 80%
+    }
+
+    body > .society {
+        width: 80%;
+        margin: 7% auto -20% auto;
+    }
+
+    #guillemets {
+        width: 90%;
+        top: 50%;
+        left: 3%
+    }
+
+    .society p {
+        text-align: justify;
+        padding: 0;
+    }
+
+    .scroll {
+        display: none
+    }
+
+    .constat {
+        display: block;
+        text-align: center
+    }
+
+    .img_constat {
+        margin: 25% auto 5% auto;
+        width: 25%
+    }
+
+    .vertical_align {
+        text-align: center;
+        width: 85%
+    }
+
+    #second_constat .vertical_align {
+        float: none;
+        margin: 0 auto;
+        width: 85%
+    }
+
+    .vertical_align img {
+        width: 95%;
+        padding-left: 0
+    }
+
+    .constat p, .constat h3 {
+        width: 100%;
+        font-size: 0.9em;
+        margin: 0 auto
+    }
+
+    .constat h2 {
+        width: 95%;
+        font-size: 1.2em;
+        text-align: center;
+        margin: 5% auto;
+    }
+
+    #constat .div p {
+        font-size: 1em;
+        text-align: justify;
+        margin: 3% auto;
+        width: 90%
+    }
+
+    #constat p {
+        width: 90%
+    }
+
+    #constat h1 {
+        margin-top: 20%;
+        letter-spacing: 4px;
+        width: 95%
+    }
+
+    #constat h4 {
+        display: none
+    }
+
+    .constat div > img {
+        width: 25%;
+        margin-top: 0
+    }
+
+    .constat img {
+        width: 95%
+    }
+
+    .constat span {
+        font-size: 1.5em
+    }
+
+    .constat_solution {
+        width: 90% !important;
+        float: none;
+        margin: 10% auto
+    }
+
+    iframe {
+        display: none
+    }
+
+    #offre_tablet {
+        margin-top: 30%;
+        overflow: hidden
+    }
+
+    #tablet {
+        margin: 2% 0 5% 0;
+        width: 160%
+    }
+
+    #bandeau3 {
+        overflow: visible;
+        margin: 40% auto 4% auto;
+        width: 100%;
+    }
+
+    #bandeau3 > p {
+        font-size: 1em;
+        margin: 3% auto 10% auto;
+        letter-spacing: 0
+    }
+
+    #bandeau3 h2 {
+        font-size: 1.5em;
+    }
+
+    #bandeau3 p {
+        font-size: 80%
+    }
+
+    #bandeau2 h1 {
+        font-size: 1.2em;
+        top: 10%;
+    }
+
+    #bandeau2 {
+        height: 55%
+    }
+
+    .offre_beclm {
+        width: 250px;
+        height: 250px
+    }
+
+    .level h2 {
+        font-size: 1em !important
+    }
+
+    #second_constat img {
+        width: 115%
+    }
+
+    #second_constat h3 {
+        font-size: 1.2em;
+        letter-spacing: 1px
+    }
+
+    /*/ CONTENT /*/
+    /*/ AVANTAGES /*/
+    .texte_avantage {
+        float: none;
+        width: 90%;
+        text-align: center;
+    }
+
+    .texte_avantage p {
+        text-align: justify;
+        font-size: 0.9em
+    }
+
+    .avantage img {
+        width: 90%
+    }
+
+    .texte_avantage img {
+        width: 25%;
+        padding-left: 8%
+    }
+
+    #bloc_avantage h2 {
+        font-size: 1em;
+        width: 90%
+    }
+
+    .margin-top {
+        margin-top: 40% !important
+    }
+
+    .texte_avantage h3 {
+        float: none;
+        text-align: center
+    }
+
+    #bloc_avantage div:first-child {
+        margin-top: 10%
+    }
+
+    #bloc_avantage div:first-child p {
+        width: 98%
+    }
+
+    /*/ AVANTAGES /*/
+    /*/ TABLETTE /*/
+    .container {
+        margin-top: 20%;
+        height: 90%
+    }
+
+    .container2 h1 {
+        margin-bottom: 20%;
+        margin-top: -25%;
+    }
+
+    .photo {
+        width: 160%;
+        left: -30%
+    }
+
+    .scroll3 {
+        display: none
+    }
+
+    .demonstration {
+        top: 80%;
+        font-size: 1em;
+        color: black
+    }
+
+    .item:nth-child(1) h2 {
+        letter-spacing: 5.5px;
+        width: 80%
+    }
+
+    .item:nth-child(1) img, .item:nth-child(3) img, .item:nth-child(4) img, .item:nth-child(5) img, .item:nth-child(6) img, .item:nth-child(7) img {
+        width: 80%;
+        margin: 5% auto;
+    }
+
+    .item p {
+        width: 85%;
+        text-align: justify;
+        margin: 0 auto;
+        font-size: 1em;
+        float: none
+    }
+
+    .item span {
+        font-size: 2.2em
+    }
+
+    .container2 {
+        height: auto;
+    }
+
+    .item h2 {
+        letter-spacing: 1.5px;
+        width: 85%;
+        font-size: 1.5em
+    }
+
+    .item:nth-child(2) p {
+        width: 80%;
+    }
+
+    #etapes_tablette {
+        display: none;
+    }
+
+    .check {
+        width: 5.5% !important;
+        margin: 0 !important;
+    }
+
+    #cssmenu > ul > li:nth-child(3) {
+        display: none
+    }
+
+    .infos_contact {
+        float: none;
+        width: 100%
+    }
+
+    #souscription2 {
+        display: block;
+        width: 45%;
+        margin: 1% auto;
+    }
+
+    #souscription {
+        display: none;
+    }
+
+    .paginate {
+        display: block !important
+    }
+
+    .second_onglets {
+        display: block !important;
+        padding: 0
+    }
+
+    .first_onglets {
+        display: none !important
+    }
+
+    #onglets2 div {
+        width: 10px;
+        height: 10px;
+        background-color: white;
+        border-radius: 50%;
+        margin: 25% auto
+    }
+
+    #contenu {
+        top: 5px;
+    }
+
+    #onglets2 li {
+        width: 25px;
+        height: 25px;
+        display: inline-block;
+        padding: 1%;
+        background-color: rgb(217, 237, 255)
+    }
+
+    .abonnement div {
+        width: 120px;
+        height: 120px
+    }
+
+    /*/ TABLETTE /*/
+    /*/ TEMPORAIRE /*/
+    .temporaire {
+        width: 90%;
+        margin: 20% auto
+    }
+
+    .div_temporaire {
+        background-position: 62%
+    }
+
+    /*/ TEMPORAIRE /*/
+    /*/ CONTACT /*/
+    #contact {
+        margin: 10% auto;
+        width: 95%
+    }
+
+    h3 {
+        font-size: 1em
+    }
+
+    #contact hr {
+        margin-top: 2%;
+    }
+
+    form {
+        width: auto;
+        padding: 8%;
+        margin: 0 auto;
+    }
+
+    label, input {
+        width: 100%;
+        padding: 1%;
+    }
+
+    .message_contact li {
+        width: 100%
+    }
+
+    #contact p {
+        text-align: justify;
+        width: 100%;
+        font-size: 0.7em;
+    }
+
+    #contact h3 {
+        font-size: 1.4em
+    }
+
+    form ul {
+        padding: 0
+    }
+
+    #bandeau4 {
+        height: auto;
+        overflow: auto
+    }
+
+    #bandeau5 {
+        height: 250px
+    }
+
+    /*/ CONTACT /*/
+    /*/ CONTENT /*/
+    /*/ HEADER /*/
+    header {
+        height: 115px;
+        background-size: 185% 160%;
+        background-position: 50% 110%;
+    }
+
+    /*/ HEADER /*/
+    /*/ HOVER INFOS /*/
+    .frise h2 {
+        transform: translateY(0px);
+        opacity: 1;
+        transition: all 0.2s ease-in-out;
+        text-transform: uppercase;
+        letter-spacing: 0.7em;
+        font-weight: 300;
+        font-size: 1em;
+        margin: 10% 0 0 0;
+    }
+
+    .frise p {
+        transform: translateY(0px);
+        opacity: 1;
+        transition: all 0.2s linear;
+        letter-spacing: 3.5px;
+        font-weight: 200;
+        line-height: 50%;
+    }
+
+    hr {
+        width: 50%;
+        opacity: 1;
+        transition: all 0.2s ease-in-out;
+        background-color: white;
+        height: 1.5px;
+        margin-top: 8px;
+        border: none;
+    }
+
+    .frise a.info, .frise span {
+        opacity: 1;
+        transition: all 0.5s ease-in-out;
+        font-size: 1em;
+        letter-spacing: 0.4em;
+    }
+
+    .infos {
+        margin-top: 7%;
+    }
+
+    #offres .infos {
+        float: left;
+    }
+
+    .frise p > img {
+        width: 7%;
+    }
+
+    /*/ HOVER INFOS /*/
+    /*/ LOGO /*/
+    #logo {
+        display: none;
+    }
+
+    #logoMobile {
+        display: block;
+        width: 80px;
+        position: relative;
+        padding-top: 2%;
+        margin: 0 auto;
+        z-index: 5;
+    }
+
+    /*/ LOGO /*/
+    footer {
+        font-size: 0.7em;
+        height: 10.3%;
+        overflow: hidden;
+    }
+
+    footer ul {
+        width: auto;
+        display: block;
+        padding: 0;
+        margin: 2% auto;
+    }
+
+    footer span {
+        float: none;
+        padding: 0;
+        line-height: 0;
+        font-size: 0.9em;
+        line-height: 2em;
+    }
+
+    footer li {
+        margin-left: 1%;
+        margin-right: 1%;
+        letter-spacing: 0.8px;
+        font-size: 0.9em;
+        line-height: normal;
+    }
+
+    .social {
+        width: auto !important;
+        position: relative !important;
+        background-color: white;
+        left: 0;
+    }
+
+    .social li {
+        width: auto !important;
+    }
+
+    .social ul {
+        left: 0 !important;
+    }
+
+    .why-highlight-row {
+        max-width: 95%;
+        border-spacing: 0 0;
+    }
+
+    .why-highlight-col {
+        width: auto !important;
+        margin-top: 1px;
+        display: block;
+    }
+
+

@@ -2003,3 +2003,6 @@ img:nth-child(1) {
     padding: 60px 40px;
 }
 
+.cursor {
+    cursor: pointer;
+}

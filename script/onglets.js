@@ -2,6 +2,7 @@ $(function() {
     $('#contenu').css({"visibility":"visible"});
     $('#onglets').css({"visibility":"visible"});
     $('#onglets').click(function(event) {
+        console.log(event);
         var actuel = event.target;
         if (!/li/i.test(actuel.nodeName) || actuel.className.indexOf('actif') > -1) {
             (actuel.nodeName)
@@ -18,6 +19,17 @@ $(function() {
         });
     }
     setDisplay();
+
+    $('#goTab2').click(function (event) {
+        console.log(event);
+        var actuel = event.target;
+        if (!/li/i.test(actuel.nodeName) || actuel.className.indexOf('actif') > -1) {
+            (actuel.nodeName)
+            return;
+        }
+        $(actuel).addClass('actif').siblings().removeClass('actif');
+        setDisplay();
+    });
 });
 
 $(function() {

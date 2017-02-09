@@ -86,7 +86,7 @@
 
     <div id="contenu">
         <div class="item">
-            <h2 class="text-center">B<span class="h2-title">e</span>CLM CLOUD</h2>
+            <h2 class="text-center">B<em class="h2-title">e</em>CLM CLOUD</h2>
             <img src="img/beclm_cloud_screen4.png" alt="Application BeCLM" title="Application BeCLM">
             <p> Afin de répondre aux mieux aux attentes des courtiers en assurance et aussi de ses propres clients
                 BeCLM a développé une solution logiciel innovante déployée sur desktop. Nous avons
@@ -194,32 +194,32 @@
       </div>
 </div>
 
-<footer>
-    <ul>
-        <li><a href="legals.html">Mentions Légales</a></li>|<li><a href="contact.html">Nous contacter</a></li>
-    </ul>
-    <span>Mis à jour : 17/01/2017  | Designed by 4SH</span>
-</footer>
+    <footer>
+        <ul>
+            <li><a href="legals.html">Mentions Légales</a></li>
+            |
+            <li><a href="contact.html">Nous contacter</a></li>
+        </ul>
+        <span>Mis à jour : 17/01/2017  | Designed by 4SH</span>
+    </footer>
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="resize.js"></script>
+    <script src="onglets.js"></script>
+    <noscript>Javascript non pris en charge</noscript>
 
-
-<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-<script src="jquery.min.js"></script>
-<script src="script.js"></script>
-<script src="resize.js"></script>
-<script src="onglets.js"></script>
-<noscript>Javascript non pris en charge</noscript>
-
-<!-- SCRIPT SCROLL -->
-<script>
-    $(document).ready(function () {
-        $('.scrollTo').click(function () { // Au clic sur un élément
-            var page = $(this).attr('href'); // Page cible
-            var speed = 750; // Durée de l'animation (en ms)
-            $('html, body').animate({scrollTop: $(page).offset().top}, speed); // Go
-            return false;
+    <!-- SCRIPT SCROLL -->
+    <script>
+        $(document).ready(function () {
+            $('.scrollTo').click(function () { // Au clic sur un élément
+                var page = $(this).attr('href'); // Page cible
+                var speed = 750; // Durée de l'animation (en ms)
+                $('html, body').animate({scrollTop: $(page).offset().top}, speed); // Go
+                return false;
+            });
         });
-    });
-</script>
+    </script>
 </body>
 </html>
 

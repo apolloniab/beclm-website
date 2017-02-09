@@ -1934,6 +1934,7 @@ img:nth-child(1) {
 .h2-title {
     text-transform: capitalize;
     font-size: inherit;
+    font-style: normal;
 }
 
 

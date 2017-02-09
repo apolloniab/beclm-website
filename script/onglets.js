@@ -22,12 +22,9 @@ $(function() {
 
     $('#goTab2').click(function (event) {
         console.log(event);
-        var actuel = event.target;
-        if (!/li/i.test(actuel.nodeName) || actuel.className.indexOf('actif') > -1) {
-            (actuel.nodeName)
-            return;
-        }
-        $(actuel).addClass('actif').siblings().removeClass('actif');
+        $('#onglets li:nth-child(2)').addClass('actif').siblings().removeClass('actif');
+        $('#onglets2 li:nth-child(2)').addClass('actif').siblings().removeClass('actif');
+
         setDisplay();
     });
 });

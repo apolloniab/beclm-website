@@ -2006,3 +2006,8 @@ img:nth-child(1) {
 .cursor {
     cursor: pointer;
 }
+
+.desktop_cloud {
+    margin-left: 10%;
+    margin-top: -8%;;
+}

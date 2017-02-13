@@ -2022,6 +2022,7 @@ img:nth-child(1) {
     margin-top: 8px;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
     -webkit-transition: background-color 2s ease-out;
     -moz-transition: background-color 2s ease-out;
     -o-transition: background-color 2s ease-out;
@@ -2037,9 +2038,12 @@ img:nth-child(1) {
 }
 
 .situation_item img {
-
-
-
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
 }
 
 .situation_item:hover {

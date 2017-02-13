@@ -1940,6 +1940,7 @@ img:nth-child(1) {
 
 /* COMPLIANCE SHEETS */
 
+
 .bloc-why {
     background-color: #fbfbfb;
 }
@@ -2010,18 +2011,39 @@ img:nth-child(1) {
 
 /* DATABASE */
 
-.hunder_container {
-    background-color: rgba(31, 61, 88, 0.7);
-    color: white;
-    display: in;
-    width: 60%;
-    padding: 37px;
-    margin-top: 9px;
-    margin-left:auto;
+.situation_container {
+    margin-bottom: 50px;
+}
+
+.situation_item {
+    width: 50%;
+    height: 70px;
+    background: rgba(31, 61, 88, 0.7);
+    margin-top: 8px;
+    margin-left: auto;
     margin-right: auto;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+}
+
+.situation_item a {
+    color: white;
+    margin-left: 20px;
+    margin-top: 25px;
+    position: absolute;
+}
+
+.situation_item img {
+
+
+
+}
+
+.situation_item:hover {
+    background-color: #4F9EE5;
     cursor: pointer;
 }
 
-hunder_container:hover {
-    background-color: #323232;
-}

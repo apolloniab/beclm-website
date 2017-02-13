@@ -87,32 +87,47 @@
     <div class="item map-bg">
         <h2 class="text-center">QU'ELLE EST VOTRE SITUATION ?</h2>
 
-    <div class="situation_container">
-        <div class="situation_item">
-            <a href="#">NOUVELLE AFFAIRE A L’AGENCE AVEC UN PROSPECT NON RISQUÉ</a>
-            <img src="img/right-arrow.svg" >
+        <div class="situation_container" id="situationListContainer">
+            <div class="situation_item" id="0">
+                NOUVELLE AFFAIRE A L’AGENCE AVEC UN PROSPECT NON RISQUÉ
+                <img src="img/right-arrow.svg" >
+            </div>
+
+            <div class="situation_item" id="1">
+                NOUVELLE AFFAIRE A L’AGENCE AVEC UN PROSPECT NON RISQUÉ
+                <img src="img/right-arrow.svg" >
+            </div>
+
+            <div class="situation_item" id="2">
+                NOUVELLE AFFAIRE AVEC UN PROSPECT NON RISQUÉ  ET UN CONSEILLÉ NOMADE
+                <img src="img/right-arrow.svg" >
+            </div>
+
+            <div class="situation_item" id="3">
+                PRISE EN CHARGE D’UNE DEMANDE DE PRESTATION (SINISTRE)
+                <img src="img/right-arrow.svg" >
+            </div>
+
+            <div class="situation_item" id="4">
+                NOUVELLE OPÉRATION AVEC UN CLIENT EXISTANT
+                <img src="img/right-arrow.svg" >
+            </div>
         </div>
 
-        <div class="situation_item">
-            <a href="#">NOUVELLE AFFAIRE A L’AGENCE AVEC UN PROSPECT NON RISQUÉ</a>
-            <img src="img/right-arrow.svg" >
-        </div>
+        <div class="situation-detail" id="situationDetail">
+            Votre situation
 
-        <div class="situation_item">
-            <a href="#">NOUVELLE AFFAIRE AVEC UN PROSPECT NON RISQUÉ  ET UN CONSEILLÉ NOMADE</a>
-            <img src="img/right-arrow.svg" >
-        </div>
+            <button id="backToSituation">Changer de situation</button>
+            <br>
 
-        <div class="situation_item">
-            <a href="#">PRISE EN CHARGE D’UNE DEMANDE DE PRESTATION (SINISTRE)</a>
-            <img src="img/right-arrow.svg" >
-        </div>
+            <div id="situationName"></div>
 
-        <div class="situation_item">
-            <a href="#">NOUVELLE OPÉRATION AVEC UN CLIENT EXISTANT</a>
-            <img src="img/right-arrow.svg" >
+            <div class="situation-actors-container" id="situationActors"></div>
+
+            <div class="situation-events-container" id="situationEvents"></div>
+
+            <div class="situation-solutions-container" id="situationSolutions"></div>
         </div>
-    </div>
     </div>
 </div>
 
@@ -128,6 +143,7 @@
 <script src="script/script.js"></script>
 <script src="script/resize.js"></script>
 <script src="script/onglets.js"></script>
+<script src="script/database.js"></script>
 <noscript>Javascript non pris en charge</noscript>
 
 <!-- SCRIPT SCROLL -->

@@ -2017,7 +2017,7 @@ img:nth-child(1) {
 
 .situation_item {
     width: 50%;
-    height: 70px;
+    padding: 25px 20px;
     background: rgba(31, 61, 88, 0.7);
     margin-top: 8px;
     margin-left: auto;
@@ -2027,14 +2027,7 @@ img:nth-child(1) {
     -moz-transition: background-color 2s ease-out;
     -o-transition: background-color 2s ease-out;
     transition: background-color 2s ease-out;
-
-}
-
-.situation_item a {
     color: white;
-    margin-left: 20px;
-    margin-top: 25px;
-    position: absolute;
 }
 
 .situation_item img {
@@ -2051,3 +2044,6 @@ img:nth-child(1) {
     cursor: pointer;
 }
 
+.situationActif {
+    background: #4F9EE5;
+}

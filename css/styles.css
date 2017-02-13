@@ -2023,10 +2023,10 @@ img:nth-child(1) {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    -webkit-transition: background-color 2s ease-out;
-    -moz-transition: background-color 2s ease-out;
-    -o-transition: background-color 2s ease-out;
-    transition: background-color 2s ease-out;
+    -webkit-transition: background-color 0.350s ease-out;
+    -moz-transition: background-color 0.350s ease-out;
+    -o-transition: background-color 0.350s ease-out;
+    transition: background-color 0.350s ease-out;
     color: white;
 }
 
@@ -2046,4 +2046,18 @@ img:nth-child(1) {
 
 .situationActif {
     background: #4F9EE5;
+}
+
+#situationName {
+    text-align: center;
+}
+
+#situationActors {
+    width: 50%;
+    padding: 25px 20px;
+    background: rgba(31, 61, 88, 0.7);
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
 }

@@ -8,11 +8,11 @@ var cases = [
                 "cssClass" : "advisor-with-prospect",
                 "events": [
                     {
-                        "name": "Rendez vous à l'agence",
+                        "name": "RENDEZ-VOUS A L'AGENCE",
                         "operations": [
                             {
                                 "name": "Entrée en relation avec présentation et signature du DER (document d'entrée en relation)",
-                                "solutions": [
+                                "solutions": "SOLUTION BECLM" [
                                     "beclm-cloud"
                                 ]
                             },

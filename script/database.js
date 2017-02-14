@@ -29,7 +29,7 @@ $(function () {
             var inHTML = "";
 
             $.each(cases[caseIndex].actors, function(index, value){
-                var newItem = "<div class='situation-actors' id='"+ index +"'>"+ value.name + "</div>";
+                var newItem = "<div class='situation-actors " + value.cssClass  + "' id='"+ index +"'>"+ value.name + "</div>";
                 inHTML += newItem;
             });
 

@@ -5,6 +5,7 @@ var cases = [
         "actors": [
             {
                 "name": "Le conseiller avec son prospect",
+                "cssClass" : "advisor-with-prospect",
                 "events": [
                     {
                         "name": "Rendez vous à l'agence",
@@ -69,6 +70,7 @@ var cases = [
             },
             {
                 "name": "Gestionnaire Back office",
+                "cssClass" : "bo-manager",
                 "events": [
                     {
                         "name": "Au siège",

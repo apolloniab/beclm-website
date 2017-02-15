@@ -730,4 +730,13 @@
         display: block;
     }
 
+    .situation-actors {
+        width: 90%;
+        margin: auto;
+    }
+
+    .situation-operation {
+        width: 100%;
+    }
+}
 

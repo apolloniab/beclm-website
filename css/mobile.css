@@ -731,7 +731,7 @@
     }
 
     .steps {
-        max-width: 95%;
+        max-width: 95% !important;
     }
 
     div.steps p.steps-item {

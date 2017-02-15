@@ -1819,6 +1819,10 @@ img:nth-child(1) {
     max-width: 50%;
 }
 
+.steps.steps-mobile {
+    max-width: 95%;
+}
+
 div.steps p.steps-item {
     display: table-cell;
 }

@@ -2103,7 +2103,8 @@ img:nth-child(1) {
     background-image: url("../img/icon_manager.svg");
 }
 
-.situation-event-name {
+.situation-event-name,
+.solution-title {
     color: #6f6f6f;
     font-size: 18px;
     border-bottom: 1px solid #6f6f6f;
@@ -2134,13 +2135,11 @@ img:nth-child(1) {
 }
 
 #backToSituation {
-    display: block;
     margin: 15px auto;
     background-color: #4F9EE5;
     border: 1px solid white;
     padding: 12px;
     color: white;
-    width: 12%;
     font-size: smaller;
     cursor: pointer;
 }

@@ -90,7 +90,7 @@ $(function () {
         $(this).addClass('situationActif');
 
         // Show solutions
-        var inHTML = "";
+        var inHTML ="<div class='solution-title'>Solutions B<em class='h2-title'>e</em>CLM</div>";
 
         $.each(cases[caseIndex].actors[actorIndex].events[eventIndex].operations[operationIndex].solutions, function (index, value) {
             var newItem = "<div class='situation-solution " + value + "' id='" + index + "'></div>";

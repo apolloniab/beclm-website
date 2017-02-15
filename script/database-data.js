@@ -163,7 +163,6 @@ var cases = [
                                     "beclm-cloud"
                                 ]
                             }
-
                         ]
                     }
                 ]
@@ -176,20 +175,20 @@ var cases = [
                         "name": "Au siège",
                         "operations": [
                             {
-                                "name": "Déclenchement du régime de vigilance allégé par le gestionnaire de niveau 1",
-                                "solutions": [
+                               "name": "Déclenchement du régime de vigilance allégé par le gestionnaire de niveau 1",
+                                "solutions":    [
                                     "beclm-compliance"
                                 ]
-                            },
-                            {
+                             },
+                             {
                                 "name": "Analyse des risques par gestionnaire de niveau 2",
                                 "solutions": [
                                     "beclm-compliance"
                                 ]
-                            }
-                        ]
-                    }
-                ]
+                             }
+                         ]
+                     }
+                 ]
             },
             {
                 "name": "Conformité",
@@ -237,7 +236,7 @@ var cases = [
                                 "solutions":  [
                                     "beclm-customer"
                                 ]
-                            },
+                            }
 
 
                         ]
@@ -268,7 +267,7 @@ var cases = [
                                 "solutions":  [
                                     "beclm-cloud"
                                 ]
-                            },
+                            }
                         ]
                     }
                 ]
@@ -297,34 +296,9 @@ var cases = [
                                 "solutions":  [
                                     "beclm-customer"
                                 ]
-                            },
-
-
+                            }
                         ]
-                    },
-                ]
-            },
-            {
-                "name": "Le prospect",
-                "cssClass" : "prospect",
-                "events": [
-                    {
-                        "name": "A SON AGENCE",
-                        "operations": [
-                            {
-                                "name": "Analyse de la situation du client",
-                                "solutions": [
-                                    "?"
-                                ]
-                            },
-                            {
-                                "name": "Conseil - communication aux prospects de plusieurs fiches conseil",
-                                "solutions":  [
-                                    "beclm-cLoud"
-                                ]
-                            },
-                        ]
-                    },
+                    }
                 ]
             },
             {
@@ -345,9 +319,9 @@ var cases = [
                                 "solutions":  [
                                     "beclm-cLoud"
                                 ]
-                            },
+                            }
                         ]
-                    },
+                    }
                 ]
             },
             {
@@ -362,7 +336,7 @@ var cases = [
                                 "solutions": [
                                     "beclm-compliance"
                                 ]
-                            },
+                            }
                         ]
                     }
                 ]
@@ -402,11 +376,11 @@ var cases = [
                                 "solutions":  [
                                     "beclm-compliance"
                                 ]
-                            },
+                            }
                         ]
-                    },
+                    }
                 ]
-            },
+            }
         ]
     },
     {

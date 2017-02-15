@@ -67,12 +67,14 @@ $(function () {
 
         $.each(cases[caseIndex].actors[actorIndex].events, function (index, value) {
             var newItem = "<div class='situation-event' id='" + index + "'>" +
-                "<div class='situation-event-name'>" + value.name + "</div>";
+                "<div class='situation-event-name'>" + value.name + "</div>" +
+                "<div class='situation-operations-container'>";
 
             $.each(value.operations, function (i, obj) {
                 newItem += "<div class='situation-operation' id='" + i + "'>" + obj.name + "</div>"
 
             });
+            newItem += "</div>";
             newItem += "</div>";
             inHTML += newItem;
         });

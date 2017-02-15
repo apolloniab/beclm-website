@@ -2067,6 +2067,7 @@ img:nth-child(1) {
     background-color: white;
     width: 40%;
     text-align: center;
+    line-height: 430px;
     margin: 5px 5px 40px 5px;
     padding: 30px;
     box-shadow: 1px 1px 9px #f1f1f1;
@@ -2093,19 +2094,19 @@ img:nth-child(1) {
 
 .situation-operation {
     display: inline-block;
-    height: 133px;
+    height: 60px;
     background-color: white;
     width: 39%;
-    text-align: center;
-    vertical-align:middle;
+    left: 8%;
     padding: 20px;
     padding-bottom: 10px 20px;
     margin: 5px 5px;
-    left: 8%;
     box-shadow: 1px 1px 9px #f1f1f1;
     position: relative;
     cursor: pointer;
     color: #9f9f9f;
+    text-align: center;
+    line-height: 60px;
 }
 
 #backToSituation {

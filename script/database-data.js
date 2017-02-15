@@ -4,7 +4,7 @@ var cases = [
         "name": "NOUVELLE AFFAIRE A L’AGENCE AVEC UN PROSPECT NON RISQUÉ",
         "actors": [
             {
-                "name": "Le conseiller avec son prospect",
+                "name": "LE CONSEILLER AVEC SON PROSPECT",
                 "cssClass" : "advisor-with-prospect",
                 "events": [
                     {
@@ -69,7 +69,7 @@ var cases = [
                 ]
             },
             {
-                "name": "Gestionnaire Back office",
+                "name": "GESTIONNAIRE BACK OFFICE",
                 "cssClass" : "bo-manager",
                 "events": [
                     {
@@ -91,7 +91,7 @@ var cases = [
         "name": "NOUVELLE AFFAIRE A L’AGENCE AVEC UN PROSPECT RISQUÉ",
         "actors": [
             {
-                "name": "Le conseiller avec son prospect",
+                "name": "LE CONSEILLER AVEC SON PROSPECT",
                 "cssClass" : "advisor-with-prospect",
                 "events": [
                     {
@@ -168,7 +168,7 @@ var cases = [
                 ]
             },
             {
-                "name": "Gestionnaire Back office",
+                "name": "GESTIONNAIRE BACK OFFICE",
                 "cssClass" : "bo-manager",
                 "events": [
                     {
@@ -191,7 +191,7 @@ var cases = [
                  ]
             },
             {
-                "name": "Conformité",
+                "name": "CONFORMITÉ",
                 "cssClass" : "conformity",
                 "events": [
                     {
@@ -213,7 +213,7 @@ var cases = [
         "name": "NOUVELLE AFFAIRE A L’AGENCE AVEC UN PROSPECT NON RISQUÉ ET UN CONSEILLER NOMADE",
         "actors": [
             {
-                "name": "Le conseiller avec son prospect",
+                "name": "LE CONSEILLER AVEC SON PROSPECT",
                 "cssClass" : "advisor-with-prospect",
                 "events": [
                     {
@@ -273,7 +273,7 @@ var cases = [
                 ]
             },
             {
-                "name": "Le prospect",
+                "name": "LE PROSPECT",
                 "cssClass" : "prospect",
                 "events": [
                     {
@@ -302,7 +302,7 @@ var cases = [
                 ]
             },
             {
-                "name": "Le conseiller",
+                "name": "LE CONSEILLER",
                 "cssClass" : "advisor",
                 "events": [
                     {
@@ -325,7 +325,7 @@ var cases = [
                 ]
             },
             {
-                "name": "Gestionnaire Back office",
+                "name": "GESTIONNAIRE BACK OFFICE",
                 "cssClass" : "bo-manager",
                 "events": [
                     {
@@ -347,7 +347,7 @@ var cases = [
         "name": "PRISE EN CHARGE D'UNE DEMANDE DE PRESTATION (SINISTRE)",
         "actors": [
             {
-                "name": "Le gestionnaire",
+                "name": "LE GESTIONNAIRE",
                 "cssClass" : "manager",
                 "events": [
                     {
@@ -387,7 +387,7 @@ var cases = [
         "name": "PRISE EN CHARGE D'UNE DEMANDE DE PRESTATION (SINISTRE)",
         "actors": [
             {
-                "name": "Le conseiller avec son prospect",
+                "name": "LE CONSEILLER AVEC SON PROPSECT",
                 "cssClass" : "advisor-with-prospect",
                 "events": [
                     {
@@ -428,7 +428,7 @@ var cases = [
                 ]
             },
             {
-                "name": "Gestionnaire Back office",
+                "name": "GESTIONNAIRE BACK OFFICE",
                 "cssClass" : "bo-manager",
                 "events": [
                     {

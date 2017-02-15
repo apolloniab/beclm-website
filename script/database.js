@@ -28,13 +28,20 @@ $(function () {
             // Show situations actors => "who" in excel.
             var inHTML = "";
 
-            $.each(cases[caseIndex].actors, function(index, value){
-                var newItem = "<div class='situation-actors " + value.cssClass  + "' id='"+ index +"'>"+ value.name + "</div>";
+            $.each(cases[caseIndex].actors, function (index, value) {
+                var newItem =
+                    "<div class='situation-actors' id='" + index + "'>" +
+                        "<div class='situation-actors-picture " + value.cssClass + "'></div>" +
+                        "<div class='situation-actors-name'>" +
+                            value.name +
+                        "</div>" +
+                    "</div>";
+
                 inHTML += newItem;
             });
 
             $("#situationActors").html(inHTML);
-        } else  {
+        } else {
             $('#situationDetail').hide();
         }
     });
@@ -47,12 +54,12 @@ $(function () {
         // Show events and operations.
         var inHTML = "";
 
-        $.each(cases[caseIndex].actors[actorIndex].events, function(index, value){
-            var newItem = "<div class='situation-event' id='" + index + "'>"+
-                          "<div class='situation-event-name'>" + value.name + "</div>";
+        $.each(cases[caseIndex].actors[actorIndex].events, function (index, value) {
+            var newItem = "<div class='situation-event' id='" + index + "'>" +
+                "<div class='situation-event-name'>" + value.name + "</div>";
 
             $.each(value.operations, function (i, obj) {
-                newItem += "<div class='situation-operation' id='"+ i +"'>" + obj.name + "</div>"
+                newItem += "<div class='situation-operation' id='" + i + "'>" + obj.name + "</div>"
 
             });
             newItem += "</div>";
@@ -71,8 +78,8 @@ $(function () {
         // Show solutions
         var inHTML = "";
 
-        $.each(cases[caseIndex].actors[actorIndex].events[eventIndex].operations[operationIndex].solutions, function(index, value){
-            var newItem = "<div class='situation-solution "+  value +"' id='"+ index +"'></div>";
+        $.each(cases[caseIndex].actors[actorIndex].events[eventIndex].operations[operationIndex].solutions, function (index, value) {
+            var newItem = "<div class='situation-solution " + value + "' id='" + index + "'></div>";
             inHTML += newItem;
         });
 

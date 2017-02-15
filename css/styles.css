@@ -2063,7 +2063,6 @@ img:nth-child(1) {
     display: inline-block;
     vertical-align: middle;
     text-align: center;
-    height: 265px;
     background-color: white;
     width: 24%;
     margin: 5px;
@@ -2072,6 +2071,40 @@ img:nth-child(1) {
     cursor: pointer;
     color: #9f9f9f;
     box-sizing: border-box;
+}
+
+.situation-actors-picture {
+    display: inline-block;
+    vertical-align: middle;
+    height: 150px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+}
+
+.situation-actors-picture.advisor-with-prospect {
+    background-image: url("../img/icon_advisor_prospect.svg");
+}
+
+.situation-actors-picture.bo-manager {
+    background-image: url("../img/icon_bo.svg");
+}
+
+.situation-actors-picture.conformity {
+    background-image: url("../img/icon_conformity.svg");
+}
+
+.situation-actors-picture.prospect {
+    background-image: url("../img/icon_prospect.svg");
+}
+
+.situation-actors-picture.advisor {
+    background-image: url("../img/icon_advisor.svg");
+}
+
+.situation-actors-picture.manager {
+    background-image: url("../img/icon_manager.svg");
 }
 
 .situation-event-name {

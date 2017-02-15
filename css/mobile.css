@@ -730,6 +730,27 @@
         display: block;
     }
 
+
+    .result-col {
+        display: block;
+        width: 90%;
+        margin: auto;
+        text-align: left;
+    }
+
+    .item .result-col p {
+        width: 100%;
+        text-align: left;
+    }
+
+    .features-list-feature {
+        width: 100%;
+    }
+
+    .features-list-feature-img {
+        max-width: 40%;
+    }
+
     .situation-actors {
         width: 90%;
         margin: auto;
@@ -737,6 +758,15 @@
 
     .situation-operation {
         width: 100%;
+    }
+
+    .hide-for-mobile {
+        display: none;
+    }
+
+    .step-for-mobile p {
+        width: 100% !important;
+        margin-bottom: 10px !important;
     }
 }
 

@@ -7,6 +7,15 @@ $(function () {
     $('#backToSituation').click(function () {
         $('#situationDetail').hide();
         $('#situationListContainer').show();
+
+        caseIndex = '';
+        actorIndex = '';
+        eventIndex = '';
+        operationIndex = '';
+
+        $("#situationActors").html('');
+        $("#situationEvents").html('');
+        $("#situationSolutions").html('');
     });
 
     // Init var
@@ -41,6 +50,8 @@ $(function () {
             });
 
             $("#situationActors").html(inHTML);
+            $("#situationEvents").html('');
+            $("#situationSolutions").html('');
         } else {
             $('#situationDetail').hide();
         }
@@ -67,6 +78,7 @@ $(function () {
         });
 
         $("#situationEvents").html(inHTML);
+        $("#situationSolutions").html('');
     });
 
     $('#situationEvents').on("click", ".situation-operation", function (event) {

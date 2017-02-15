@@ -2109,7 +2109,7 @@ img:nth-child(1) {
     border-bottom: 1px solid #6f6f6f;
     padding-bottom: 10px;
     max-width: 85%;
-    margin: 40px auto;
+    margin: 20px auto;
     text-transform: uppercase;
 }
 
@@ -2143,7 +2143,7 @@ img:nth-child(1) {
 }
 
 #backToSituation {
-    margin: 15px auto;
+    margin: 15px auto 50px auto;
     background-color: #4F9EE5;
     border: 1px solid white;
     padding: 12px;
@@ -2154,7 +2154,7 @@ img:nth-child(1) {
 
 #backToSituation img{
     width: 19px;
-    padding: 4px 6px 0px -11px;
+    padding-right: 10px;
     float: left;
 }
 
@@ -2173,4 +2173,44 @@ img:nth-child(1) {
     background-image: url("../img/check-mark.svg");
     background-size: 100%;
     background-position: center;
+}
+
+.situation-solutions-container {
+    max-width: 85%;
+    margin: auto;
+}
+
+.situation-solution {
+    display: inline-block;
+    vertical-align: middle;
+    height: 200px;
+    width: 150px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+}
+
+.situation-solution.beclm-compliance {
+    background-image: url("../img/beclm_solution_compliance.svg");
+}
+
+.situation-solution.beclm-cloud {
+    background-image: url("../img/beclm_solution_cloud.svg");
+}
+
+.situation-solution.beclm-customer {
+    background-image: url("../img/beclm_solution_customer.svg");
+}
+
+.situation-solution.beclm-sanction-lists {
+    background-image: url("../img/beclm_solution_sanction.svg");
+}
+
+.situation-solution.beclm-ppe {
+    background-image: url("../img/beclm_solution_ppe.svg");
+}
+
+.situation-solution.beclm-mobile {
+    background-image: url("../img/beclm_solution_mobile.svg");
 }

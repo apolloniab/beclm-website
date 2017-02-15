@@ -2044,11 +2044,6 @@ img:nth-child(1) {
     cursor: pointer;
 }
 
-.situationActif {
-    display: inline-block;
-    border: 4px solid #4F9EE5;
-}
-
 #situationName {
     text-align: center;
 }
@@ -2071,6 +2066,7 @@ img:nth-child(1) {
     cursor: pointer;
     color: #9f9f9f;
     box-sizing: border-box;
+    border: 4px solid white;
 }
 
 .situation-actors-picture {
@@ -2108,11 +2104,13 @@ img:nth-child(1) {
 }
 
 .situation-event-name {
-    margin: 3% 8.5%;
     color: #6f6f6f;
-    font-size: large;
+    font-size: 18px;
     border-bottom: 1px solid #6f6f6f;
-    height: 35px;
+    padding-bottom: 10px;
+    max-width: 85%;
+    margin: 40px auto;
+    text-transform: uppercase;
 }
 
 .situation-operation {
@@ -2150,3 +2148,19 @@ img:nth-child(1) {
     float: left;
 }
 
+.situationActif {
+    position: relative;
+    border: 4px solid #4F9EE5;
+}
+
+.situationActif:after {
+    content: "";
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/check-mark.svg");
+    background-size: 100%;
+    background-position: center;
+}

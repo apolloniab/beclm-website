@@ -317,7 +317,7 @@ var cases = [
                             {
                                 "name": "Conseil - communication aux prospects de plusieurs fiches conseil",
                                 "solutions":  [
-                                    "beclm-cLoud"
+                                    "beclm-cloud"
                                 ]
                             }
                         ]
@@ -356,7 +356,7 @@ var cases = [
                             {
                                 "name": "Traitement de prise en charge de la demande du client",
                                 "solutions": [
-                                    "?"
+                                    "beclm-gestion"
                                 ]
                             },
                             {
@@ -422,9 +422,9 @@ var cases = [
                                 "solutions":  [
                                     "beclm-cloud"
                                 ]
-                            },
+                            }
                         ]
-                    },
+                    }
                 ]
             },
             {

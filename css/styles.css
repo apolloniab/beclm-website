@@ -2214,3 +2214,7 @@ img:nth-child(1) {
 .situation-solution.beclm-mobile {
     background-image: url("../img/beclm_solution_mobile.svg");
 }
+
+.situation-solution.beclm-gestion {
+    background-image: url("../img/beclm_solution_gestion.svg");
+}

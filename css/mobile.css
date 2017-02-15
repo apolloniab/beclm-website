@@ -730,6 +730,13 @@
         display: block;
     }
 
+    .steps {
+        max-width: 95%;
+    }
+
+    div.steps p.steps-item {
+        display: block;
+    }
 
     .result-col {
         display: block;

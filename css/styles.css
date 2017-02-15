@@ -1808,6 +1808,22 @@ img:nth-child(1) {
     padding-top: 5px;
 }
 
+.steps {
+    display: table;
+    max-width: 75%;
+    margin: auto;
+    border-spacing: 25px;
+}
+
+.steps.steps-ppe {
+    max-width: 50%;
+}
+
+div.steps p.steps-item {
+    display: table-cell;
+}
+
+
 .explain-row .explain-col {
     display: inline-block;
     width: 20%;

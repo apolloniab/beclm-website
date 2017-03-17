@@ -28,8 +28,11 @@ $('#contactForm').submit(function (event) {
         },
         dataType: 'json',
         success: function () {
-            alertify.success('Votre demande à bien été envoyé');
-            $('#contactForm').find("input, textarea").val('')
+            alertify.success('Votre demande à bien été envoyée');
+            $('#contactForm').trigger("reset");
+        },
+        error: function () {
+            alertify.error('Une erreur s\'est produite');
         }
     });
 

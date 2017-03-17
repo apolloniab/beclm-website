@@ -1,4 +1,4 @@
-var baseUrl = 'http://mailservice.4sh.fr';
+var baseUrl = 'https://mailservice.4sh.fr';
 
 var config = {
     withCredentials: false,

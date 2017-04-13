@@ -179,6 +179,10 @@ ul#menu {
     width: 80%;
 }
 
+.infos .details, #menu .details {
+    display: none;
+}
+
 #cssmenu > ul > li {
     float: left;
     width: 20%;

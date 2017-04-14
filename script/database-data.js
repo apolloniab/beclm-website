@@ -47,7 +47,7 @@ var cases = [
                                 ]
                             },
                             {
-                                "name": "Activation automatique de la classification des risques de utte anti-blanchiment",
+                                "name": "Activation automatique de la classification des risques de lutte anti-blanchiment",
                                 "solutions":  [
                                     "beclm-compliance"
                                 ]

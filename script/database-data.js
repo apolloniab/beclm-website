@@ -47,7 +47,7 @@ var cases = [
                                 ]
                             },
                             {
-                                "name": "Activation automatique de la classification des risques LAB",
+                                "name": "Activation automatique de la classification des risques de utte anti-blanchiment",
                                 "solutions":  [
                                     "beclm-compliance"
                                 ]
@@ -134,7 +134,7 @@ var cases = [
                                 ]
                             },
                             {
-                                "name": "Activation automatique de la classification des risques LAB",
+                                "name": "Activation automatique de la classification des risques de lutte anti-blanchiment",
                                 "solutions":  [
                                     "beclm-compliance"
                                 ]
@@ -360,7 +360,7 @@ var cases = [
                                 ]
                             },
                             {
-                                "name": "Activation automatique de la classification des risques LAB sur base de la nouvelle oépration",
+                                "name": "Activation automatique de la classification des risques de lutte anti-blanchiment sur base de la nouvelle oépration",
                                 "solutions":  [
                                     "beclm-compliance"
                                 ]

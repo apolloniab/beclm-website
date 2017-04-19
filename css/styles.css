@@ -1367,22 +1367,21 @@ iframe {
 /*/ CONTENT /*/
 /*/ FOOTER /*/
 footer {
-    width: 100%;
     background-color: #161616;
-    color: white;
-    text-align: center;
+    color: #b7b7b7;
     margin: 0;
-    position: relative
+    padding: 15px;
+
 }
 
 footer li {
     display: inline-block;
     list-style: none;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     vertical-align: middle;
     height: auto;
-    line-height: 50px;
+    line-height: 14px;
     letter-spacing: 2px;
     font-size: 0.7em;
 }
@@ -1395,18 +1394,19 @@ footer li a:hover {
     color: #4f9ee5;
 }
 
-footer ul {
-    width: 70%;
-    display: inline;
-    padding-left: 12%;
+footer .footer-nav {
+    padding: 0;
+    margin: 0;
 }
 
-footer span {
+footer .footer-nav + .footer-nav {
+    margin-top: 10px;
+}
+
+footer .number-version {
     float: right;
-    height: 50px;
-    padding-right: 2%;
-    line-height: 50px;
-    font-size: 0.7em;
+    font-size: 9px;
+    padding-top: 7px;
 }
 
 /*/ FOOTER /*/

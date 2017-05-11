@@ -753,15 +753,6 @@ iframe {
 );
 }
 
-/* --> stores */
-.offre-beclm-ico.stores {
-    background-image: url(../img/offers/offer_stores.svg);
-}
-
-.offre_beclm:hover .offre-beclm-ico.stores {
-    background-image: url(../img/offers/offer_stores_hover.svg);
-}
-
 /* --> database */
 .offre-beclm-ico.database{
     background-image: url(../img/offers/offer_database.svg);
@@ -771,40 +762,13 @@ iframe {
     background-image: url(../img/offers/offer_database_hover.svg);
 }
 
-/* --> rules */
-.offre-beclm-ico.rules {
-    background-image: url(../img/offers/offer_rules.svg);
-}
-
-.offre_beclm:hover .offre-beclm-ico.rules {
-    background-image: url(../img/offers/offer_rules_hover.svg);
-}
-
-/* --> distribution */
-.offre-beclm-ico.distribution {
-    background-image: url(../img/offers/offer_distribution.svg);
-}
-
-.offre_beclm:hover .offre-beclm-ico.distribution {
-    background-image: url(../img/offers/offer_distribution_hover.svg);
-}
-
-/* --> company */
-.offre-beclm-ico.company {
-    background-image: url(../img/offers/offer_company.svg);
-}
-
-.offre_beclm:hover .offre-beclm-ico.company {
-    background-image: url(../img/offers/offer_company_hover.svg);
-}
-
 /* --> gel */
 .offre-beclm-ico.gel {
-    background-image: url(../img/offers/offer_list.svg);
+    background-image: url(../img/offers/offer_sanction.svg);
 }
 
 .offre_beclm:hover .offre-beclm-ico.gel {
-    background-image: url(../img/offers/offer_list_hover.svg);
+    background-image: url(../img/offers/offer_sanction_hover.svg);
 }
 
 /* --> PPE */
@@ -1896,7 +1860,6 @@ div.steps p.steps-item {
     width: calc(50% - 65px);
     padding: 0 30px;
 }
-
 
 .result-title {
     text-align: left;

@@ -911,7 +911,6 @@ iframe {
     background-image: url(../img/map.png);
     background-attachment: fixed;
     padding: 5% 0% 5% 0%;
-    margin-bottom: 70px;
 }
 
 .avantage img {
@@ -924,7 +923,7 @@ iframe {
 }
 
 .avantage {
-    margin: 5% 0 7% 0;
+    margin: 5% 0 0 0;
     width: 100%;
     background-color: aliceblue;
     display: inline-block
@@ -1161,7 +1160,8 @@ iframe {
     color: white
 }
 
-.item:last-child p {
+.item:last-child p,
+.item#mobileFinalised p {
     width: 85%;
     text-align: center;
     float: none;

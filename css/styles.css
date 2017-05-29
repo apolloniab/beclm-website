@@ -356,6 +356,7 @@ ul#menu {
 .frise {
     width: 98%;
     height: 33.4%;
+    height: calc((100vh - 164px) / 3);
     min-height: 250px;
     filter: brightness(50%);
     -webkit-filter: brightness(50%);

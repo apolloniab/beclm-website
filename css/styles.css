@@ -929,6 +929,16 @@ iframe {
     display: inline-block
 }
 
+.advantage-list {
+    line-height: 18px;
+}
+
+.advantage-list .check {
+    width: 25px !important;
+    vertical-align: middle;
+    padding: 5px 5px 5px 0 !important;
+}
+
 .texte_avantage h3 {
     float: left;
     padding-top: 5%;

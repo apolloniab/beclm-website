@@ -729,57 +729,57 @@ iframe {
 
 /* --> mobile */
 .offre-beclm-ico.mobile {
-    background-image: url(../img/offers/offer_mobile.svg);
+    background-image: url(../img/offers/offer_mobile.svg?20170530);
 }
 
 .offre_beclm:hover .offre-beclm-ico.mobile {
-    background-image: url(../img/offers/offer_mobile_hover.svg);
+    background-image: url(../img/offers/offer_mobile_hover.svg?20170530);
 }
 
 /* --> cloud */
 .offre-beclm-ico.cloud {
-    background-image: url(../img/offers/offer_cloud.svg);
+    background-image: url(../img/offers/offer_cloud.svg?20170530);
 }
 
 .offre_beclm:hover .offre-beclm-ico.cloud {
-    background-image: url(../img/offers/offer_cloud_hover.svg);
+    background-image: url(../img/offers/offer_cloud_hover.svg?20170530);
 }
 
 /* --> customer */
 .offre-beclm-ico.customer {
-    background-image: url(../img/offers/offer_customer.svg);
+    background-image: url(../img/offers/offer_customer.svg?20170530);
 }
 
 .offre_beclm:hover .offre-beclm-ico.customer {
-    background-image: url(../img/offers/offer_customer_hover.svg);
+    background-image: url(../img/offers/offer_customer_hover.svg?20170530);
 );
 }
 
 /* --> database */
 .offre-beclm-ico.database{
-    background-image: url(../img/offers/offer_database.svg);
+    background-image: url(../img/offers/offer_database.svg?20170530);
 }
 
 .offre_beclm:hover .offre-beclm-ico.database {
-    background-image: url(../img/offers/offer_database_hover.svg);
+    background-image: url(../img/offers/offer_database_hover.svg?20170530);
 }
 
 /* --> gel */
 .offre-beclm-ico.gel {
-    background-image: url(../img/offers/offer_sanction.svg);
+    background-image: url(../img/offers/offer_sanction.svg?20170530);
 }
 
 .offre_beclm:hover .offre-beclm-ico.gel {
-    background-image: url(../img/offers/offer_sanction_hover.svg);
+    background-image: url(../img/offers/offer_sanction_hover.svg?20170530);
 }
 
 /* --> PPE */
 .offre-beclm-ico.ppe {
-    background-image: url(../img/offers/offer_ppe.svg);
+    background-image: url(../img/offers/offer_ppe.svg?20170530);
 }
 
 .offre_beclm:hover .offre-beclm-ico.ppe {
-    background-image: url(../img/offers/offer_ppe_hover.svg);
+    background-image: url(../img/offers/offer_ppe_hover.svg?20170530);
 }
 
 /* --> PPE */

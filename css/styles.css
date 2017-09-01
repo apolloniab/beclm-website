@@ -1462,8 +1462,6 @@ select {
 }
 
 #contact p {
-    width: 60%;
-    margin: 2% auto 5% auto;
     font-size: 0.9em;
     letter-spacing: 1px;
 }

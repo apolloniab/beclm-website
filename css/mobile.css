@@ -709,6 +709,7 @@
         position: relative !important;
         background-color: white;
         left: 0;
+		display: inline;
     }
 
     .social li {

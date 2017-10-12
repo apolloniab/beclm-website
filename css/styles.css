@@ -143,7 +143,7 @@ li, a {
 /*/ MENU /*/
 #cssmenu, #cssmenu ul, #cssmenu ul li, #cssmenu ul li a, #cssmenu #menu-button {
     margin-top: 0;
-    padding: 0;
+/*    padding: 0;*/
     border: 0;
     list-style: none;
     line-height: 1;
@@ -350,6 +350,27 @@ ul#menu {
 #cssmenu ul ul li.has-sub:hover > a::after {
     border-color: #ffffff;
 }
+#nosoff {
+	width: 15%;
+}
+#numtel {
+	color: #203D58;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	line-height: 1;
+    text-align: center;
+	letter-spacing: 1.8px;
+	text-decoration: none;
+	font-size: 12px;
+	margin-right: 40px;
+	margin-left: 1%;
+	top: 0;
+}
+#numtel:hover {
+	color: #32ADE7;
+	font-size: bold;
+	cursor: pointer;
+}
 
 /*/ MENU /*/
 /*/ CONTENT /*/
@@ -443,7 +464,42 @@ body > .society {
     text-align: justify
 }
 
+#qsn_equipe {
+	display: block;	
+}
 
+div.gallery3 {
+    margin: 1%;
+    border: 1px solid #ccc;
+    width: 20%;
+	float: left;
+	display: block;
+}
+
+div.gallery3:hover {
+	border: 1px solid #777;
+}
+
+div.gallery3 img {
+    width: 100%;
+    height: auto;
+}
+
+div.prenom_nom {
+    padding: 15px;
+    text-align: center;
+	color: #1F3D58;
+}
+div.fonction {
+	text-align: center;
+	font-size: 12px;
+}
+
+#dir, #exec, #infor {
+	display: inline-block;
+	position: relative;
+	left: 25%;
+}
 /*/ CITATION /*/
 .citation {
     width: 20%;
@@ -510,6 +566,11 @@ body > .society {
     margin-bottom: 10%;
 }
 
+#txt_blue {
+	color: #32ADE7;
+	font-weight: bold;
+}
+
 #constat h2 {
     text-transform: none;
     color: #333;
@@ -537,6 +598,7 @@ body > .society {
     margin: 1% auto 3.5% auto;
     text-align: justify
 }
+
 
 .constat_solution {
     width: 35% !important;
@@ -604,6 +666,9 @@ iframe {
     line-height: 80px;
     font-weight: 500 !important
 }
+#sol_reco{
+	max-width: 100%;
+}
 
 .offre_beclm {
     width: 300px;
@@ -632,7 +697,7 @@ iframe {
     display: block;
     letter-spacing: 3.5px;
     font-weight: normal;
-    margin-top: 35px
+    margin-top: 15px
 }
 
 .offre_beclm:hover span {
@@ -643,7 +708,17 @@ iframe {
     -ms-transform: translateY(0px);
     -o-transform: translateY(0px);
 }
-
+.offre_beclm .module {
+	font-size: 30px;
+}
+.offre_beclm #module1 {
+	font-size: 14px;
+	color: #1F3D58;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 0;
+	margin-top: 0px;
+}
 .offre_beclm span img {
     width: 10%
 }
@@ -654,6 +729,8 @@ iframe {
     -moz-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
+	font-size: 12px;
+	bottom: 5px;
 }
 
 .offre_beclm:hover p {
@@ -684,9 +761,10 @@ iframe {
 }
 
 .offre-beclm-ico {
-    width: 150px;
-    height: 150px;
-    background-size: 100%;
+    width: 100px;
+    height: 100px;
+    background-size: 70%;
+	background-repeat: no-repeat;
     background-position: center center;
     margin: auto;
     -webkit-transition: all 0.4s ease-in-out;
@@ -695,27 +773,46 @@ iframe {
     -o-transition: all 0.4s ease-in-out;
 }
 
+#pictos #text_named {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+}
+.offre_beclm #text_named {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+}
+
 .offre_beclm:hover .offre-beclm-ico {
-    width: 170px;
-    height: 170px;
+    width: 150px;
+    height: 150px;
 }
 
 .offre_beclm.small {
     display : inline-block;
     vertical-align: top;
     padding: 4px;
-    width: auto;
-    height: auto;
+    width: 80px;
+    height: 80px;
     margin-left: 10px;
+	margin-top: 0px;
 }
 
 .offre_beclm.small + .offre_beclm.small {
     margin-left: 3px;
 }
+.offre_beclm.small p {
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 0px;
+	margin-top: 5px;
+}
 
 .offre_beclm.small .offre-beclm-ico {
-    width: 75px;
-    height: 75px;
+    width: 60%;
+    height: 50px;
 }
 
 .offre_beclm.blank,
@@ -729,66 +826,65 @@ iframe {
 
 /* --> mobile */
 .offre-beclm-ico.mobile {
-    background-image: url(../img/offers/offer_mobile.svg?20170530);
+    background-image: url(../img/offers/tablet.svg);
 }
 
 .offre_beclm:hover .offre-beclm-ico.mobile {
-    background-image: url(../img/offers/offer_mobile_hover.svg?20170530);
+    background-image: url(../img/offers/tablet.svg);
 }
 
 /* --> cloud */
 .offre-beclm-ico.cloud {
-    background-image: url(../img/offers/offer_cloud.svg?20170530);
+    background-image: url(../img/offers/computer.svg);
 }
 
 .offre_beclm:hover .offre-beclm-ico.cloud {
-    background-image: url(../img/offers/offer_cloud_hover.svg?20170530);
+    background-image: url(../img/offers/computer.svg);
 }
 
 /* --> customer */
 .offre-beclm-ico.customer {
-    background-image: url(../img/offers/offer_customer.svg?20170530);
+    background-image: url(../img/offers/user.svg);
 }
 
 .offre_beclm:hover .offre-beclm-ico.customer {
-    background-image: url(../img/offers/offer_customer_hover.svg?20170530);
-);
+    background-image: url(../img/offers/user.svg);
 }
 
 /* --> database */
 .offre-beclm-ico.database{
-    background-image: url(../img/offers/offer_database.svg?20170530);
+    background-image: url(../img/offers/offer_clm.svg);
 }
 
 .offre_beclm:hover .offre-beclm-ico.database {
-    background-image: url(../img/offers/offer_database_hover.svg?20170530);
+    background-image: url(../img/offers/offer_clm.svg);
 }
 
 /* --> gel */
 .offre-beclm-ico.gel {
-    background-image: url(../img/offers/offer_sanction.svg?20170530);
+    background-image: url(../img/offers/loupe.svg);
 }
 
 .offre_beclm:hover .offre-beclm-ico.gel {
-    background-image: url(../img/offers/offer_sanction_hover.svg?20170530);
+    background-image: url(../img/offers/loupe.svg);
 }
 
 /* --> PPE */
 .offre-beclm-ico.ppe {
-    background-image: url(../img/offers/offer_ppe.svg?20170530);
+    background-image: url(../img/offers/warning.svg);
 }
 
 .offre_beclm:hover .offre-beclm-ico.ppe {
-    background-image: url(../img/offers/offer_ppe_hover.svg?20170530);
+    background-image: url(../img/offers/warning.svg);
 }
 
-/* --> PPE */
+/* --> GDA */
 .offre-beclm-ico.compliance-sheet {
-    background-image: url(../img/offers/offer_sheet.svg);
+    background-image: url(../img/offers/analytics.svg);
 }
 
 .offre_beclm:hover .offre-beclm-ico.compliance-sheet {
-    background-image: url(../img/offers/offer_sheet_hover.svg);
+    background-image: url(../img/offers/analytics.svg);
 }
 
 
@@ -1378,6 +1474,9 @@ footer .number-version {
     font-size: 9px;
     padding-top: 7px;
 }
+footer #footer_tel {
+	font-style: bold;
+}
 
 /*/ FOOTER /*/
 /*/ CONTACT /*/
@@ -1480,23 +1579,24 @@ select {
     position: absolute;
     top: 16%;
     left: 87%;
+	display: list-item inline;
 }
 
 .social ul {
     padding: 0;
     position: absolute;
     bottom: 17%;
-    left: 33%;
+    left: 15%;
 }
 
 .social ul li {
     list-style: none;
-    display: inline-block !important;
     margin: 0 5px !important;
+	display: inline-block !important;
 }
 
 .social ul li a span {
-    background: url(../img/icon_rs.png) no-repeat;
+    background: url(../img/icon_rss.png) no-repeat;
     width: 25px;
     height: 25px;
     display: block;
@@ -1509,23 +1609,32 @@ select {
 }
 
 .social ul li span.twt {
-    background-position: -47px 0px;
+    background-position: 0px 3px;
 }
 
-.social ul li span.g {
-    background-position: -71px 0px;
+.social ul li span.lkd {
+    background-position: -25px 0px;
 }
 
-.social ul li span.twt:hover {
-    background-position: -47px -25px;
+.social ul li span.goog {
+    background-position: -53px 0px;
 }
 
-.social ul li span.g:hover {
-    background-position: -71px -25px;
-}
 
 /*/ SOCIAL /*/
 /*/ HOVER INFOS /*/
+.social ul li span.goog:hover {
+    background-position: -53px -25px;
+}
+.social ul li span.lkd:hover {
+    background-position: -25px -25px;
+}
+
+.social ul li span.twt:hover {
+    background-position: 0px -23px;
+}
+
+/*/ FRISE INFOS /*/
 .frise h2 {
     opacity: 0;
     transition: all 0.2s ease-in-out;

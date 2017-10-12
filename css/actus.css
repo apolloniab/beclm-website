@@ -1,0 +1,195 @@
+/* CSS Document GENERAL*/
+body{
+	display: block;
+	background-image: url(../img/map.png);
+	background-position: 0% 35%;
+	background-size: cover;
+}
+#Titre{
+	background-color: #1F3D58;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	margin-top: -1%;
+}
+
+#h1-actus {
+	margin-top: 0;
+	margin-bottom: 5px;
+	margin: 1% 2% 0 auto;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 5px;
+    width: 85%;
+    font-size: 1.7em;
+    line-height: 160%;
+	color: #1F3D58;
+}
+
+#h2-actus {
+	margin: 2% 2% 0 auto;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 5px;
+    width: 85%;
+    font-size: 1.7em;
+    line-height: 160%;
+	color: #32ADE7;
+}
+
+/*BLOC MEDIAS SOCIAUX*/
+#rss{
+	float: right;
+	width: 35%;
+	top: 0;
+	padding-left: 2px;
+	display: block;
+}
+#rss h2 {
+	color: #32ADE7;
+	font-size: 1em;
+}
+
+/*BLOC FORMATION*/
+#block1 {
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+	display: block;
+}
+
+table {
+	width:100%;
+}
+.last {
+	text-align: center;
+}
+
+#formations {
+	width: 60%;
+	float: left;
+	padding: 5px;
+}
+
+#webinars a {
+	color: #1F3D58;
+	text-decoration: none;
+	list-style: outside none none;
+	cursor: pointer;
+}
+
+#webinars a:hover {
+	color: #32ADE7;
+}
+
+.row {
+	display: inline-block;
+	width: 100%;
+	margin-left: 2px;
+}
+.row2 {
+	display: inline-block;
+	width: 100%;
+}
+
+.row2 > p {
+	text-align: center;
+	font-size: 12px;
+}
+.row > p {
+	text-align: center;
+	font-size: 12px;
+}
+
+.date {
+	float: left;
+	width: 33%;
+}
+
+.thmx {
+	float: left;
+	width: 33%;
+}
+.typo {
+	float: left
+}
+
+/*BLOC EVENT*/
+#event {
+	margin-bottom: 20px;
+	width: 100%;
+	display: inline-block;
+}
+
+#h1-event {
+	margin-bottom: 5px;
+	margin-top: 5px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 5px;
+    width: 90%;
+    font-size: 1.7em;
+	color: #1F3D58;
+	
+}
+
+#h2-event {
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 5px;
+	color: #32ADE7;
+}
+
+.h2-event {
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 5px;
+	color: #32ADE7;
+}
+
+#event_passes {
+	float: left;
+	margin-left: 2px;
+}
+
+#event_second {
+	width: 100%;
+	display: block;
+}
+
+#named {
+	font-size: 10px;
+}
+
+div.gallery, div.gallery2 {
+    margin: 1%;
+    border: 1px solid #ccc;
+    width: 15%;
+	float: left;
+	display: block;
+}
+
+div.gallery:hover {
+	border: 1px solid #777;
+}
+
+div.gallery2:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img, div.gallery2 img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc, div.desc2 {
+    padding: 15px;
+    text-align: center;
+	color: #1F3D58;
+}
+div.datetime {
+	text-align: center;
+	font-size: 12px;
+}

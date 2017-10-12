@@ -69,7 +69,7 @@ var cases = [
                 ]
             },
             {
-                "name": "GESTIONNAIRE BACK OFFICE",
+                "name": "GESTIONNAIRE BACK-OFFICE",
                 "cssClass" : "bo-manager",
                 "events": [
                     {
@@ -168,7 +168,7 @@ var cases = [
                 ]
             },
             {
-                "name": "GESTIONNAIRE BACK OFFICE",
+                "name": "GESTIONNAIRE BACK-OFFICE",
                 "cssClass" : "bo-manager",
                 "events": [
                     {
@@ -280,7 +280,7 @@ var cases = [
                         "name": "CHEZ LUI",
                         "operations": [
                             {
-                                "name": " Analyse des fiches conseils communquées par son conseiller",
+                                "name": " Analyse des fiches conseils communiquées par son conseiller",
                                 "solutions": [
                                     "beclm-customer"
                                 ]
@@ -315,7 +315,7 @@ var cases = [
                                 ]
                             },
                             {
-                                "name": "Conseil - communication aux prospects de plusieurs fiches conseil",
+                                "name": "Conseil - communication aux prospects de plusieurs fiches conseils",
                                 "solutions":  [
                                     "beclm-cloud"
                                 ]
@@ -325,7 +325,7 @@ var cases = [
                 ]
             },
             {
-                "name": "GESTIONNAIRE BACK OFFICE",
+                "name": "GESTIONNAIRE BACK-OFFICE",
                 "cssClass" : "bo-manager",
                 "events": [
                     {
@@ -360,7 +360,7 @@ var cases = [
                                 ]
                             },
                             {
-                                "name": "Activation automatique de la classification des risques de lutte anti-blanchiment sur base de la nouvelle oépration",
+                                "name": "Activation automatique de la classification des risques de lutte anti-blanchiment sur base de la nouvelle opération",
                                 "solutions":  [
                                     "beclm-compliance"
                                 ]
@@ -428,7 +428,7 @@ var cases = [
                 ]
             },
             {
-                "name": "GESTIONNAIRE BACK OFFICE",
+                "name": "GESTIONNAIRE BACK-OFFICE",
                 "cssClass" : "bo-manager",
                 "events": [
                     {

@@ -29,27 +29,39 @@
 <body id="monDiv">
 <header>
     <img id="logoMobile" src="img/logo.svg" alt="Logo BeCLM" title="Logo BeCLM">
-        <div id='cssmenu'>
-            <ul id="menu">
-                <li class='active'><a href='index.html'>Accueil</a></li>
-                <li id="qsn"><a href='qsn.html'>Qui sommes nous ?</a></li>
-                <li><a href="index.html"><img id="logo" src="img/logo.svg" alt="Logo BeCLM" title="Logo BeCLM"></a></li>
-                <li id="nosoff" class='has-sub'><a href='#'>Nos Offres</a>
-                    <ul>
-                       <li><a href='concept.html'>concept</a></li>
-                       <li><a href='offres.html'>offres</a></li>
-                       <li><a href='avantages.html'>avantages</a></li>
-                    </ul>
-                <li><a href='contact.html'>Contact</a></li>
-            </ul>
+    <div id='cssmenu'>
+        <ul id="menu">
+            <li class='active'><a href='index.html'>Accueil</a></li>
+            <li id="qsn"><a href='qsn.html'>Qui sommes nous ?</a>
+                <p class="details">
+                    BeCLM est le fruit de la coopération de professionnels de l’informatique, du conseil et du droit, spécialisés dans l’intermédiation en assurance et financière.
+                </p>
+            </li>
+            <li><a href="index.html"><img id="logo" src="img/logo.svg" alt="Logo BeCLM" title="Logo BeCLM"></a></li>
+            <li id="nosoff" class='has-sub'><a href='#'>Nos Offres</a>
+        <ul>
+            <li ><a href='concept.html'>concept</a></li>
+            <li><a href='offres.html'>offres</a></li>
+            <li><a href='avantages.html'>avantages</a></li>
+        </ul>
+            </li>
+            <li><a href='contact.html'>Contact</a>
+				<a href='contact.html'>
+       				<p id="numtel">+ 33 1 46 10 43 82</p></a></li>
+        </ul>
+
         <div class="social">
             <ul>
                 <li><a href="https://twitter.com/beclm_fr" target="_blank"><span class="twt"> </span></a></li>
+                <li><a href="https://www.linkedin.com/company/11028954/" target="_blank" alt="linkedIn_beclm"> 
+                	<span class="lkd"></span> </a></li>
+                <li><a href="" target="_blank" alt="google+_beclm">
+                	<span class="goog"> </span>
+                	</a></li>
             </ul>
         </div>
     </div>
 </header>
-
 
 <div style="height:90%" class="container">
     <img class='photo' src="img/slide/slide1.png" alt="Application tablette" title="Application tablette"/>
@@ -100,7 +112,7 @@
             <img src="img/mobile_beclm.png" alt="Application BeCLM" title="Application BeCLM">
             <p> Afin de répondre au mieux aux attentes des courtiers en assurance et aussi de ses propres clients BeCLM
                 a développé un logiciel innovant déployé sur tablette numérique. Nous avons complètement
-                repensé l'approche CRM classique pour se tourner vers <span>un cycle CLM qui met la conformité au
+                repensé l'approche CRM classique pour se tourner vers <span>un cycle CLM&trade; qui met la conformité au
                 coeur du processus.</span><br>
                 Equipé de notre solution BeCLM qui remplace tous les documents papier indispensables (brochures produits
                 et argumentaires commerciaux, questionnaires de risques, bons de souscription ou d’adhésion), vous gagniez
@@ -113,13 +125,13 @@
             <h2 class="text-center">4 étapes clés d'une souscription type</h2>
             <div class="steps steps-mobile">
                 <p class="steps-item"><span id="presentation"></span><br><span>1- Présentation</span><br>Présentation produits<br>Présentations
-                    courtiers<br>Identifiant clients</p>
+                    courtiers<br>Identifiants clients</p>
                 <p class="steps-item"><span id="conseils"></span><br><span>2- Conseils</span><br>Recueil besoins<br>Profil client<br>Comparatif
                     des produits</p>
                 <p class="steps-item"><span id="contrat"></span><br><span>3- Contractualisation</span><br>FIC : conformité et signature<br>Contrat
                     : pièces jointes...<br>Signature certifiée</p>
                 <p class="steps-item"><span id="finalisation"></span><br><span>4- Finalisation</span><br>Accusé réception<br>Transfert
-                    Backoffice<br>Envoi SMS</p>
+                    Back-Office<br>Envoi SMS</p>
             </div>
             <img id="etapes_tablette" src="img/tablet/etape_design2.png" alt="Application tablette"
                  title="Application tablette">
@@ -129,7 +141,7 @@
             <h2 class="text-center">1- Présentation des produits fournisseurs</h2>
             <img src="img/tablet/presentation.png" alt="presentation BeCLM" title="presentation BeCLM">
             <p>Interface principale où apparaissent toutes les offres fournisseurs avec un <span>système de filtre par
-                domaine</span> Santé, Vie, Automobile et Habitation.<br><br>
+                domaine :</span> Santé, Vie, Automobile et Habitation.<br><br>
                 <img class="check" src="img/icon_check.png" alt="check" title="check"> Le courtier ne pourra charger que les
                 offres des fournisseurs qui lui ont accordé un référencement.<br><br>
                 <img class="check" src="img/icon_check.png" alt="check" title="check"> Possibilité d’intégrer tous les
@@ -142,8 +154,8 @@
             <img src="img/tablet/conseils.png" alt="conseils" title="conseils">
             <p>
                 <img class="check" src="img/icon_check.png" alt="check" title="check">Informations client et du bien
-                assurable, questionnaire de risque et de connaissance financière. <span>Ces informations sont le «tronc
-                commun» aux produits des différents fournisseurs.</span><br><br>
+                assurable, questionnaire de risque et de connaissance financière. <span>Ces informations sont le « tronc
+                commun » aux produits des différents fournisseurs.</span><br><br>
                 <img class="check" src="img/icon_check.png" alt="check" title="check">La solution récupère les données du
                 client s’il est déjà « connu » et le courtier peut simplement procéder à l’actualisation des données si
                 nécessaire.<br><br>
@@ -159,7 +171,7 @@
             <p>
                 <img class="check" src="img/icon_check.png" alt="check" title="check"><strong>CONSEILS</strong><br>
                 Nous « concevons » une fiche conseil spécifique pour chaque produit (notamment basée sur les CG …). Le
-                Courtier n’est pas assisté dans le choix du produit. Si le produit ne correspond pas au profil ou
+                Courtier n’est pas assisté dans le choix du produit. Si le produit ne correspond pas au profil ou aux
                 besoins du client, le conseiller est alerté ou bloqué dans ses choix (paramétrage).<br><br>
                 <img class="check" src="img/icon_check.png" alt="check" title="check"><strong>CONTRACTUALISATION</strong><br>
                 Tous les livrables demandés par la compagnie (cf. sa procédure de commercialisation) et scan des pièces
@@ -174,17 +186,17 @@
             <img src="img/tablet/rapport.png" alt="rapport de conformité" title="rapport de conformité">
             <p>
                 <img class="check" src="img/icon_check.png" alt="check" title="check"><strong>Résultat de l'exécution des
-                règles</strong> issues de la réglementation ( y compris la lutte contre le blanchiment des capitaux et
+                règles</strong> issues de la réglementation (y compris la lutte contre le blanchiment des capitaux et
                 le financement du terrorisme), des CG du produit, des conventions de distribution et des procédures Courtier
                 et Compagnie.<br><br>
                 <img class="check" src="img/icon_check.png" alt="check" title="check"><strong>Possible jeu de règles</strong>
                 différent entre Courtier et Compagnie.<br><br>
-                <img class="check" src="img/icon_check.png" alt="check" title="check"><strong>Evite au backoffice</strong> de
+                <img class="check" src="img/icon_check.png" alt="check" title="check"><strong>Evite au Back-Office</strong> de
                 refaire les contrôles paramétrés.<br><br>
                 <img class="check" src="img/icon_check.png" alt="check" title="check"><strong>Choix de la mesure</strong>
                 associée à chaque règle : avertissement, ajout d’une pièce justificative, blocage.<br><br>
                 <img class="check" src="img/icon_check.png" alt="check" title="check"><strong>Assure la traçabilité</strong>
-                via contrôle permanent pour le service conformité.<br>
+                via un contrôle permanent pour le service conformité.<br>
             </p>
         </div>
 
@@ -200,7 +212,7 @@
                       <img class="check" src="img/icon_check.png" alt="check" title="check"><strong>Génération</strong> de
                       l’ensemble du dossier vers le Client, le Courtier et la Compagnie. <br><br>
                       <img class="check" src="img/icon_check.png" alt="check" title="check"><strong>Formats</strong> pdf, fichiers
-                      de données pour interface avec systèmes d’informations ad-hoc.<br>
+                      de données pour l'interface avec les systèmes d’informations ad-hoc.<br>
                     </p>
                 </div>
             </div>
@@ -215,14 +227,14 @@
                 </div>
                 <div class="result-col">
                     <p class="force-text-justify">
-                        Moteur CLM déployé sur une tablette numérique, accompagne les conseillers «nomades» dans le suivi et la contractualisation des dossiers.
+                        Moteur CLM&trade; déployé sur une tablette numérique, accompagne les conseillers « nomades » dans le suivi et la contractualisation des dossiers.
                         <br><br>
                         Vous bénéficiez ainsi de la dématérialisation de différents documents indispensables à votre activité&nbsp;:
 
                     </p>
                     <p class="advantage-list force-text-justify">
                         <img class="check" src="img/icon_check.png" alt="check" title="check">Catalogue Produits et outils commerciaux<br>
-                        <img class="check" src="img/icon_check.png" alt="check" title="check">Fiche de connaissance client (suppression tâches de saisies inutiles)<br>
+                        <img class="check" src="img/icon_check.png" alt="check" title="check">Fiche de connaissance client (suppression des tâches de saisies inutiles)<br>
                         <img class="check" src="img/icon_check.png" alt="check" title="check">Livrables clients (documents pré-contractuels et contractuels)<br>
                         <img class="check" src="img/icon_check.png" alt="check" title="check">Dématérialisation des formulaires papiers<br>
                     </p>
@@ -236,7 +248,7 @@
                         <img class="check" src="img/icon_check.png" alt="check" title="check">Paiement en ligne (paiement et gestion des encaissements)<br>
                         <img class="check" src="img/icon_check.png" alt="check" title="check">Signature électronique<br>
                         <img class="check" src="img/icon_check.png" alt="check" title="check">Rapport de conformité<br>
-                        <img class="check" src="img/icon_check.png" alt="check" title="check">Une interface avec vos partenaires et votre Back Office<br>
+                        <img class="check" src="img/icon_check.png" alt="check" title="check">Une interface avec vos partenaires et votre Back-Office<br>
                     </p>
 
                     <p class="force-text-justify">
@@ -249,24 +261,25 @@
 </div>
 
 <footer>
-    <ul class="footer-nav">
-        <li><a href="index.html">Accueil</a></li> |
-        <li><a href="qsn.html">Qui sommes nous ?</a></li> |
-        <li><a href="concept.html">Concept</a></li> |
-        <li><a href="offres.html">Offres</a></li> |
-        <li><a href="avantages.html">Avantages</a></li> |
-        <li><a href="contact.html">Nous contacter</a></li> |
-        <li><a href="legals.html">Mentions Légales</a></li>
-    </ul>
+	<ul class="footer-nav">
+		<li><a href="index.html">Accueil</a></li> |
+		<li><a href="qsn.html">Qui sommes nous ?</a></li> |
+		<li><a href="concept.html">Concept</a></li> |
+		<li><a href="offres.html">Offres</a></li> |
+		<li><a href="avantages.html">Avantages</a></li> |
+		<li><a href="contact.html">Nous contacter</a></li> |
+		<li><a href="legals.html">Mentions Légales</a></li> |
+		<li id="footer_tel"><strong>+33 1 46 10 43 82</strong></li>
+	</ul>
     <ul class="footer-nav">
         <li>Nos Offres&nbsp;:</li>
         <li><a href="mobile.html">Mobile</a></li> |
         <li><a href="cloud.html">Cloud</a></li> |
         <li><a href="customer.html">Customer</a></li> |
-        <li><a href="database.html">Database</a></li> |
-        <li><a href="sanctions-lists.html">Sanctions Lists</a></li> |
+        <li><a href="moteur-clm.html">Moteur CLM&trade;</a></li> |
+        <li><a href="gel-des-avoirs.html">Gel des avoirs</a></li> |
         <li><a href="ppe.html">PPE</a></li> |
-        <li><a href="compliance-sheets.html">Compliance Sheet</a></li>
+        <li><a href="lab.html">LAB</a></li>
         <li class="number-version">v-1.2.8 | Mis à jour : 01/09/2017  | Designed by 4SH</li>
     </ul>
 </footer>

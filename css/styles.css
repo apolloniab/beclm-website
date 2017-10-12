@@ -176,7 +176,7 @@ li, a {
 }
 
 ul#menu {
-    width: 80%;
+    width: 90%;
 }
 
 .infos .details, #menu .details {
@@ -185,10 +185,14 @@ ul#menu {
 
 #cssmenu > ul > li {
     float: left;
-    width: 20%;
+    width: 15%;
     letter-spacing: 1.8px;
     color: #1C3D59;
     padding-top: 2%;
+}
+#cssmenu > ul > #logo_beclm {
+    margin-top: -2%;
+    width: 20%;
 }
 
 #cssmenu.align-center > ul {
@@ -353,8 +357,8 @@ ul#menu {
 #nosoff {
 	width: 15%;
 }
+/*
 #numtel {
-	color: #203D58;
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
 	line-height: 1;
@@ -365,12 +369,16 @@ ul#menu {
 	margin-right: 40px;
 	margin-left: 1%;
 	top: 0;
+    color: #1F3D58;
+    cursor: pointer;
 }
+
 #numtel:hover {
 	color: #32ADE7;
 	font-size: bold;
 	cursor: pointer;
 }
+*/
 
 /*/ MENU /*/
 /*/ CONTENT /*/
@@ -498,7 +506,8 @@ div.fonction {
 #dir, #exec, #infor {
 	display: inline-block;
 	position: relative;
-	left: 25%;
+	left: 20%;
+    max-width: 80%;
 }
 /*/ CITATION /*/
 .citation {
@@ -712,7 +721,7 @@ iframe {
 	font-size: 30px;
 }
 .offre_beclm #module1 {
-	font-size: 14px;
+	font-size: 12px;
 	color: #1F3D58;
 	text-align: center;
 	font-weight: bold;
@@ -729,7 +738,7 @@ iframe {
     -moz-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
-	font-size: 12px;
+	font-size: 11px;
 	bottom: 5px;
 }
 
@@ -797,6 +806,7 @@ iframe {
     height: 80px;
     margin-left: 10px;
 	margin-top: 0px;
+    font-size: 12px;
 }
 
 .offre_beclm.small + .offre_beclm.small {
@@ -1425,9 +1435,11 @@ iframe {
     width: 100%
 }
 
+/*
 #cssmenu > ul > li:nth-child(3) {
     padding-top: 0% !important
 }
+*/
 
 /*/ TABLETTE /*/
 /*/ CONTENT /*/
@@ -1613,7 +1625,7 @@ select {
 }
 
 .social ul li span.lkd {
-    background-position: -25px 0px;
+    background-position: -26px 0px;
 }
 
 .social ul li span.goog {
@@ -1627,7 +1639,7 @@ select {
     background-position: -53px -25px;
 }
 .social ul li span.lkd:hover {
-    background-position: -25px -25px;
+    background-position: -26px -25px;
 }
 
 .social ul li span.twt:hover {
